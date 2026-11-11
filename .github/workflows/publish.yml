@@ -27,7 +27,6 @@ jobs:
       - name: Validate updater
         run: python -m unittest discover -s tests
       - name: Refresh official data through sine die
-        if: github.event_name != 'push'
         shell: bash
         run: |
           today=$(TZ=America/Chicago date +%F)
