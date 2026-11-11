@@ -1,0 +1,56 @@
+/* Loyola University New Orleans' published maroon (#660000) and gold (#F4AA00). */
+:root{--ink:#660000;--gold:#f4aa00;--paper:#f4ead7;--text:#2b211d;--muted:#756258;--line:#dccdb8}
+body{background:var(--paper)}
+.sidebar{background:var(--ink);border-right:0;color:#fff4db;overflow-y:auto;scrollbar-width:thin}
+.sidebar .brand,.sidebar .session-label>span,.sidebar .sidebar-note h3{color:#fff4db}
+.sidebar .brand-mark{border-color:var(--gold);color:var(--gold)}
+.sidebar .session-label,.sidebar .sidebar-note,.sidebar .sidebar-bottom>a{border-color:#ffffff30}
+.sidebar .session-label,.sidebar .nav-label,.sidebar .sidebar-note p,.sidebar .sidebar-bottom>small{color:#e5c9a5}
+.sidebar .small-star{color:var(--gold)}
+.sidebar .nav-item.active{background:var(--gold);color:#350000}
+.sidebar .nav-item:hover{background:#ffffff15;filter:none}.sidebar .nav-item.active:hover{background:#f4aa00}
+.sidebar .nav-count{background:#ffffff25}.sidebar .nav-item.active .nav-count{background:#66000018}
+.topbar{background:#eadfc9;border-bottom:1px solid #d8c6a7}
+.session-chip{background:#f4aa00;border-color:#c78a00;color:#390000}.session-chip:before{background:#660000}
+.calendar-panel,.contact-card{background:#660000}.calendar-panel .eyebrow,.contact-card .eyebrow{color:#f4aa00}
+.calendar-panel .calendar-dot{border-color:#f4aa00}.calendar-panel .current .calendar-dot{background:#f4aa00}
+.calendar-panel .calendar-foot,.calendar-panel small,.calendar-panel time{color:#e3c8a8}
+.stat,.filter-panel,.bill-row,.rail-card,.content-card,.button{background:#fffaf1}.stat-watch{background:#f3dfa8}
+.button.primary{background:#660000;color:#fff4db}.bill-number,.topic-tag{background:#f2dfb5;color:#660000}
+.bill-number.senate{background:#660000;color:#fff4db}.review-dot,.green{color:#660000!important}
+.content-card p,.content-card li{color:#55463b}.content-card a{color:#660000}.contact-card p{color:#f4dfc4}
+.discovery-panel{display:grid;grid-template-columns:1.6fr 1fr;gap:30px;border-top:3px solid #f4aa00;padding:25px 0 0;margin-top:40px}
+.discovery-panel h2{font-size:26px}.discovery-panel p:not(.eyebrow){font-size:13px;line-height:1.8;margin-top:10px;max-width:700px;color:#615144}
+.discovery-panel>div:last-child{display:flex;flex-direction:column;gap:13px;justify-content:center}
+.discovery-panel a{font-size:12px;font-weight:600;color:#660000}.discovery-panel a:hover{text-decoration:underline}
+.news-hero{background:#660000;border-bottom:5px solid #f4aa00;border-radius:7px 7px 0 0;padding:35px 38px;display:flex;justify-content:space-between;gap:24px;align-items:center}
+.news-hero .eyebrow{color:#f4aa00}.news-hero h1{color:#fff4db;font-size:clamp(32px,3.5vw,48px);line-height:1.16}
+.news-hero p:not(.eyebrow){color:#ead5b9;font-size:14px;line-height:1.75;margin-top:15px;max-width:720px}
+.news-hero-mark{color:#f4aa00;font-size:85px;line-height:1;padding:0 10px}
+.news-freshness{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11px;color:#756258;margin:18px 0 27px}
+.news-layout,.resource-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:27px}.resource-layout{margin-top:27px}
+.news-tools{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:13px}
+.news-tabs{display:flex;border:1px solid #d7bea0;border-radius:5px;overflow:hidden;background:#fffaf1}
+.news-tab{font-size:12px;padding:9px 13px;white-space:nowrap}.news-tab.selected{background:#660000;color:#fff4db}
+.news-search{flex:1;min-width:180px;max-width:330px}.news-search input{width:100%;padding:10px 12px;border:1px solid #d7bea0;border-radius:5px;font-size:12px;background:#fffaf1;color:#30221a}
+.news-count{font-size:11px;color:#756258;margin:0 0 13px}.news-list{display:grid;gap:13px}
+.news-card{border:1px solid #dcc7a7;background:#fffaf1;padding:23px 25px;border-radius:5px;border-left:3px solid #f4aa00}
+.news-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:10px;color:#756258;margin-bottom:12px}
+.news-badge{color:#660000;background:#f3dfa8;border-radius:3px;padding:3px 7px;font-weight:650}
+.news-card h2{font-family:var(--serif);font-size:24px;line-height:1.35;letter-spacing:-.3px}
+.news-card h2 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+.news-source{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:17px;font-size:11px}
+.news-source>span{font-weight:600;color:#554438}.news-source>a{color:#660000;white-space:nowrap}
+.news-aside .contact-card{padding:26px}.news-aside .contact-card h2{font-size:29px;color:#fff4db}.news-aside .contact-card p:not(.eyebrow){font-size:13px;line-height:1.8;margin:16px 0 20px}
+.news-aside .news-gold{background:#f4aa00;border-color:#f4aa00;color:#350000;font-size:11px;white-space:normal}
+.news-aside .rail-card{margin-top:18px}.news-aside .rail-card p{font-size:13px;line-height:1.8}.news-aside .rail-card .eyebrow{font-size:9px}
+.news-aside .text-button{display:flex;font-size:12px;margin-top:14px;justify-content:space-between}
+.news-method{margin-top:28px}.news-method p{max-width:950px}.news-method summary{cursor:pointer;font-size:12px;font-weight:650;color:#660000;margin-top:18px}
+.news-method details ul{margin:14px 0}.news-method li span{display:block;color:#756258;font-size:11px}
+.news-warning{font-size:12px;background:#f5dca0;border:1px solid #c79742;padding:12px 15px;margin-bottom:18px;border-radius:4px;color:#553509}
+.resource-copy{padding:30px}.resource-copy h2{margin-top:26px;font-size:27px}.resource-copy h2:first-child{margin-top:0}.resource-copy p,.resource-copy li{font-size:15px;line-height:1.85}
+.news-page .contact-strip>a{color:#660000;font-size:11px;font-weight:600}.news-page .contact-strip>a>span{font-weight:400;color:#756258}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:1150px){.news-layout,.resource-layout{grid-template-columns:minmax(0,1fr) 225px;gap:20px}.news-hero{padding:30px}.news-card{padding:20px}.news-card h2{font-size:22px}.news-hero-mark{font-size:65px}}
+@media(max-width:950px){.news-layout,.resource-layout{display:block}.news-aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:22px}.news-aside .rail-card{margin-top:0}.news-aside .contact-card{grid-row:span 2}.discovery-panel{grid-template-columns:1fr;gap:20px}.news-hero-mark{display:none}}
+@media(max-width:680px){.sidebar{overflow:visible}.sidebar nav{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}.sidebar nav .nav-item{font-size:11px;padding:9px 4px}.news-hero{padding:26px 22px}.news-hero h1{font-size:34px}.news-hero p:not(.eyebrow){font-size:13px}.news-freshness{font-size:10px;line-height:1.8}.news-tools{display:block}.news-tabs{width:fit-content}.news-search{display:block;max-width:none;margin-top:13px}.news-card{padding:20px 18px}.news-card h2{font-size:23px}.news-source{font-size:10px;gap:12px;line-height:1.6}.news-aside{display:block}.news-aside .rail-card{margin-top:16px}.news-method{padding:22px 18px}.resource-copy{padding:24px 20px}.resource-copy p,.resource-copy li{font-size:14px}.discovery-panel{padding-top:22px}.news-page .contact-strip>a>span{display:block;margin-top:4px}}

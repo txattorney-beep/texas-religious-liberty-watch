@@ -4,6 +4,20 @@ A portable static website for religious-liberty bill monitoring across faiths in
 
 The initial November 11, 2026 snapshot screens 1,378 official captions, retains 30 potentially relevant measures, and includes nine summaries of identified introduced bill texts. This is a caption-based review queue, not a complete full-text census. All bill records link to Texas Legislature Online.
 
+## Daily religious liberty news
+
+The public news watch is at https://texasreligiouslibertywatch.org/news/, with separate Texas and national views. Headlines are collected daily from Google News RSS searches, attributed to their publishers, deduplicated, and linked through to the source. Article bodies and automated legal summaries are not published. Coverage includes reporting, opinion, and advocacy releases. Search matches are provisional and not endorsements.
+
+The same active GitHub Actions workflow refreshes news every day at 13:37 UTC, including weekends. News continues after May 31, 2027; only the 90R bill-fetching window ends then. Failed feeds retain available prior records and show their status. The page warns when the snapshot is older than 36 hours. A bill-source outage no longer prevents news publication.
+
+To change the news searches, edit `FEEDS` and `TERMS` in `scripts/sync_news.py`. Manual refresh: Actions → Publish and update 90R tracker → Run workflow. No news API key or paid service is required. This uses public RSS endpoints, whose availability can change.
+
+`python scripts/sync_news.py` refreshes the snapshot. `python scripts/build_pages.py` generates crawlable news pages, a static author profile, a religious-liberty resource page, canonical metadata, structured data, robots.txt, and sitemap.xml. Source records are in `dist/data/news.json`. There is no personal article-publishing section at present.
+
+Search discovery: add this domain to Google Search Console and Bing Webmaster Tools, then submit `https://texasreligiouslibertywatch.org/sitemap.xml`. These account-side steps are not completed by deploying the site. Google and AI search inclusion and rankings are not guaranteed. OAI-SearchBot and standard search crawlers are permitted. No special AI markup or keyword stuffing is used.
+
+The site uses Loyola University New Orleans' published maroon (#660000) and gold (#F4AA00) palette. It does not use the university's logo or claim university affiliation.
+
 ## Publish for free on GitHub Pages
 
 1. Create a **public** repository in a free GitHub account.
@@ -50,6 +64,8 @@ Run manually with Python 3.10+ and curl installed:
 ```bash
 python scripts/sync_tlo.py --text
 python -m unittest discover -s tests
+python scripts/sync_news.py
+python scripts/build_pages.py
 python scripts/package_starter.py
 ```
 
@@ -101,3 +117,4 @@ Open http://localhost:8000. Opening `index.html` directly with a `file:` URL may
 - `tests/test_sync.py`: safeguards for data integrity and review invalidation.
 
 Calendar: prefiling November 9, 2026; opening January 12, 2027. March 12 and May 31 are the 60th and 140th days; filing exceptions and adopted session rules matter. Sources: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf and https://tcss.legis.texas.gov/resources/CN/htm/CN.3.htm.
+

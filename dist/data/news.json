@@ -1,0 +1,784 @@
+{
+  "updatedAt": "2026-11-11T21:48:11.625684+00:00",
+  "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+  "status": "ok",
+  "sources": [
+    {
+      "id": "texas",
+      "scope": "Texas",
+      "label": "Texas religious liberty news",
+      "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
+      "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T21:48:11.625684+00:00",
+      "count": 22
+    },
+    {
+      "id": "national",
+      "scope": "National",
+      "label": "United States religious liberty news",
+      "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
+      "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+      "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T21:48:11.625684+00:00",
+      "count": 42
+    }
+  ],
+  "items": [
+    {
+      "id": "98a744412b9b0c95",
+      "title": "Texas chief justice-elect seeks to end religious exemption for judges who decline same-sex weddings",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcC12b2RRM1hGWG84bFItRWdzOERXdnZQLWVwdEhRM0lWeUR5T0g2U3M1ZFR5VFQ1MmFya3l6V3F4QmdqekZHQmVkYnl1b0RUUzFHSjBGWFRsRWZfRFZEaEFzLVVhWFFGdXd5WUl5cndKOG5UYkxXMXRQak9PcHJ4MUszNUUybWg2OG5xOU1oWEhvZHNTSklIVGNLOXZWY1ZYaGJQVUI2VmNUeFVMYXRNLXFoaVFGSVBfVUtmUFNIWWJmR2VscnNR?oc=5",
+      "publisher": "Heartlander News",
+      "publishedAt": "2026-11-11T20:20:44+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "8a68874736969120",
+      "title": "Why ‘St. Mary Catholic Parish v. Roy’ Could Mark a Huge Win for Religious Freedom",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZW9UU0wyamw3eGhwMmQyckRyUXViWHlUS0ZLMlF0UUYxRk5kOVRoRXI3dXJYNl9JR1RLbEFVMnc0U1hmazM0bG9fRW1JNlRxUXlxa19ZM0J6NU1Kdk1hS001N05KQ09iN09hUFNSTU5OUnlWV2UxU2R6eGNGZG5XZ1dfQlE0ZldhUWJOUFFCSXNlR29GTWF0ZzVVTWg?oc=5",
+      "publisher": "Christianity Today",
+      "publishedAt": "2026-11-11T11:02:18+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "51524f1d57dbe219",
+      "title": "Breaking! Efforts to Tear Down Ten Commandments Posters Will Fail",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbDhWdVRscDg2RWJ6YWlEWmsyRUFQWXJJcEZrTkloZ0ZCUV9KM1hOTlpqbDlyMFlxYzd3bWx4N1lGb245R2xybDJQSDFDNTh0MzlfMU13MV82U2tzUDYyTHRZQVlwZDNUT0I4WGJ4c3pnbE5ZQ2FtUTV5Sl9qMTZ5XzRQSS1Uank4eXRrTEY2cw?oc=5",
+      "publisher": "Texas Values",
+      "publishedAt": "2026-11-10T20:07:48+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "a0f2c9a2e62af74a",
+      "title": "Cissie Graham Lynch Sits for Senate Confirmation Hearing for Religious Freedom Ambassador",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUHA4a0N4NTRITHhFdzd6d2tMd1pxZzI5eWtSSzNfRlhiTEZxVk12UFpEUU1MVG0tLUk3UWxpLXdFMTJEeEZtTGI2VXNYQ25qZjBDYjMwODZ3MlVyMldMYUJBak9fa0FjR0pzYWtVNkdnTGpFdWpmY09uUFRJMjdnZGNnZ1hvNUN5ZXhLRVIyaklyX0JDTzNjd0F4VDNYRm16TTAzcHJ5R0VpRU5uYmxhUEVuZk5xSndkT25pNEJRaXJTdG1PV1N5SUZJUFVpQlIxX3NNeUo2ZW84QQ?oc=5",
+      "publisher": "Billy Graham Evangelistic Association",
+      "publishedAt": "2026-11-10T19:58:46+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "0d5153a2515b7d3b",
+      "title": "US Congress revisits Nigeria's Christian killings one year after Trump's religious freedom intervention",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzgyeVJldWE5TEdZY2labWY0Z2RKZzU0TWVGQ3dQNFZvZUJiZmNfUlc5VlpmdnlYa1JDLVNkZHZiQzZYZzVDLVlXcjRiN3g3bENLcnVjblhoMHJoSXJFWVRia195c2pyR1N1QjRlYXd2bzZpX0xFRWhfczd1OEpWQWlHRmZwU3VsWllOVVVWbTk1eTZsbFhHVzFkeUhSV3FhNjVNTmV3UVdrMWtEUGtEeXZDMUZUcG11M1NrM0RKTmllT01PZUZRUVptbWhiUFBGRXB6RW5B?oc=5",
+      "publisher": "Business Insider Africa",
+      "publishedAt": "2026-11-10T19:07:47+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "1e91c4079fddf71c",
+      "title": "Red Week highlights persecuted Christians, ‘fundamental right’ of religious freedom",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVnNCRTQzYVdCY2hPd2taMzl1a3B5bEU1WDAzbklETEVaQU5BNWZtTzJnWEFVMFJxTzZ2cW0zQmNGaGpiNDJKVTZSLWhuM0c2LVUyeGRvZUxDUXBhQmw2TVNtV0kzSGhxb0o4MXRxbXZuN3U3RTlsSU1DV0p4VmZOUUdaWENJTmhkajZpM1FQUG1KLTJNSGpwWVFQRjVEZl9YdDlPRUluanc?oc=5",
+      "publisher": "OSV News",
+      "publishedAt": "2026-11-10T18:18:37+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "f435f4cefd9f6195",
+      "title": "India Slams US Religious Freedom Watchdog Over Sikh Gurdwara Attack Claims",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU1BQTE1HZG9KLUhJaHZtOW04U09UXzlmb0d3WWtaX29JSWtoTHR1c192YVdTZzl4bko3bkxwVVk2clZfSzV2WDI5VVFnVVg3bmIxbzdQYVpldllfV3dXU3VhSmFKTHZ0Z3ZYUW9OV1paN0thRDVqWlY2eC1WNU9lVXZwaEZpeE1faURYXzVIVFc4bGxMakU4cHdUNk9GVE1jYjlhNl9mS1JIWnNnbHUwUnVuZGF6Mm1qSFBwcVc1clRUUzBIRU1Oa1dLeDJYUTR1bUd2QW9mbDFaSWJ3d2xmcTFkRk5zMURNN2fSAe8BQVVfeXFMTm4xN3JaTEVPN3FYWWdNT1NQOVhJeTNqd2lzUDl1ZEJYNVI2bko2M0F3R1I0a1FSbm9OX2FpeE9jUzU2V2JHWmVpNGxEbzkxdHhCQkRkZ2gxOUhidHhmS3VzUG1IUVBWWjViU2JvV3BMX2JzMEZXR3dJb0RwTzdHeFpGZTdQMkZWQnJNU3hIdFd4MEp0TVl5RTFFakRFeWF1QzBZRXJvVFR5RGJsSE5CRE1OTGs1bFN3OU05WkJBcjVWLVZwaDVwbWdRNzJadE84NWpjcmx4R3M4WVJXV29helpHc20wNWVfMElJWXd5Uzg?oc=5",
+      "publisher": "The Times of India",
+      "publishedAt": "2026-11-10T17:44:56+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "50a37807a6b2d1ee",
+      "title": "Texas' 'LGBTQ+' chief justice-elect vows to end religious accommodation for judges refusing same-sex weddings",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM25PQWdTS2FHQXlEWDR5dWstak0xOUUwYkNqZ2IyLTRnZWI4VDFXbzZMdW8yeWZta1VVQmpPdUtVMlhVNUgtUDc1Q3J3V24tcGVGbXJHT1hkZmdxSWlZQVFnT1BtQWZPdmZLNWkzZjI4eUNTY1BXNEwxXzl4VEhrTnl4SHNaX0pPemhka3dfeU5wZ043QWZkUzJDYmMxb3hDOXJn?oc=5",
+      "publisher": "Christian Post",
+      "publishedAt": "2026-11-10T16:23:28+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "aae8a2bdcff1ce64",
+      "title": "India Accuses US Religious Freedom Commission of Bias, Cites Silence on Anti-Indian Hate Crimes",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajlLQzEzMVYwZXFCeWo4b3RYOXhHRUY5V085OWNaVkFGdUxGaEt4UG4wZTkwajRpSUhYS2VUNXgwNEZwX1BONjFQS0ZYU0FzWGVyLVdKOUdtaTY3eHljZ2FMRFFVVUhYOWZhMmtkTExEOEJzT2UwU1FwUVE3cXBxelRMb2wwVE9Dc0dSdjlmUUZ6VWh1bTJYVW0xeE8zQUNzYXdaUUd1VkI0cDFSRnpkOWt1WU5QVlNha2lCR2JWTUU?oc=5",
+      "publisher": "INDIA New England News",
+      "publishedAt": "2026-11-10T15:47:27+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "fe2671b5d21a4a6d",
+      "title": "Conservative legal organization challenges Texas Chief Justice-elect’s priorities in upcoming term",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnhVWnF6V1hQaHlaWmd1TTdJbnZxV084bEZLcWFBUTkxbGRidXhVUU9ZSGxGaU1vcTBSTUluRFpMUnVDZlNIbWtfZ1VlTnd2LVQyWmRlbkxZNFZERnBHb3gwZW9DZF8taUkzTlp1TEx1RFh5X3J2UFppYlpZT01UbHh2RlVfQ3BMSzgtZDM0UkZBc3NVOXI1d0ZsalZvSmZTX21xbFpuNA?oc=5",
+      "publisher": "Dallas News",
+      "publishedAt": "2026-11-10T15:08:03+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "e30666ea973aac4a",
+      "title": "‘Biased And Ill-Informed’: MEA Slams US Commission Over Remarks On Attacks On Religious Places In India",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMWpVTURkT3ROMVpGbVdvcjE5MVJ1NmxUT2tZR0d0OC1mR090MmU1V3lFRm5fYlJCWTRQY1dhMnN6YndLQkcta0F3NUhTcTBRWWgzVWs0MVQxZV9NSE9LenBDR1FXTzlCVGg4NjdiNkRHSm93QUJIaGZpVWp0bExUNmE0RnFvN2VxdFIya05wY3hjM055aHpsTldBZ25Vc3pMV2pYaXViNEl6UFJMYjZOM1oxR251N3Bndl9DX1BJZEVWMGhfMDRkOVQ2SDB0WlozMWVWMGtkdHNlYzc1bjR0aWpEQ3c5aFFKME51OVg2ONIB9AFBVV95cUxNMGltZmdCUmJkQ1JSU3NRZGlzb2ViMDNRVk9ITEdMNHpEU1NscURQUElaMTNRMVpIWlBNRVlfMGpnb3otUTVHV3hyaXF2a0NIZ1hPYUIwZVU4TDZiZW5hVjJaQ0U0R180UlNwVTRJTzNOUVJ5Q1F4eFpYU1VjMEhBUkotOVdSX190RnB0ay1HYkwxc0NuTDFSR0hhYXdyWDdBWVJqcXY4V2p1X0NORS04NXBmdlBiY2lvT0FncmhjcXNyYzBkdVZ4V1piT2c1Z2tTcWk0bGRIV1Nwb2ZzcldQaXFhUlNsWnN1M0RIa2JPUXF3RTBJ?oc=5",
+      "publisher": "ABP Live English",
+      "publishedAt": "2026-11-10T13:07:09+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "28f7c86096a5de6b",
+      "title": "India Rejects US Religious Freedom Commission's Remarks On Gurdwara Attacks, Calls Them 'Blatantly Political'",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRWNZN3IyNVU5UkpDV1MwZHRmb0dJQkFhbndyb3NZWUNLUVc1a0VfbGJVdklTRnVLdFJoaG1keW1WbDlmeHJtMVhmU1BhaDI5VVhzMHNwTmFzN3owOGp6OHFsXzJXQWR4S0RaNXRnTEpvQVE5OXAxLUNBVEFLdDg2LXZVN2VkanNCMVhsdTlrZEV5OG1TeGZaMkZhcnVSXzFXLWlxTW11eVFlRmdwS1RMSERXZllpZzZNUkdIOWdTc9IBxgFBVV95cUxObnN1MkNKQ292WjRDZW1TVmNGdy1XYmJWNFJwWHZfQ2xicWRudTdtNXVCUXFzbXRYbG01ZjhPY2ZiZVlnSFd5NGRnUVBiSTUzNW5KWk1KYVpKb0E4aXNtOG9Ia3kwSzMwLTZra3RFVWFZaFJfenNJYV8wWnd5aWVvdGtaRDdBWi1zcHc0LTdidmNmUkpwb3dWVnRVa2tKa29iY1JYZGFFNmZUbU40MlBYTVpidzlCZllMRGRxOWV0aFZ0bjUtMnc?oc=5",
+      "publisher": "The Daily Jagran",
+      "publishedAt": "2026-11-10T12:41:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "09c9433675318b58",
+      "title": "\"USCIRF biased, ill-informed organisation with political agenda\": MEA hits back at US religious freedom panel",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVUwtTmJJaXpsXzVCZVZZeGFHM0tRZG1rXzdhazl1elVwZ0U3Vno2dU1wVHdQdWdhc2lmZFo5d0FTdDZHVkNESG1Rckhoa2V3S3lPTk43SG9kQ1NmSzBzV1p6WUlxSTJKalRWTmRmNE5Udmd3UjZVVWdacUxFcDVwSmRSaWo0czdJNko5WTNnNWt4ZjQyLUFMcHpTNDdnaTcyYVB6U2Rua3dJaUc5ZEplal8ySHdxMngwMDdoazhFUC14MnRJSUdndW1lM2J2WElad1BrNmNVOVFsQWJBcjR0djVaQUxEYzVLdEEtR0ZJaw?oc=5",
+      "publisher": "ANI News",
+      "publishedAt": "2026-11-10T12:23:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "71305f4393683c5b",
+      "title": "'Silent on hate crimes against Indians': MEA tears into US agency over religious freedom report",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWk9BN2F6N2tsVXo0U3BzR09iUzF1bU1HbHVlZTlkQkhqa0x1OFRNSTZ4S3FHVjE4RUg4RkJ5d1pRX3ZaaFRIQXM5WDVVNXdQZGtqVWlDMW5rc2VaRjJCNng4bTQweHlQem1PY21wd1ROSW1fYmZfem9vaW1uNEpORzZONklBVHotbkxRM2JMQU1xTkg2N2RFOW4tTWR1Z0NsNXV6MUVMUG16VWRLTUM2ZVZkcU9xTG1jN3BWSjJ1cUFpajd2dFlDRGNSVlF6Ymg2UkY1bW1DaEZqLXFhMUtSSUhFNEI2T0djSEoyRGgwODJpUdIB9wFBVV95cUxNcHRuMHFvTVJhdEJBaENkYTU1Q21vNjZrcHQwbWVpMXpnNTA1V0duNVpNUnI5cGM2MFJUaERYcWsybnJjR1puRTFUQUFYeHBERUhlUXBob2Z4OVlEcTlWdmhHa3B0a0piWnlWVDFXNlp4c0ZVU0V2VjRNUmgzUlpzRU1tLXJnNE5zMk11WDRNU3hOZUdVOGtKcm90RUFlQy1reDVnTTVMcHp5WkNESTc0VGJ5SjhPaUVtQ0FEU0tMTHZwRTRjOWRGRDJoUF9Ed2M0YTkyNWxTV1pxNmdTTUduMXRWeTlfeDVlZUdwT2N1eUt2TmtDNHUw?oc=5",
+      "publisher": "The Times of India",
+      "publishedAt": "2026-11-10T12:13:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "f448159160175c81",
+      "title": "How to Take Action for Students' Religious Freedom",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZWJzdnp0VE82aFFDNGdUdG9EWFVpY1U4OGU3SlQ2RFoyZmdNcXY0Rnh2THlta1E0MkxJTzkyS2NjSG9lLUNqWE1yQ2toV0lQSFVOTjhNT3llMjNkc0liWFlwcG9aQzVRb2RKaW54dzN6QTNpemp5ZVY0bW1aQTdYLUV1a3pZR09XTjI5QUVFUXFpOFhvLW14aXhjTDhuTXp2RUhOcU1JVU9ZSmdTQmd1ZHY2Nk1PMXVPVVhYaVN4SHMyNDJuQjBZc3Z0aVhaek05S2NPdE1BSHUyem92cUJXbUFiR2dIRnNfZ3hWcmxsM0ZINVNVZzNscS1oVUVyazQ?oc=5",
+      "publisher": "American Civil Liberties Union",
+      "publishedAt": "2026-11-09T18:24:39+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "790a048a1dc6fafe",
+      "title": "New Mexico border wall case: Religious liberty vs. border security",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0xqaDF6LUFJSW8wYm5VcW1fOHIzVjJKX2U5cWlBT0NSU1pZUXRpLXNuV1lsOEd1RTZmQkJaLXgyeWVKZEtiVENBNmJmV3VnRHlYb1hlN1ByU1NqWnMteWdncnBWZnRaV25hTnZ5RWNzbWpXckxLR1ZQWEZGaDgxZ3dDb1lVcXhGN19jRmdXQQ?oc=5",
+      "publisher": "Deseret News",
+      "publishedAt": "2026-11-09T11:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "105a74c949d0d0ad",
+      "title": "Texas’ Flip to Blue Is Major Blow to Red States’ Legal Fights",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmwxQ3lPVnFNMXR0U3VDMVpaWDB1MnF4R0huQThHSTJtSnVHYUZFOXg5UlpocTJYeHpkdDcxcUcyRTBudEFVeDlHbDBfUTEyZnZaRFliZTAtdkVpVjNQWVhRZGtPR1JrUjhPM3lwMUwzYm1CbmxmblB2R0lVR1hUUml5QTJHSjdCSjN1V3NGMEJQTm80WkVYaUxzdE9SQzJGME5F?oc=5",
+      "publisher": "Bloomberg Law News",
+      "publishedAt": "2026-11-09T09:45:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "451db8b850f6bcca",
+      "title": "Did voters reject Christian nationalism? What the midterm results show",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZy1YMVBmQmxkZEdBdl9vck10WXJuS1pkSHlKa0R4ZGwzYmJESlczQ29wbklYY2ktMEFXSXZwY0djd3V3YkM1ZVgxNExvQS1YTjNmengzT05qanZNakRzVUpIZE84Q1VZZ3UwVTUwZ2J2eWpVc25oM3I4UjA3SzloWmJ5RUQ5ck1XZk05SzVxeE1tZ1VXaHVBajYwT0tpZjBkaXNSdFRPZWZORktXNWFGUXQ2b1VhZFktaDVMVmgxQldETHcteUhMeTlzOUktVVBNdWhFZm5uVVVpbU82NmNOOTVnNA?oc=5",
+      "publisher": "USA Today",
+      "publishedAt": "2026-11-07T11:04:00+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "eaff23b27f9dc4c5",
+      "title": "Statement Regarding Texas Supreme Court Justice-Elect’s Comments About Marriage Officiants",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOS2tyYkNOLUlzVExHZmR6czRSUUFNVjNtYktqckMwQy10alNia01KX3JZZnZzNERFZURKcUc1R3BTWUVaOWNaQVhnbDhpSVBLUzdlNGluQi1SMW9XTTBxT1FpOUc4cTRGZWxZUUF5Q2pDdjlJU05ndllBQlFXNnptcWJLMmRGR1d3dzZrcWNHUEJ2ZDlxbGNSbzNLR0thYmcxcTRWUjJWSGNmc0RxMEpPblNPR3RRSDUxRXAtQzRR?oc=5",
+      "publisher": "First Liberty Institute",
+      "publishedAt": "2026-11-06T23:24:58+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "ad1280a8f36d2af4",
+      "title": "Texas’ Incoming Chief Justice Hopes to Remove Religious Freedom Protections for Judges",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcDBmWm9ZeFhwaGpUckZqMmRZNk43SjRHdEVlN3JXd1kyR1JncDBfbE1SWC1KeWgxMzhsTk9DWTd4bkdZTnpOM2xhWHpRR1RKc0tEMUJyMERrMnZKOHhFZTBMWkx1OHZfUjBtd09pdkpfeDhVRUJfNFdVTlZmMVFsUjdiZTZTQ0Q4QmZKUmFLWEZhc1RGRHlfVGstaGVJXzNMdUJVdm5LQ0NxaFdFSnNWLW9ISHFxQk1fWjNR?oc=5",
+      "publisher": "Texas Scorecard",
+      "publishedAt": "2026-11-06T22:10:09+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "62ff36a95418e6c1",
+      "title": "Newly elected Texas Supreme Court Chief Justice plans to test religious exception order won in court victory by McLennan County judge",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdGlyUDQyUXY3T092cHp3UGhZTDVGM2tFMzVmNEJxZVFhWERSQUEzVW5UeFNpVVN6ZS1wS2dNcmNSOWYwY0VmR0t0eWMxcWg5MWxBTmNjSWhvRmM4VFp3R3BqeDU1YVRNZjZncEFTNHNubmg2YTVhTzRLdVJGSVgtZ0s0cGJ5NFctMXR4cm11akpMNThPZnRnMy1Nc1VGcDBoQi1MbjFWZ28zTDYwbWNIZXdaSHpnS2lTQWZ0aVl5SXFLR0hmM1NzeEZ6T3FsMF8yYkNENVlzMGx3bmxiNXBhaWhDeENaVG93ZTktWVdxMG12d9IBhgJBVV95cUxOdzJGZ0NjZkw0dWN4M3A3TGVkbUlRaXE4Mmlta1NfSVRpUzg0Ty1aVU5FQnRxMjVSSFMtRzlBcFBXbThyMTk2NUJsTWZsNGs1S1pvN0JrU2ptSTN1NDdsdEI2SVhORnhFZ1l3cllmU25HQmFtU1B2RVhwSGEtYnZnS2xMWXY4UlhwY25MSkwtY21zdFpLVm9QVUlQN1l3NWxaRWIyUzVZaDc0S1RneV9KZ0lYMk1xYnVXX3pGQ0dMaFhNcW5hSFUwdjZjaUtMUnZvVjJ0UmdHS3h2RmZiY1NDa0VOTkVySUZ0RXlsU3NDNEVPVDJ5eTlkRkxSYk1hRkplb2oxNXhB?oc=5",
+      "publisher": "KWTX",
+      "publishedAt": "2026-11-06T22:01:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "d5999a3edb562762",
+      "title": "Democratic candidates with a Christian message help flip Congress",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb2hGNnRUV1RaTUNjbnlYTEpXZnBESTZZNzE1ZDV4UDBSNng5dGpxRWQxSUhTc0MtdlA3dVFpM2kyRV8tNmQ3SXRRRlRuNkh0QVpTT2IwVllDRzdjV01UX1RmR0oyU3lQeVlsai1yNnJvSFdqWTNaMzBGSHViZGIxZTNGNjlYdm15VkU3dXF4aFE0N2h3Q2RIQnp1bno?oc=5",
+      "publisher": "KALB | News Channel 5",
+      "publishedAt": "2026-11-06T20:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "28675d0cb1152078",
+      "title": "Senate Judiciary Will Weigh Religious Liberty Bill",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLY05VMnlwcmJERXRNemJENjFrTUQ4dndxNVAwMmx5NkFrUDJoUXYxMzdRZlg4Y2pwWGl2aWdvaFdTODFRNDRzdlJlR1l5dGtlVlI1UFEyU2FzbUdraWMzVW1TVUY5NDFiaGlkamxVYzdzME5ETWNF?oc=5",
+      "publisher": "Legis1",
+      "publishedAt": "2026-11-06T19:10:25+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "ac9c44fa53acfe31",
+      "title": "Religious Liberty Attorney: Danger Ahead if 2028 Election Is a Midterms Repeat",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUEo0Wm56WVBlb2pTbWdyaXUxVnVKaVdHSzRLV1dhRE1lNHIxNnJjYkdjaUxfS3Nod3duZnhBRldacERkUHNFZXNvVjNBUnYxdFI2c095dkNubUJ5Q2FnRUxiUkRNQVlWanlvVUlKWmlVNFl6bnIxZ3VXM2tCSWR4S01LUzRERUFvTEx3R0t6R0JJb1VKWUhHcVl2ZG8wOFJqQ0x0cmNIeEFneFBreENtRUxfbmtjTlpCR0tXdGpEMllka3Jxck4w?oc=5",
+      "publisher": "Billy Graham Evangelistic Association",
+      "publishedAt": "2026-11-06T19:09:10+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "50fcb56aa91e20c8",
+      "title": "Religious Freedom Restoration Act (RFRA)",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pNk5QbXQ1SXAyM0h3OWFOcmhWUElRRWVZeHRLcXBCb3BQMUROM3JxZEhJcWFFUGpZZXM1WVhzMzhKWHczMUJwNVRrQnVCN01PLUcwMzJaMlBlU0dRQ2xWcE9tLUxBREZwZnlfTGIzVEo5WmdB?oc=5",
+      "publisher": "Britannica",
+      "publishedAt": "2026-11-05T21:38:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "6e14798754e2b092",
+      "title": "US first Muslim senator’s election a lesson against racism, religious discrimination, says Anwar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSnVYSXRLYUtYUjBFc2VjdVMyY3ozcE5aY1NHdEx3OGdKbHRfTEFqUG56NWNycW82Q05HU2RDNlN2dzlnN0RSVWJqdHBVMWJKWEZOb3Nfak4zcUo5cF9PUzdSVHRPWFVaUHI0eDNqcUozNXpZSFV6WUpXVTY3RDJNNFAzeWVlYnhTQ2FIUDVZRWhWZzY5MUtDdldjaWlyVTNqcmROQkFwNzY0T2FHdTl4MEdJSmpleUxoRzh6OUFyWE55WkdpLTNGdk80ZlJUTW9h?oc=5",
+      "publisher": "Borneo Post",
+      "publishedAt": "2026-11-05T13:00:43+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "5bee8772f06b44f2",
+      "title": "First Amendment - Freedom, Speech, Religion",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50TUxIRF85RlUxX3VVWUNvaHlRcjRkNk5jZHQxQmJTcExjQnZLQjB3R2U3RnJDd1VVcTFzZDRHak1fRU5Jbm1MSVBIQkkxZVE2R2xHY1lCX2hLaUo0VGdyazllNG80eWlpUGQzZ2J4aHM?oc=5",
+      "publisher": "Britannica",
+      "publishedAt": "2026-11-05T08:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "67b1f23f746920ed",
+      "title": "Supreme Court hears Colorado religious discrimination case",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS1BiRnNaem9fZzI4U0hzTjJzTkNhNFhEaTl3M1JOZmhYWmVDTnJqYV9sb2JZTWc5U2ZRNldabXAydUotYi1JV2NJUTdwZl9YR0F4OVJFazZFakRhYWk3VndDZDNSTWNWdUNBSzczakRrcjBjejhpSi05b2EyUEZ6SFNlOWQ5WTQ2cXU3TUZjdlBHR3pIOU0tZjk5NFpKUFJxRU1VRldpczJQOV9ZTUk4?oc=5",
+      "publisher": "Baptist Press",
+      "publishedAt": "2026-11-04T15:55:51+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "b02842e749ea8073",
+      "title": "Court hears argument in religious discrimination dispute",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcE8wN09KZFN6enpFcjQ3a29FUjlKME1takNnTmNvbmx6MVhYRXpaRXhRTkY4ei1QaDAzaDRoY2FQdXNMRXdOSkFwcGpVTGRUdF84aDRRSHI5WXpGMlp1MHVOb0FEMWVxREFhSmNqNHZVVUZsTFRUQkhENUtNc1ctdXIyTnI2a2RKcTNRSVFQQWZwN2hlVHlj?oc=5",
+      "publisher": "SCOTUSblog",
+      "publishedAt": "2026-11-04T14:00:24+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "bf687b06527fc2c1",
+      "title": "Bishops urge religious liberty language in IRS school discrimination rule",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3pQVmtnSnpra3J2V3ZlaWZfdUNBa1dsMHBkNkRyMU9DSUdlY041STdpZ0J0NWtBbF9LZ2o0MjlTQ3k0RzJyc3dXdGgzNUtSSEpLNHBueURNQUl1TlZ2bDVTbmVnbjVwbkU2TTBKU250bEM1ZkhZNWRwNHcxR0lvc0prZURhLWhpaXI3U19ENHFNNGlJWl9LYWljcUVIVGZDRDFCWHFINW54YjQ?oc=5",
+      "publisher": "EWTN News",
+      "publishedAt": "2026-11-03T22:15:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "cab82ba9aff1920b",
+      "title": "US Supreme Court leans toward Catholic preschools' challenge to LGBT protections",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWNXTWlKX2RidWxwem9kbTNLdFhKTkVDMHNvbU5PNGVrdzJmaC1YSExYYWUwNE9Ib2dyN2VWckg2UDdfNGU0dVpzWEV2d1BQQVJzczZUMm1FbC1hRFphOXJNSHRvT2twRUdMS3VLaEh2ay1Lcl9wYnM1TS1YWlpqSWM5UE9TRTd0SXNrWU9YOUw2T05GYUtVeFhyR056WTdCTm5fMDdoUnEybjNVN2pMaGFXVW55bkFSQnZyRmVJUQ?oc=5",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-03T18:37:18+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "77d4106f9563c11f",
+      "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
+      "publisher": "National Catholic Reporter",
+      "publishedAt": "2026-11-03T09:16:34+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "011cd3e5068d7b4c",
+      "title": "Court seems poised to side with Catholic preschools in religious discrimination dispute",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONnEzbWZIdW5yVzhsQUlLSkh5RUJFcmcyTEltSU1GaHo4SEhZNkJ6VzRRYkNhU1RwM1F4Y1M4X1g5ZFlMWm9vdV8ybmR5eWI0V0VPaHNlNFkzd1Z4QXRCWFk4NGVvZXhEbEdKQ0ZVTE1sdmozLWxOWHNacjM1SlZCVmlqT3N0d3ZQY1FCOEhiM3p1bnE1aUd4d2pJYU5iekFjZDZ0ZEs1UFJzZzRqQzNQckhNLUloeE9YVWJrSFBzYng?oc=5",
+      "publisher": "SCOTUSblog",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "c412f1c24cbb8747",
+      "title": "Christian nationalism and Israel weigh on Texas Jewish vote",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOWnluQzZEVFRMMnNXVDBYdmFRLVRiY25JdlZpNTdLSmRFMENuakdJWFdCeTE2VHBTTks0d1VyMk9RY0N3RXY0eFhINTRQUF84NmlCVjVieEtKWnYxU2ppM0c3dzdxZEQ1WTA4UC1ZTnI1bDdkajc3MXZyQ3JlWTVWYkl6bnN6aWZMTjVtcmM5Tmk0TGFRRkpzTjAxTGhESHd3QjRaUU8yYW9jOGJkdXYwRE5GWGRVQlk4VVpPVDRNQnNpUzlaVklRU2dXcEQycG9fNkJIYkg3Q3laTjRELU9FaG5VR19QbHZTU0poYnB2MXpxTGNrUENCUU1mX3lUNVhYZ3BFczBvcWVIaC1BbGhpWEVB?oc=5",
+      "publisher": "Haaretz",
+      "publishedAt": "2026-11-02T08:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "ce7fa058f5ee922d",
+      "title": "Supreme Court to hear religious liberty fight over Colorado's universal preschool program",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd2VkVmZ6VDNPRkg3WjJRbVlxeGZfeGdiQjREc0tNVHoza0ExdWI5QUw0a2V1Z25uc3pxUHNLWFpjRzdoUkRlZktudHIxOWJ0c3pVRFF4QWpSOE5zWHB0U3VXZ0hOcU5MV0dvQjBwc3hYQmRHVTk0OHZzcGswdGY0MVlNZmI1czlINlFzS1dFbkZnSnFtbzRwRWlOWTZaVEVsOVFxUVNqMUlGck43aUI1MA?oc=5",
+      "publisher": "CBS News",
+      "publishedAt": "2026-11-02T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "90d48e9188e48f53",
+      "title": "Supreme Court hears religious freedom case centered on universal pre-K program",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXhrdDFXd2daNHRGaWdFU18yVllPQ3o5OHVBSnFaOUhtRzBCdy1sWGtHM3hIWnVMYmRGZmZBclI1VncyaHVBeDJYMUFyalRuQnpJbTV2MDU2WktWN1ZsdjJIaklUYy1ETnlEMVZWTXBhT3hTd3hYYVJldDcyTmU3UGxubmg2aVNVZFlZaFlfaFdoU2tsal9jeEF3QzBpb05HaWtXT2xwNVhfVGwtQ3ZR?oc=5",
+      "publisher": "NPR",
+      "publishedAt": "2026-11-01T07:00:00+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "86a992e7200de93e",
+      "title": "LGBTQ+ rights vs. religious liberty: Why Colorado is 'ground zero'",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbzRiai1YTkxHM1dGNFBGZVZnNUx5WmIwU3B0ZWZQNVRXRzBMY18tT3owR1dQdERrMW5rUTdQZ0l4VF9uUGk0dEZkUkpiQURlYnVrZTRWNzlDR3dqY0FKZlBlMFhRVUQ4eHFEblJpVFlEVEVucHdQUEZBU1lIeDl5RWxORmpVMm9VRzI2X0RDVDlBek5mRzJSZE5tdzYyZUdoT1RVSXJ4WGs0anFMdDZ3WEpEUzdpTFk5UDkzXzRmSU9yenN2?oc=5",
+      "publisher": "USA Today",
+      "publishedAt": "2026-11-01T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "08843931f1c6397f",
+      "title": "Utah State football players, fans targeted by religious discrimination at Texas State game",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMWFoWEhIMTc2RUQ0OHlYS2JDWUFlYnRybTJheDREdmd1WmhqelFCZDk1WnN4cUJ5SFphc21DamRHTnV6RmZRMXVEQW43Tk50Yks0Z2R2ZGpJUFpiVlhGMW5OV3JHaW9DVXg3dmpOejBkWTRuSW1YSFgzclJmWU5mWmFwMWJvUHE2WmJOYU5WdXpHZldNNmhPTTFQRTVnY205aXlGR0FmTXhSZVg0Y29jNm9jUXBHQ2dq?oc=5",
+      "publisher": "KUTV",
+      "publishedAt": "2026-10-30T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "76ef5d824514d839",
+      "title": "BYU is going where only a handful of other schools have gone before",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSVpoVVFFd1NPc2Y0S2xYNmhocm9YYVpsTFMwcW56X1RyMXE0ZThjX3VXSngwcWZqU3NCMkowS0hPbEl3WjdRQTBEamctV29CeEprLXVUOHc5ZzRqVUtVV21ScjB1dlMxamJjUHdnN2owX004MFgxWWtRenZFOVdENA?oc=5",
+      "publisher": "The Salt Lake Tribune",
+      "publishedAt": "2026-10-30T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "fca04fe8e0d8da56",
+      "title": "Court to hear argument in religious discrimination challenge brought by Catholic preschools in Colorado",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUxUSW1EczJoazdFS2syZVNoU3JrTnVtbzZOR1RaNUVnelN3UHRmQzd0dDhrNkVNMF9FeXgyYWZWR0VQSWY0cmNvWmt6Q3lWSEFYWVp5em45eFZwUTcxb3VHNEFTTnJkSm1ldE9Qazg0a2NJUDk4bm11SlU5RmdxbnZsWDdWSk82ckY5Zkl6SWNmN1FYdUpDVkRKdmU1YnRqUDYyZHBNX2RGVzVWMGdXOTBTV2lVZ3EySFhNakJiRVh1M0xpZ0FiRTlzODk?oc=5",
+      "publisher": "SCOTUSblog",
+      "publishedAt": "2026-10-30T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "fe9bc41ec7b8a17b",
+      "title": "Church and state | Religion, Politics, & History",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fcU1qbjFBRFY1MUZGY0YyQV9fSHdYSjF0bFVBQk5JeDRYYmg0eEZSUFE1bVZ4UzVZOV80SzctQWlZUHVQek1FU0ZSX3hKMlY1OHJITWFsTlJIVWZWV1E?oc=5",
+      "publisher": "Britannica",
+      "publishedAt": "2026-10-30T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "dd1caf0693a1d3cc",
+      "title": "Texas Muslims Increase Political Engagement Amid Concerns Over Islamophobia, Religious Discrimination",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa29feVdfU3dCSG04eFZXTGVPU1c3cUlJLTA3emVJcmZ2R2pvQXlnMWkzQ1hQbm1ta0tlQ2NaT2szYndkQ2tQYUNxVklIdHBmSlR1MjhfdHJ6azZOdFBLWGNkNS1MNV81X0pwMjFzbHUtYWFGbjMwdUtidVVGWkx1b0ZoS3FjTzZSTUt1SnBYdF9iS0otMnp2Z1VIWXpwSWdoUm5MY1dJZmtJd09POGY1YUJTUnk1cmN4UFhVZDNyci10aXhkekJMNmk5ZXdLLUdUV1BIQ0FhdURPZ01fZGtEcVZWZ3RPVk0?oc=5",
+      "publisher": "ShiaWaves",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "2bb8e5e62b080cd2",
+      "title": "Testing church/state separation, Albuquerque megachurch endorses Hull, Cunningham",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV09aTjRyTkJlcF9oelh2V3BwR0MzVFhUUXpMZEV1eGw1ZDZmZ3JOLWEwYWE4WFgxemt4TG00Z1VLR0FWQzdXOVp1anFZYmRnaFY2aHFXRlZEenpScFZHNVoxMThTenRIQkJBbjloczJlWWc0NFFQd1FnZTZNM0FfaVlBcUE4dXJmcEVtd2pQSlhtX21YTmltd2lyOWlkQjg2LTJ0UFViOGpOeTVnLUJZVHk1cHNxQ0hJdG1KRFlB?oc=5",
+      "publisher": "New Mexico Political Report",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "cc8a441f2e0e7e86",
+      "title": "Secretary Rubio’s Religious Freedom Message Gets to the Heart of America",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOakpEYmxrcWh4NW5XTEhOeWJtOTFGMzRDT2s4UjI5cUNXV285YjluSWg3dndMQmsyb0FrTjRsd2pYclhvVElNSG9tV2JrUHZjS1lYdjdBVTd6SkdVR0FkOWZSLURJdmUtZFlnYk9nZVZuYXlzWUJDT0VvZ1J0blNVZGs1emt6ajJHdXI4WG1NME1JMkRkbnRtbTdCSV9GMVF2WG5sdU52bll1dTNWcUxTMVN6Z3Q?oc=5",
+      "publisher": "Focus on the Family",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "d16a0bc0296f2097",
+      "title": "Vietnam seeks stronger religious freedom dialogue, closer ties with US",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDRTUng0OWVRbkdaSXdBOV9wQ2swS3lDQnZvTjNLRWo5UjhJc0ZhcG1oTTA5d3hPSTZfanVJaURNMUdpcURNTDB5eGEwQktFdGtzV2d0SnROeTBSR09EWlB4eUp1d244SkNQRFVvOUJ2aXBFWjkxLTdfcnpsSTBfdW1WWTdLaUI0eFF2NTlQWE5DUHE1Zm94TkxmN0loWDNmdFVkMFJlc0hnYkE?oc=5",
+      "publisher": "Báo VietNamNet",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "465a66d29e933f7c",
+      "title": "Justices to Consider LGBTQ Discrimination and Religious Freedom in Colorado Case",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazNNQk5zMURRQ0RoVUkxRmJTMzJfNGlDb1NqR2w2Um9LMkhlLWhTQ3VoUGp2S3g0aFRodEpwZnlJQkJ4Z21tOU16WTVWbkFaNThqZGxvWGZTc24zWEZtQ0c1d0RzLU5aOXZ4XzNKNXNDYUlRVFQzZ1AxdlJwd2FEMzU3QTI1QWtmclIzVHNWQzM5NDIxek9OY3FRVWNoSHVBRXh3STFJd3g1UjM1NWVFZ0NnNktFb1l4SXc?oc=5",
+      "publisher": "The 74",
+      "publishedAt": "2026-10-28T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "70313fc17ee3c21c",
+      "title": "Supporting religious freedom and pluralism is a foreign policy priority",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZm5FLWdHSDBPSHZ5d25UcGdlWGI5dkpyRlotY3lXQUVVbDdMLUlIREZlRzdPb1BEOC14TlFIUWtScWhxX0wzWFNKTHVEUG40MDAyUC1IZ2lQUzhQZzA4TmhlOExIbkhoRjBrRGR5MWFSSTJvZ0tEeGJ2ZFBHdmRBNzEtZXkxODNPMlp5dGpBTTBhRkIxSXRwOU9oZTRUTVQ1bXdIN3JnbjRVSGx0bGlrMjN6Z1LSAboBQVVfeXFMTk1yZFFNdnlCODhjeTVpZ0FvRVVTSlBPV0xoeWFXSFlPVEx5eVFtT2xzXzBvcnNlc0d2dF9YZGJUTmt2cFJNUGlwODlZaEdVWEswN2tFcjdSQkdZMWVpbmctYy1uM0Q4dkljdVJabEZmM2lPQVJRU1g2TktTWndNeWcwc3BkdnJkblZKUmZZNmI0UTJtNWZiYWhOMVJQeXVDdmQwN09vUW84MFJKMHV3UElzQ3FuaTBtaTR3?oc=5",
+      "publisher": "The Hill",
+      "publishedAt": "2026-10-27T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "e029a74068e310da",
+      "title": "Former McKinney mayor says religious freedom is “fragile”",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHo4MENVNEp6ekh4UEdla0dSVUNJTVZvaVZBUnFtR0k1RzdGQVdVc1hSNlJ1VktpSE1LYVpPRmE4MFlPYnFZTFFVbmpycWdiZWdOaHAydDJmdHU0dkFQSTRQY3N5RDlqc2hTdmNGZ3A0U0tJQ3VuMmo4dDhsSEY4eE5mX2prRVlVZXVBNTI1bWtMWjFkcGYtOWpzckhkREo5?oc=5",
+      "publisher": "Dallas News",
+      "publishedAt": "2026-10-23T07:00:00+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "bbe2d79da2e69794",
+      "title": "Ahead of Religious Freedom Day, U.S. bishops call for ethical AI",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ2ZrZlFtV2Q2aEZiZW40ampweVdSZjAyT0F4VFlaUHBtdzU5MWo1VUFGVzZKRWpHT21GTURFSUpjaUxPc3pLYUNmWWRJVEI4ZlJ4aXQ5WG5wZ2I1Y0ZfcEZrbE1EMm9aV3JpWlFEUnBwM0w5WWkyTXl5dlJhMnNGcEREV3BYd2ZjMjVXb1l4RU5naEVOTE5SMl9lZGg?oc=5",
+      "publisher": "EWTN News",
+      "publishedAt": "2026-10-23T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "5b822ac9183de00b",
+      "title": "These preschools say their faith bars them from serving LGBTQ families. Should they get public money?",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeEZweVRDS0pkUTVlbUxCaVNBUnJES0xsYjd1OFNtZk1EcUJ4NFQ4QTdQUUxhT05DLXV6b01iYkNnQlNneVJuektSbC1XanlVY0pXUGZxUFBSWmRianVUMGJTdUpPejRxZTJHR3ZYTFVxMmdmTlhDeGM2Ri13MkNaa1VvLXcwNjBxczB1WXNpVlZPM2tPNWhxSXZZa0E5enFEejFCQkN1UUNkUllIUnAzVQ?oc=5",
+      "publisher": "Chalkbeat",
+      "publishedAt": "2026-10-22T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "f95111232b26efe5",
+      "title": "Colorado Returns to Supreme Court in Latest Clash Over LGBTQ+ Rights, Religious Freedom",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcE52THJ6MVNXX3ZNVGlrdkI4VW1Kb3AwN0locXl4ejVLTmpvTkI5bUJfVF82OFlGSmFJUzVjRU5JLWdLZU1CaFlGN090WXpIVWZVTlkzQUtZcHJlNUpyQW1kMVlyVEpraldXUVlwdE53TTVUaG9IeFI2NC1LRkRBZTlRdmNMckZLNE9fb0tMM2MwVDB3aW9Mamd6LS0xOGVUZWlkRHBBU1F1SGgwLVlxSG5YZkdUVHZ5N1FDOWpVdGpyQWY2ZDVVNw?oc=5",
+      "publisher": "New Ways Ministry",
+      "publishedAt": "2026-10-22T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "b266fcb3b7bba7d0",
+      "title": "Vietnam Delegation’s D.C. and Texas Visit Advances Path to Historic BGEA Hanoi Festival",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPLXBVN2djLUZUcm5tMm95YzRkSktSbFY4aUZlSE9KOTdFR3V3NmhZaHluQ2Y1TTlKaGtHS1NZSFNWQ3JpVlNYbnZQS0tFT0tfT3p2QkJ4eXloN25sVXJHbkRGbkZTY052N0FmNklxNEhTRXpydzZQX1NwUUFKWW9TSUd0TnoyNmFPelBkRUlwY0FIZi1wMFJSbFZTN2FrSUxjTkwyZDB3d1BmRnhqbnYyUGs2am95ZTNBa0l3Nk93bkpjcVA5d3dabkFnLTQyWkNRRDBJ?oc=5",
+      "publisher": "Billy Graham Evangelistic Association",
+      "publishedAt": "2026-10-21T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "6f7836c6fd9bae29",
+      "title": "The Supreme Court’s next major case on the free exercise of religion",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
+      "publisher": "SCOTUSblog",
+      "publishedAt": "2026-10-20T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "91e61f66133f83cb",
+      "title": "U.S. companies settle religious discrimination claims by Christian, Muslim workers, government says",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2N4aGg1Qnc4VjBfbFBaNVcxenF0UTdXNHg1UUlaOS1taGNsT2MzcEJjOFAzR0FCOHgtRDJaZjRmdUdPVWlLN2RXclkwUE4xNGk0RXpfNHBuMWVMS1BhdS13OGVOcWpIUS1VUXFkaTU5SGt3LW1FZWlvYllJa3VYNEtDUHdjMVdPQnBPVF9RZ29BOWk3VG1WYlpkdGczQ19JUXBRQ3M3dXNteXAxaGhsdWpxTGxiNjdoOWl4N2VLSQ?oc=5",
+      "publisher": "EWTN News",
+      "publishedAt": "2026-10-20T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "5f2c116950526419",
+      "title": "Florida’s attorney general fights for religious freedom. Has he crossed a line?",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEkteS1WUlpOVUtvOExHR3RlZkZLZFFYdlZGb2NBcDloTnltTWFaU0xycThqZVRkeE50d181SXk1RXBUYl9qUk52eGV5NlA3LWZEOUhTSGhiV0JnemtFTEVtTFFhak5LeC1iTWsxZ1N3Z3AtZWhQa2JDZ3pITFJhdDV0clJRQlRpd1U3dkF4UE1mRGvSAZMBQVVfeXFMTmdsNWlhUVhrdTNqNTdZZThrc3pBMVV1alJCbm1oOHNUcHM2Rmx3Q3JyNzZ1UlM2U3hLWDNaclhudEZIanBtNXJJQXZpQTVvNkpuajE2bHdaU0NlRnlEZ2Q0NXdyRW5xMUQyQktqeUh6U2oxVk9tLVloZzh2WDhJUV9MY0llWGZMU2MyZlRLRWQyZU13?oc=5",
+      "publisher": "Miami Herald",
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "6b4cd89c56ac5e51",
+      "title": "Notre Dame Law Takes a Wrong Turn on the Ten Commandments",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcnoyNUpDcy1rQVpyOXd2MDk1OFpjVFlJTkFuLVJ0Yk8zWnhFTGxiWFQ5My1ZSG1fMEtFS09PZ0xkMTdCSFNlOG9IdUU2WjVxei1iV0dOT3h5U2tpSjJqWkNlZDNkbGI4T3RoVmJWRlVLODFDUUYwVV8ydXAtbHc2eg?oc=5",
+      "publisher": "National Catholic Register",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "a5a3fa05944ccf23",
+      "title": "Christian groups sue VSU in federal court for religious discrimination",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeDFRYjYtdE94eW1zb2E2LThIUnBkeUFlZXVhMjh6cVZEYXNyQkp4VHVVcjZHTHMzSmVFcEVsaXVLVkxNVEh2bV9KckFITXkzckJVU3FqbllDSDg1UnlCeU00SkFqRS1tVDY2OFNTZW95MUY0Nk1JSndUd3VGakFmbThsdF9MR1Q0N1JyUDVTY3J4a05GRGRrNWpQVXl5Q1R6Y3p5MnIzTUpTMnQ4QnBtcUViLTd2dFFG?oc=5",
+      "publisher": "WHRO",
+      "publishedAt": "2026-10-13T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    }
+  ]
+}

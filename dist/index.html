@@ -3,12 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#153c33">
+  <meta name="theme-color" content="#660000">
   <meta name="author" content="Eric A. Hudson">
-  <meta name="description" content="Follow religious liberty legislation across faiths in the 90th Texas Legislature. Official sources, clear review status, and a personal watchlist.">
+  <meta name="description" content="Texas religious liberty news and 90R bill tracking across faiths. Daily Texas and national headlines, official sources, and personal watchlists.">
   <title>Texas Religious Liberty Watch · 90R</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=maroon-news">
+  <link rel="stylesheet" href="/news.css?v=maroon-news">
+<!-- SEARCH META -->
+<link rel="canonical" href="https://texasreligiouslibertywatch.org/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:title" content="Texas Religious Liberty Watch | Bills & Daily News">
+<meta property="og:description" content="Religious liberty in Texas: a 90R bill tracker, daily state and national news, and official sources.">
+<meta property="og:url" content="https://texasreligiouslibertywatch.org/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Texas Religious Liberty Watch", "url": "https://texasreligiouslibertywatch.org/", "description": "Texas 90R religious liberty bill tracking and daily Texas and national religious freedom news.", "inLanguage": "en-US", "publisher": {"@type": "Person", "@id": "https://texasreligiouslibertywatch.org/about/#eric-hudson", "name": "Eric A. Hudson", "url": "https://texasreligiouslibertywatch.org/about/", "jobTitle": "Litigation Partner", "worksFor": {"@type": "Organization", "name": "Arambula Terrazas PLLC", "url": "https://www.atlawpllc.com/"}, "sameAs": ["https://www.linkedin.com/in/txattorney", "https://www.atlawpllc.com/eric-hudson"]}}</script>
+<!-- /SEARCH META -->
 </head>
 <body>
 <a class="skip" href="#main">Skip to legislation</a>
@@ -20,6 +30,7 @@
     <button data-view="tracker" class="nav-item active"><span aria-hidden="true">▤</span> Bill tracker <span class="nav-count" id="nav-total">–</span></button>
     <button data-view="watchlist" class="nav-item"><span aria-hidden="true">☆</span> My watchlist <span class="nav-count" id="nav-saved">0</span></button>
     <button data-view="activity" class="nav-item"><span aria-hidden="true">→</span> Activity</button>
+    <a class="nav-item" href="/news/"><span aria-hidden="true">✎</span> News watch</a>
     <button data-view="methodology" class="nav-item"><span aria-hidden="true">◎</span> Sources</button>
     <button data-view="about" class="nav-item"><span aria-hidden="true">◉</span> About Eric</button>
   </nav>
@@ -58,8 +69,9 @@
       </div>
     </div>
     <section id="other-content" hidden></section>
+    <section class="discovery-panel"><div><p class="eyebrow">RELIGIOUS LIBERTY IN TEXAS</p><h2>Follow the law.  Understand the issues.</h2><p>Texas Religious Liberty Watch follows religious freedom across faiths, from the Texas Legislature to courtrooms and public debate.  Explore daily state and national news links, official bill records, and an introduction to the legal sources.</p></div><div><a href="/news/">Daily religious liberty news →</a><a href="/religious-liberty/">Religious liberty: Texas & the United States →</a><a href="/about/">About Eric A. Hudson →</a></div></section>
     <div class="contact-strip"><button data-view="about">Eric A. Hudson <span>· Arambula Terrazas PLLC</span></button><div><a href="mailto:ehudson@atlawpllc.com">ehudson@atlawpllc.com</a><a href="tel:+15122949891">(512) 294-9891</a><a href="https://www.linkedin.com/in/txattorney" target="_blank" rel="noopener">LinkedIn →</a></div></div>
-    <footer><span>Texas Liberty Watch <b>✦</b> 90th Regular Session</span><span>All faiths.  Official sources.  Clear context.</span></footer>
+    <footer><a href="/news/">News watch →</a><span>Texas Liberty Watch <b>✦</b> 90th Regular Session</span><span>All faiths.  Official sources.  Clear context.</span></footer>
   </main>
 </div>
 <dialog id="bill-dialog" aria-labelledby="detail-title"><div id="detail"></div></dialog>
@@ -67,3 +79,4 @@
 <script src="app.js" defer></script>
 </body>
 </html>
+

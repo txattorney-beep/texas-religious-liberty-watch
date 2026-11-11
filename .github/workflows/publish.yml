@@ -24,9 +24,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate updater
+      - name: Validate site and updaters
         run: python -m unittest discover -s tests
       - name: Refresh official data through sine die
+        id: bills
+        continue-on-error: true
         shell: bash
         run: |
           today=$(TZ=America/Chicago date +%F)
@@ -35,6 +37,14 @@ jobs:
           else
             python scripts/sync_tlo.py --text
           fi
+      - name: Report retained bill snapshot
+        if: steps.bills.outcome == 'failure'
+        run: echo "::warning::Bill refresh failed. The prior bill snapshot is retained; news and article publishing will continue."
+      - name: Aggregate Texas and national religious liberty news
+        run: python scripts/sync_news.py
+      - name: Build news and search pages
+        run: |
+          python scripts/build_pages.py
       - name: Record enabled update mode
         run: |
           python - <<'PY'
@@ -48,9 +58,9 @@ jobs:
         run: |
           git config user.name "90R tracker update"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/data/bills.json
+          git add dist
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh official 90R bill snapshot"
+            git commit -m "Refresh bill data, news, and public pages"
             git push
           fi
       - name: Package portable source
@@ -69,3 +79,4 @@ jobs:
       - name: Publish GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

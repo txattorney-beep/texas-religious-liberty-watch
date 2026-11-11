@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /downloads/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /downloads/
+
+Sitemap: https://texasreligiouslibertywatch.org/sitemap.xml
