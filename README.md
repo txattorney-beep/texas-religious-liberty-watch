@@ -147,3 +147,11 @@ Open http://localhost:8000. Opening `index.html` directly with a `file:` URL may
 Calendar: prefiling November 9, 2026; opening January 12, 2027. March 12 and May 31 are the 60th and 140th days; filing exceptions and adopted session rules matter. Sources: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf and https://tcss.legis.texas.gov/resources/CN/htm/CN.3.htm.
 
 
+# Visitor analytics
+
+Cloudflare Web Analytics is enabled for `texasreligiouslibertywatch.org` through a public beacon in `dist/index.html`. The shared page builder carries it into the news, hearing, court, information, and 90R app pages. Do not add a second beacon or enable automatic injection in addition to this manual setup.
+
+Eric can access the private reports by signing into the existing Cloudflare account and opening **Web Analytics**, then **texasreligiouslibertywatch.org**. Reports include visits, page views, referring domains, countries, device types, and performance. Use the `/90r/` path filter for the app entry point; it includes browser visits to that URL as well as installed-app use, so it is not an installation count. Tracker hash views are not a reliable bill-level usage report.
+
+Collection starts when the beacon is deployed; it cannot recover earlier visits. Blocked scripts, offline visits, and browser restrictions can cause undercounting. Reports do not identify visitors by name or email, and the site does not send watchlists or personal notes to analytics. The public beacon identifier is not a Cloudflare login or API credential. Cloudflare currently provides a six-month reporting window.
+
