@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: texas-90r-publish
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   prepare:
