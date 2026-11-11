@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T22:03:18.209141+00:00",
-  "checkedAt": "2026-11-11T22:03:18.209141+00:00",
+  "updatedAt": "2026-11-11T22:30:22.410777+00:00",
+  "checkedAt": "2026-11-11T22:30:22.410777+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T22:03:18.209141+00:00",
+      "checkedAt": "2026-11-11T22:30:22.410777+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T22:03:18.209141+00:00",
+      "lastSuccessAt": "2026-11-11T22:30:22.410777+00:00",
       "count": 23
     },
     {
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T22:03:18.209141+00:00",
+      "checkedAt": "2026-11-11T22:30:22.410777+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T22:03:18.209141+00:00",
+      "lastSuccessAt": "2026-11-11T22:30:22.410777+00:00",
       "count": 41
     }
   ],
