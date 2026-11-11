@@ -7,6 +7,12 @@ from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
+try:
+    from .hearing_pages import hearing_page
+    from .ruling_pages import ruling_page
+except ImportError:
+    from hearing_pages import hearing_page
+    from ruling_pages import ruling_page
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://texasreligiouslibertywatch.org'
@@ -22,7 +28,7 @@ def shell(home, title, description, path, content, article=None):
     seo = f'<link rel="canonical" href="{canonical}">\n<meta property="og:title" content="{escape(title, quote=True)}">\n<meta property="og:description" content="{escape(description, quote=True)}">\n<meta property="og:url" content="{canonical}">\n<meta property="og:type" content="{"article" if article else "website"}">\n'
     if article:
         seo += f'<meta property="article:published_time" content="{article["date"]}">\n<meta property="article:author" content="{AUTHOR}">\n'
-    graph = {'@context':'https://schema.org', '@type':'CollectionPage' if path.startswith('/news/') else 'WebPage', 'name': title, 'description':description, 'url':canonical, 'publisher':PERSON}
+    graph = {'@context':'https://schema.org', '@type':'CollectionPage' if path.startswith(('/news/','/rulings/','/hearings/')) else 'WebPage', 'name': title, 'description':description, 'url':canonical, 'publisher':PERSON}
     seo += '<script type="application/ld+json">' + json.dumps(graph).replace('<', '\\u003c') + '</script>\n'
     page = page.replace('</head>', seo + '</head>')
     if not path.startswith('/news/'):
@@ -34,6 +40,10 @@ def shell(home, title, description, path, content, article=None):
     page = re.sub(r'<div id="toast".*?</div>', '', page)
     page = re.sub(r'<span class="nav-count".*?</span>', '', page)
     page = page.replace('class="nav-item active"', 'class="nav-item"')
+    if path.startswith('/hearings/'):
+        page = page.replace('class="nav-item" href="/hearings/"', 'class="nav-item active" aria-current="page" href="/hearings/"')
+    if path.startswith('/rulings/'):
+        page = page.replace('class="nav-item" href="/rulings/"', 'class="nav-item active" aria-current="page" href="/rulings/"')
     if path.startswith('/news/'):
         page = page.replace('class="nav-item" href="/news/"', 'class="nav-item active" aria-current="page" href="/news/"')
     page = re.sub(r'<button([^>]*?)data-view="([a-z]+)"([^>]*)>(.*?)</button>',
@@ -80,6 +90,14 @@ def build(root=ROOT):
     home = home_path.read_text()
     data = json.loads((root / 'dist/data/news.json').read_text())
     pages = dict(news_page(home, data, scope) for scope in (None, 'Texas', 'National'))
+    hearing_path = root / 'dist/data/hearings.json'
+    if hearing_path.exists():
+        hearings = json.loads(hearing_path.read_text())
+        pages['/hearings/'] = hearing_page(home, hearings, shell)
+    ruling_path = root / 'dist/data/rulings.json'
+    if ruling_path.exists():
+        rulings = json.loads(ruling_path.read_text())
+        pages['/rulings/'] = ruling_page(home, rulings, shell)
     resource_content = '''<section class="news-hero"><div><p class="eyebrow">THE ISSUES & THE SOURCES</p><h1>Religious liberty in Texas<br>and the United States.</h1><p>A starting point for following religious freedom, constitutional rights, legislation, and the public debate.</p></div></section><div class="resource-layout"><article class="content-card resource-copy"><h2>What this site follows</h2><p>Religious liberty questions reach beyond worship services.  They arise in education, public benefits, professional licensing, employment, land use, and the treatment of religious institutions.  Texas Religious Liberty Watch brings together official legislative records and daily news coverage to make those developments easier to follow.</p><p>The focus extends across faiths.  A proposed law affecting one religious community can raise questions relevant to others.  The tracker identifies measures for closer examination; inclusion does not express support or opposition.</p><h2>Texas legislation and state law</h2><p>The bill tracker covers the 90th Regular Session of the Texas Legislature.  It includes potentially relevant bills and proposed constitutional amendments, links to official text and history, and a personal watchlist.  A filed proposal is not an enacted law.  Review labels distinguish screened captions from reviewed text.</p><p>For the underlying Texas legal sources, start with <a href="https://tcss.legis.texas.gov/resources/CN/htm/CN.1.htm#1.6" target="_blank" rel="noopener">Texas Constitution article I, section 6</a>, and the <a href="https://tcss.legis.texas.gov/resources/CP/htm/CP.110.htm" target="_blank" rel="noopener">Texas Religious Freedom Restoration Act, Civil Practice and Remedies Code chapter 110</a>.  The official text is the source to consult when evaluating a particular provision.</p><h2>National developments</h2><p>The First Amendment addresses both the free exercise of religion and governmental establishment of religion.  Federal litigation and national policy debates can affect how religious liberty questions arise in Texas.  The <a href="https://www.archives.gov/founding-docs/bill-of-rights-transcript" target="_blank" rel="noopener">National Archives’ Bill of Rights transcript</a> provides the constitutional text.</p><p>Our news watch gathers Texas and national headlines with publisher attribution and links to the coverage.  Reporting, opinion, advocacy, proposed legislation, and court decisions are different kinds of sources.  Read the underlying text and relevant decisions before drawing conclusions about legal effect.</p><h2>Follow an issue from source to discussion</h2><ol><li>Find a proposal in the bill tracker and read its official text.</li><li>Save it to your browser’s watchlist and add private working notes.</li><li>Use the news watch to follow related reporting and public debate.</li><li>Check the linked official record for current legislative action.</li></ol></article><aside class="news-aside"><section class="contact-card"><p class="eyebrow">EXPLORE THE SITE</p><h2>Keep the sources close.</h2><a class="text-button light" href="/#tracker">Texas 90R bill tracker →</a><a class="text-button light" href="/news/texas/">Texas religious liberty news →</a><a class="text-button light" href="/news/national/">National religious liberty news →</a><a class="text-button light" href="/about/">About Eric Hudson →</a></section></aside></div>'''
     pages['/religious-liberty/'] = shell(home, 'Religious liberty in Texas and the United States', 'Follow religious liberty in Texas and nationally through official legislative sources, a 90R bill tracker, and daily religious freedom news.', '/religious-liberty/', resource_content)
     app = (root / 'dist/app.js').read_text()
@@ -113,4 +131,5 @@ def build(root=ROOT):
 
 if __name__ == '__main__':
     build()
+
 

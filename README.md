@@ -18,6 +18,20 @@ Search discovery: add this domain to Google Search Console and Bing Webmaster To
 
 The site uses Loyola University New Orleans' published maroon (#660000) and gold (#F4AA00) palette. It does not use the university's logo or claim university affiliation.
 
+## Hearings and notices
+
+`/hearings/` matches official House, Senate, and joint-committee 90R notices to tracked bills. It preserves conditional meeting times, links HTML and PDF notices, records detected revisions, marks explicit cancellations and agenda removals, and retains history. Disappearance from an upcoming list never establishes cancellation. Search by bill or committee, filter to your browser watchlist, and export CSV. Bill details link directly to a bill-filtered hearing view.
+
+The daily workflow runs `python scripts/sync_hearings.py`. It checks official upcoming-meeting RSS and HTML lists and rechecks previously matched current notices. Failures retain earlier details and show warnings. Only committee notices are ingested; floor calendars, witness lists, minutes, and testimony deadlines are not separately tracked. This is daily monitoring, not a real-time alert service. No matching 90R notices were available at initial setup on November 11, 2026.
+
+## Court rulings
+
+`/rulings/` contains a source-checked initial collection covering May 15 through November 11, 2026, and a rolling 180-day view. The scope is the U.S. Supreme Court, Fifth Circuit, federal district courts in Texas/Louisiana/Mississippi, and those states' indexed state-court opinions. Each checked case includes a blurb, date, docket, court, issue tags, posture, and source link. Procedural orders and related civil-remedies cases are labeled. This is a researched starting collection, not an exhaustive docket inventory or citator.
+
+`python scripts/sync_rulings.py` checks seven public CourtListener opinion feeds daily, without a key or paid service. New keyword matches appear automatically in a separate **Opinion matches** view with short source excerpts. They are not automatically represented as holdings, verified religious-liberty cases, or Eric Hudson's reviewed analysis. Feed limits and missing trial/emergency orders affect coverage. A successful feed check does not establish that every prior case remains good law. Failed feeds preserve discovered records within the rolling window. News, hearings, and court feeds continue after the bill-refresh window ends.
+
+To review a new case, read the actual opinion and relevant later orders, then add it to `court_editorial.json` using an existing entry's fields. Include the exact opinion date, court/group/state, docket, source URL, summary, posture note, topics, and `checkedAt`. `matchNames` contains exact alternative feed captions for the same ruling/date, so a reviewed entry replaces its feed match. Add irrelevant search-result URLs to `excludedUrls`. These editorial records remain in source control as the public rolling view advances. Re-run the court updater and page builder. Do not infer a holding from a search excerpt. Review later appeals or stays separately; the aggregator is not an automated citator.
+
 ## Publish for free on GitHub Pages
 
 1. Create a **public** repository in a free GitHub account.
@@ -25,7 +39,7 @@ The site uses Loyola University New Orleans' published maroon (#660000) and gold
 3. Open **Settings → Pages**. Select **GitHub Actions** under Build and deployment.
 4. If organization or account policy restricts writes, open **Settings → Actions → General → Workflow permissions**, select read/write permissions, and save. Branch protections may require adjustment or a pull-request update workflow.
 5. Open **Actions → Publish and update 90R tracker → Run workflow**. The successful deployment provides the `https://YOUR-ACCOUNT.github.io/YOUR-REPOSITORY/` address.
-6. Confirm the live snapshot date and the workflow result in Actions. Scheduled checks run at **13:37 UTC daily**, equivalent to 7:37 a.m. CST / 8:37 a.m. CDT. Automated source checks stop after May 31, 2027. The site remains available afterward.
+6. Confirm the live snapshot date and the workflow result in Actions. Scheduled checks run at **13:37 UTC daily**, equivalent to 7:37 a.m. CST / 8:37 a.m. CDT. Automated bill checks stop after May 31, 2027; news, court, and hearing checks continue. The site remains available afterward.
 
 Git alternative, from the extracted folder after creating an empty repository:
 
@@ -65,11 +79,13 @@ Run manually with Python 3.10+ and curl installed:
 python scripts/sync_tlo.py --text
 python -m unittest discover -s tests
 python scripts/sync_news.py
+python scripts/sync_hearings.py
+python scripts/sync_rulings.py
 python scripts/build_pages.py
 python scripts/package_starter.py
 ```
 
-The updater reads both 90R filed-legislation reports. It validates the session and expected record counts, screens captions using topic rules, retains previously tracked measures, and refreshes the latest available HTML text for tracked measures. A missing/incomplete report fails the update and preserves the previous snapshot. Individual text-fetch failures are recorded per bill. Histories, hearings, amendments, votes, and fiscal notes remain available through the official links; they are not all separately ingested.
+The updater reads both 90R filed-legislation reports. It validates the session and expected record counts, screens captions using topic rules, retains previously tracked measures, and refreshes the latest available HTML text for tracked measures. A missing/incomplete report fails the update and preserves the previous snapshot. Individual text-fetch failures are recorded per bill. Histories, amendments, votes, and fiscal notes remain available through official links. Committee hearings and notices are separately monitored as described above.
 
 `dist/data/bills.json` is generated. Edit `editorial.json` to add a reviewed summary, include a measure the rules missed, or exclude an irrelevant broad match. Add `"include": true` for a manually chosen bill or `"exclude": true` to remove a match. Keep every factual summary tied to a specific official text URL, section references, review date, and SHA-256 of the normalized text. The updater removes summaries when the latest text differs from the reviewed URL/hash, including changes made under the same URL. Do not mark a caption-only match as text reviewed.
 
@@ -117,4 +133,5 @@ Open http://localhost:8000. Opening `index.html` directly with a `file:` URL may
 - `tests/test_sync.py`: safeguards for data integrity and review invalidation.
 
 Calendar: prefiling November 9, 2026; opening January 12, 2027. March 12 and May 31 are the 60th and 140th days; filing exceptions and adopted session rules matter. Sources: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf and https://tcss.legis.texas.gov/resources/CN/htm/CN.3.htm.
+
 

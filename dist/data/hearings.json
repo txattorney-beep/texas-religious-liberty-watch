@@ -1,0 +1,57 @@
+{
+  "session": "90R",
+  "updatedAt": "2026-11-11T22:07:25.893186+00:00",
+  "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+  "status": "ok",
+  "trackedBillCount": 30,
+  "discoveredNoticeCount": 0,
+  "sources": [
+    {
+      "id": "house-rss",
+      "label": "House upcoming meeting feed",
+      "kind": "rss",
+      "url": "https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingshouse",
+      "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+      "status": "ok",
+      "noticeCount": 0
+    },
+    {
+      "id": "senate-rss",
+      "label": "Senate upcoming meeting feed",
+      "kind": "rss",
+      "url": "https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingssenate",
+      "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+      "status": "ok",
+      "noticeCount": 0
+    },
+    {
+      "id": "house-list",
+      "label": "House upcoming meeting notices",
+      "kind": "html",
+      "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=H",
+      "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+      "status": "ok",
+      "noticeCount": 0
+    },
+    {
+      "id": "senate-list",
+      "label": "Senate upcoming meeting notices",
+      "kind": "html",
+      "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=S",
+      "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+      "status": "ok",
+      "noticeCount": 0
+    },
+    {
+      "id": "joint-list",
+      "label": "Joint upcoming meeting notices",
+      "kind": "html",
+      "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=J",
+      "checkedAt": "2026-11-11T22:07:25.893186+00:00",
+      "status": "ok",
+      "noticeCount": 0
+    }
+  ],
+  "noticeErrors": [],
+  "events": []
+}

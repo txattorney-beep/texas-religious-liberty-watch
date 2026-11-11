@@ -1,0 +1,521 @@
+{
+  "version": 1,
+  "windowStart": "2026-05-15",
+  "windowEnd": "2026-11-11",
+  "windowDays": 180,
+  "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+  "updatedAt": "2026-11-11T22:26:35.012900+00:00",
+  "status": "ok",
+  "editorialCheckedAt": "2026-11-11",
+  "sources": [
+    {
+      "id": "scotus",
+      "label": "U.S. Supreme Court",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=scotus&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 3,
+      "returnedCount": 3,
+      "possiblyLimited": false
+    },
+    {
+      "id": "fifth",
+      "label": "Fifth Circuit",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=ca5&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 5,
+      "returnedCount": 5,
+      "possiblyLimited": false
+    },
+    {
+      "id": "tx-federal",
+      "label": "Texas federal district courts",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=txed+txnd+txsd+txwd&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 0,
+      "returnedCount": 0,
+      "possiblyLimited": false
+    },
+    {
+      "id": "la-ms-federal",
+      "label": "Louisiana & Mississippi federal district courts",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=laed+lamd+lawd+msnd+mssd&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 0,
+      "returnedCount": 0,
+      "possiblyLimited": false
+    },
+    {
+      "id": "tx-state",
+      "label": "Texas state courts",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=tex+texapp&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 4,
+      "returnedCount": 4,
+      "possiblyLimited": false
+    },
+    {
+      "id": "la-state",
+      "label": "Louisiana state courts",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=la+lactapp&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 0,
+      "returnedCount": 0,
+      "possiblyLimited": false
+    },
+    {
+      "id": "ms-state",
+      "label": "Mississippi state courts",
+      "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-15+TO+2026-11-11%5D&court=miss+missctapp&order_by=dateFiled+desc&type=o",
+      "checkedAt": "2026-11-11T22:26:35.012900+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-11T22:26:35.012900+00:00",
+      "count": 1,
+      "returnedCount": 1,
+      "possiblyLimited": false
+    }
+  ],
+  "rulings": [
+    {
+      "id": "domanic-20260930",
+      "name": "Domanic v. Christian Brothers Automotive Corporation",
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-09-30",
+      "docket": "25-20486",
+      "kind": "Published opinion",
+      "topics": [
+        "Religious discrimination",
+        "Civil remedies"
+      ],
+      "summary": "The court affirmed summary judgment for a Christian franchisor on a Jewish applicant’s § 1981 claim.  It distinguished religious discrimination from ancestry-based discrimination and found no evidence that the Christian-only franchise policy masked racial discrimination.  The majority did not decide the asserted ministerial-exception defense.",
+      "sourceUrl": "https://www.ca5.uscourts.gov/opinions/pub/25/25-20486-CV0.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "",
+      "matchNames": [
+        "Domanic v. Christian Brothers"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "young-mvsu-20260924",
+      "name": "Young v. Mississippi Valley State University",
+      "court": "U.S. District Court, Northern District of Mississippi",
+      "group": "Federal district",
+      "state": "Mississippi",
+      "date": "2026-09-24",
+      "docket": "4:25-cv-83-DMB-DAS · Doc. 34",
+      "kind": "Jurisdictional dismissal",
+      "topics": [
+        "Religious speech",
+        "Schools"
+      ],
+      "summary": "A graduate student alleged that her university restricted religious content in her academic work.  The court dismissed her claims against the university without prejudice because Eleventh Amendment immunity barred the suit.  It did not resolve the merits of the alleged First Amendment violation.",
+      "sourceUrl": "https://cases.justia.com/federal/district-courts/mississippi/msndce/4:2025cv00083/50876/34/0.pdf?ts=1790351109",
+      "sourceLabel": "Court opinion via Justia",
+      "statusNote": "",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "clemishire-20260918",
+      "name": "In re Cindy Clemishire and Jerry Lee Clemishire",
+      "court": "Supreme Court of Texas",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-09-18",
+      "docket": "26-1056",
+      "kind": "Temporary stay",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "The Texas Supreme Court granted temporary stay relief while considering a mandamus challenge to two church-autonomy decisions involving Gateway Church and the Morris defendants.  The order did not decide the merits of the ecclesiastical-abstention question.",
+      "sourceUrl": "https://www.txcourts.gov/media/1463341/supreme-court-of-texas-orders-09-18-2026.pdf",
+      "sourceLabel": "Official orders list",
+      "statusNote": "Stay issued September 18.  Later docket status has not been independently confirmed.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "doe-mcdonald-20260908",
+      "name": "Doe, as next friend of C.F. v. McDonald",
+      "court": "U.S. Supreme Court",
+      "group": "U.S. Supreme Court",
+      "state": "National",
+      "date": "2026-09-08",
+      "docket": "26A239",
+      "kind": "Emergency order",
+      "topics": [
+        "Free exercise",
+        "Schools"
+      ],
+      "summary": "The Court denied an application for an injunction pending appeal in a challenge concerning a religious exemption from school vaccination requirements.  Justices Alito and Gorsuch would have granted the application.  The unexplained order did not resolve the merits of the religious-liberty challenge.",
+      "sourceUrl": "https://www.supremecourt.gov/docket/docketfiles/html/public/26a239.html",
+      "sourceLabel": "Official docket and order",
+      "statusNote": "Emergency relief denied; no merits opinion.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "young-nhe-20260904",
+      "name": "Young v. NHE Inc.",
+      "court": "U.S. District Court, Northern District of Mississippi",
+      "group": "Federal district",
+      "state": "Mississippi",
+      "date": "2026-09-04",
+      "docket": "4:25-cv-201-DMB-DAS · Doc. 12",
+      "kind": "Procedural dismissal",
+      "topics": [
+        "Religious discrimination",
+        "Employment"
+      ],
+      "summary": "The court dismissed a former employee’s religious-discrimination and religious-speech claims.  The Title VII claim was untimely, and the complaint did not allege facts making the private employer a governmental actor subject to First Amendment restrictions.  The dismissal rested on those legal barriers rather than a trial determination of the discrimination allegations.",
+      "sourceUrl": "https://cases.justia.com/federal/district-courts/mississippi/msndce/4:2025cv00201/51786/12/0.pdf?ts=1788807264",
+      "sourceLabel": "Court opinion via Justia",
+      "statusNote": "",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "iblp-20260831",
+      "name": "In re Institute in Basic Life Principles, Inc.",
+      "court": "Texas Sixth Court of Appeals, Texarkana",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-08-31",
+      "docket": "06-26-00079-CV",
+      "kind": "Discovery mandamus",
+      "topics": [
+        "Church autonomy",
+        "Discovery"
+      ],
+      "summary": "The court conditionally granted mandamus directing the trial court to vacate an overbroad discovery order in a civil abuse-related lawsuit.  It resolved the dispute under procedural discovery rules rather than deciding IBLP’s constitutional objection.  It also instructed further proceedings to respect earlier guidance against inquiries into protected religious doctrine.",
+      "sourceUrl": "https://cases.justia.com/texas/sixth-court-of-appeals/2026-06-26-00079-cv.pdf?ts=1788184304",
+      "sourceLabel": "Court opinion via Justia",
+      "statusNote": "The constitutional question was not decided.  This was not a blanket religious privilege or immunity from suit.",
+      "matchNames": [
+        "In Re Institute in Basic Life Principles, Inc. v. the State of Texas"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "gateway-20260819",
+      "name": "In re Gateway Church, Willbanks, Fambro, and Minor",
+      "court": "Texas Fifth Court of Appeals, Dallas",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-08-19",
+      "docket": "05-25-01527-CV",
+      "kind": "Conditional mandamus",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "The court held that defamation-related claims against Gateway Church and three elders were inseparable from the church’s investigation and communications concerning its pastor.  It conditionally directed dismissal under ecclesiastical abstention.  The opinion expressly did not decide whether the challenged statement was defamatory.",
+      "sourceUrl": "https://search.txcourts.gov/SearchMedia.aspx?DT=Opinion&MediaID=31346071-3b01-4738-b5e5-36d57085d506&MediaVersionID=17a87b5e-a88a-4e8f-9a65-5f43bcddec36&coa=coa05",
+      "sourceLabel": "Court opinion",
+      "statusNote": "Later development: the Texas Supreme Court issued a stay on September 18, 2026.  Later docket status has not been independently confirmed.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "relatedUrl": "https://www.txcourts.gov/media/1463341/supreme-court-of-texas-orders-09-18-2026.pdf",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "anyanwu-20260818",
+      "name": "Anyanwu v. City of San Antonio (CPS Energy)",
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-08-18",
+      "docket": "25-50791",
+      "kind": "Unpublished opinion",
+      "topics": [
+        "Religious discrimination",
+        "Employment"
+      ],
+      "summary": "The court affirmed summary judgment on a former employee’s federal and Texas discrimination claims, including religion.  Disagreement with an independent workplace investigation did not create a genuine factual dispute that the stated reason for termination was a pretext for discrimination.",
+      "sourceUrl": "https://www.ca5.uscourts.gov/opinions/unpub/25/25-50791.0.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "The opinion is not designated for publication.  It addresses proof of discrimination, rather than a religious-accommodation claim.",
+      "matchNames": [
+        "Anyanwu v. City of San Antonio"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "hamilton-grove-20260728",
+      "name": "Greater New Hamilton Grove Baptist Church v. Hamilton Grove Missionary Baptist Church",
+      "court": "Court of Appeals of Mississippi",
+      "group": "State court",
+      "state": "Mississippi",
+      "date": "2026-07-28",
+      "docket": "2025-CA-01008-COA",
+      "kind": "Procedural dismissal",
+      "topics": [
+        "Church autonomy"
+      ],
+      "summary": "A church and trustee argued that ecclesiastical abstention barred judicial intervention in a disputed cemetery burial.  The Court of Appeals dismissed their appeal as moot because the challenged injunction had already been dissolved and the underlying matter dismissed without prejudice.  It did not decide whether ecclesiastical abstention applied.",
+      "sourceUrl": "https://www.courts.ms.gov/appellatecourts/Opinions/CO193740.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "Religious-liberty question not reached.",
+      "matchNames": [
+        "Greater New Hamilton Grove Baptist Church and Tommie Burns v. Hamilton Grove Missionary Baptist Church"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "jeremiah-20260715",
+      "name": "Jeremiah Counsel Corporation v. Young",
+      "court": "Texas Business Court, Eleventh Division",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-07-15",
+      "docket": "25-BC11B-0031 · 2026 Tex. Bus. 46",
+      "kind": "Mixed summary judgment order",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "In a dispute over Second Baptist Church of Houston’s governance, the court barred claims requiring it to evaluate religious descriptions or second-guess ecclesiastical decisions.  It separately applied neutral corporate-law principles, invalidating a 2023 amendment to the church’s articles while rejecting the challenge to its bylaws.  The mixed ruling illustrates the boundary between protected church autonomy and enforceable secular corporate requirements.",
+      "sourceUrl": "https://www.txcourts.gov/media/1463075/25-bc11b-0031-jeremiah-counsel-v-young-2026-tex-bus-46.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "An accounting claim remained; the order did not dismiss the entire lawsuit.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "sai-temple-20260714",
+      "name": "Sri Shirdi Sai Baba Temple of Austin v. Lam",
+      "court": "Texas Business Court, Third Division",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-07-14",
+      "docket": "25-BC03A-0020 · 2026 Tex. Bus. 45",
+      "kind": "Summary judgment order",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "The court held that neutral Texas corporate law could resolve a temple’s governance dispute without deciding religious questions.  Its certificate of formation controlled over conflicting bylaws that purported to shift management from directors to members.  The court granted defendants’ summary-judgment motion and denied plaintiffs’ motion, while leaving attorney’s fees for later determination.",
+      "sourceUrl": "https://www.txcourts.gov/media/1463060/25-bc03a-0020-sri-shirdi-sai-baba-temple-of-austin-v-lam-2026-tex-bus-45.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "Attorney’s fees remained pending; this was not a final judgment.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "young-coffeeville-20260625",
+      "name": "Young v. Town of Coffeeville",
+      "court": "U.S. District Court, Northern District of Mississippi",
+      "group": "Federal district",
+      "state": "Mississippi",
+      "date": "2026-06-25",
+      "docket": "3:25-cv-49-DAS · Doc. 108",
+      "kind": "Summary judgment",
+      "topics": [
+        "Religious speech",
+        "Employment"
+      ],
+      "summary": "The court rejected an unpaid municipal intern’s claims arising from restrictions on unsolicited religious discussions with town-hall visitors.  It found insufficient evidence of municipal liability or an underlying First Amendment violation and credited the town’s interest in efficient public services.  Any Title VII theory had been abandoned and also failed because the internship was unpaid.",
+      "sourceUrl": "https://cases.justia.com/federal/district-courts/mississippi/msndce/3:2025cv00049/50377/108/0.pdf?ts=1782748524",
+      "sourceLabel": "Court opinion via Justia",
+      "statusNote": "",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "davis-20260625",
+      "name": "Davis v. Guerrero",
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-06-25",
+      "docket": "24-70008",
+      "kind": "Published opinion",
+      "topics": [
+        "Religious belief",
+        "Criminal sentencing",
+        "Federal habeas"
+      ],
+      "summary": "The court affirmed denial of habeas relief to a Texas death-row prisoner who challenged the use of his Satanist affiliation and materials at sentencing.  Applying AEDPA’s deferential standard, it held that the state court’s rejection of his First Amendment claim did not conflict unreasonably with clearly established Supreme Court law.",
+      "sourceUrl": "https://www.ca5.uscourts.gov/opinions/pub/24/24-70008-CV1.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "This is a deferential federal habeas decision, not a general authorization to punish religious belief.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "epic-tips-20260624",
+      "name": "East Plano Islamic Center v. Texas Funeral Services Commission",
+      "court": "U.S. District Court, Western District of Texas",
+      "group": "Federal district",
+      "state": "Texas",
+      "date": "2026-06-24",
+      "docket": "1:25-cv-01085-DAE · Doc. 58",
+      "kind": "Motion to dismiss denied",
+      "topics": [
+        "Free exercise",
+        "Equal protection"
+      ],
+      "summary": "The court allowed EPIC’s individual-capacity claims against former commission presiding officer Kristin Tips to proceed.  It held that allegations of religiously discriminatory enforcement against Islamic funeral rites sufficiently pleaded violations of clearly established Free Exercise and Equal Protection rights.  This denied Tips’s motion to dismiss; it was not a final finding that all allegations were proved.",
+      "sourceUrl": "https://storage.courtlistener.com/recap/gov.uscourts.txwd.1172854890/gov.uscourts.txwd.1172854890.58.0.pdf",
+      "sourceLabel": "Filed court order via RECAP",
+      "statusNote": "This order addressed Tips’s motion.  It reserved the commission defendants’ separate motion.",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "landor-20260623",
+      "name": "Landor v. Louisiana Department of Corrections and Public Safety",
+      "court": "U.S. Supreme Court",
+      "group": "U.S. Supreme Court",
+      "state": "National",
+      "date": "2026-06-23",
+      "docket": "23-1197 · 609 U.S. 59",
+      "kind": "Merits opinion",
+      "topics": [
+        "RLUIPA",
+        "Prisons",
+        "Civil remedies"
+      ],
+      "summary": "The Court affirmed dismissal of a Rastafarian prisoner’s RLUIPA damages claims against Louisiana corrections officers who allegedly forcibly shaved his head.  Because the officers had not knowingly and voluntarily agreed to personal liability under the statute’s federal-funding conditions, the Spending Clause did not permit those claims.  The Court did not decide whether RLUIPA otherwise authorizes money damages.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r55_h315.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "",
+      "matchNames": [
+        "Landor v. Louisiana Department of Corrections",
+        "Landor v. Louisiana Dept. of Corrections and Public Safety",
+        "Landor v. Louisiana Dept of Corrections and Public Safety Revisions: 6/24/26"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "cisco-20260623",
+      "name": "Cisco Systems, Inc. v. Doe",
+      "court": "U.S. Supreme Court",
+      "group": "U.S. Supreme Court",
+      "state": "National",
+      "date": "2026-06-23",
+      "docket": "24-856 · 609 U.S. 141",
+      "kind": "Merits opinion",
+      "topics": [
+        "Religious persecution",
+        "Civil remedies"
+      ],
+      "summary": "Falun Gong practitioners alleged that Cisco supplied surveillance technology enabling religious persecution in China.  The Court reversed and remanded, holding that federal courts cannot create new causes of action under the Alien Tort Statute for violations of international norms and that the Torture Victim Protection Act does not authorize aiding-and-abetting liability.",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/25pdf/609us1r57_db8e.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "A civil-remedies decision involving religious-persecution allegations, rather than a domestic Free Exercise holding.",
+      "matchNames": [
+        "Cisco Systems v. Doe"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "leach-20260623",
+      "name": "Leach v. Gateway Church",
+      "court": "U.S. District Court, Eastern District of Texas",
+      "group": "Federal district",
+      "state": "Texas",
+      "date": "2026-06-23",
+      "docket": "4:24-cv-00885-ALM · Doc. 101",
+      "kind": "Dismissal order",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "The court dismissed congregants’ claims challenging Gateway Church’s allocation of donated tithes.  Applying Fifth Circuit church-autonomy precedent, it concluded that deciding whether spending fulfilled the church’s religious mission would require an impermissible inquiry into ecclesiastical matters.  The ruling closed the civil action; it did not adjudicate whether the alleged financial misconduct occurred.",
+      "sourceUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-txed-4_24-cv-00885/pdf/USCOURTS-txed-4_24-cv-00885-1.pdf",
+      "sourceLabel": "Court opinion on GovInfo",
+      "statusNote": "",
+      "matchNames": [],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    },
+    {
+      "id": "lutheran-20260604",
+      "name": "The Lutheran Church–Missouri Synod v. Christian",
+      "court": "U.S. Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-06-04",
+      "docket": "25-50130",
+      "kind": "Published opinion",
+      "topics": [
+        "Church autonomy",
+        "Religious governance"
+      ],
+      "summary": "The court revived the denomination’s suit concerning Concordia University Texas’s separation from church governance.  It held that the jurisdictional dismissal improperly substituted a secular interpretation of the church’s religious structure and remanded for further proceedings.  The decision did not finally resolve control or ownership.",
+      "sourceUrl": "https://www.ca5.uscourts.gov/opinions/pub/25/25-50130-CV0.pdf",
+      "sourceLabel": "Court opinion",
+      "statusNote": "",
+      "matchNames": [
+        "Lutheran Church v. Christian"
+      ],
+      "checkedAt": "2026-11-11",
+      "reviewState": "Source checked"
+    }
+  ],
+  "matches": [
+    {
+      "id": "cl-e9018e7c6abdd16c",
+      "name": "Olibris v. Blanche",
+      "court": "Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-08-14",
+      "sourceUrl": "https://www.courtlistener.com/opinion/10948818/olibris-v-blanche/",
+      "sourceLabel": "CourtListener opinion",
+      "excerpt": "terrorist activities; foreign policy; genocide; religious freedom violations; and recruitment of child soldiers",
+      "reviewState": "Opinion match",
+      "feedIds": [
+        "fifth"
+      ],
+      "firstSeenAt": "2026-11-11T22:22:33.522470+00:00"
+    },
+    {
+      "id": "cl-534d5ba2cadb5117",
+      "name": "Justin Barrett Frazell v. the State of Texas",
+      "court": "Texas Court of Appeals, 2nd District (Fort Worth)",
+      "group": "State court",
+      "state": "Texas",
+      "date": "2026-07-02",
+      "sourceUrl": "https://www.courtlistener.com/opinion/10913203/justin-barrett-frazell-v-the-state-of-texas/",
+      "sourceLabel": "CourtListener opinion",
+      "excerpt": "of both the First Amendment and the Texas Religious Freedom Restoration Act. We do not consider this",
+      "reviewState": "Opinion match",
+      "feedIds": [
+        "tx-state"
+      ],
+      "firstSeenAt": "2026-11-11T22:22:33.522470+00:00"
+    }
+  ]
+}

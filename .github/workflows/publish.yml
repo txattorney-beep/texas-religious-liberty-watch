@@ -42,7 +42,11 @@ jobs:
         run: echo "::warning::Bill refresh failed. The prior bill snapshot is retained; news and article publishing will continue."
       - name: Aggregate Texas and national religious liberty news
         run: python scripts/sync_news.py
-      - name: Build news and search pages
+      - name: Update hearings and committee notices
+        run: python scripts/sync_hearings.py
+      - name: Aggregate court opinion matches
+        run: python scripts/sync_rulings.py
+      - name: Build news, hearing, court, and search pages
         run: |
           python scripts/build_pages.py
       - name: Record enabled update mode
@@ -60,7 +64,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dist
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh bill data, news, and public pages"
+            git commit -m "Refresh bills, hearings, news, court opinions, and public pages"
             git push
           fi
       - name: Package portable source
@@ -79,4 +83,5 @@ jobs:
       - name: Publish GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
