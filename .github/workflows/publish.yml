@@ -25,7 +25,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate site and updaters
-        run: python -m unittest discover -s tests
+        run: |
+          python -m unittest discover -s tests
+          node --test tests/pwa.test.cjs
       - name: Refresh official data through sine die
         id: bills
         continue-on-error: true

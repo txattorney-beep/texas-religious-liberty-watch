@@ -10,9 +10,11 @@ from zoneinfo import ZoneInfo
 try:
     from .hearing_pages import hearing_page
     from .ruling_pages import ruling_page
+    from .app_pages import app_pages
 except ImportError:
     from hearing_pages import hearing_page
     from ruling_pages import ruling_page
+    from app_pages import app_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://texasreligiouslibertywatch.org'
@@ -90,6 +92,8 @@ def build(root=ROOT):
     home = home_path.read_text()
     data = json.loads((root / 'dist/data/news.json').read_text())
     pages = dict(news_page(home, data, scope) for scope in (None, 'Texas', 'National'))
+    if (root / 'dist/90r/manifest.webmanifest').exists():
+        pages.update(app_pages(home, shell))
     hearing_path = root / 'dist/data/hearings.json'
     if hearing_path.exists():
         hearings = json.loads(hearing_path.read_text())

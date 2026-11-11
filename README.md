@@ -111,6 +111,18 @@ Example review fields (use real reviewed content and the actual hash):
 
 To compute a review hash, use `hashlib.sha256(clean(fetch(url)).encode()).hexdigest()` from `scripts/sync_tlo.py`. Fetch and read the text before recording a review. The keyword screen is intentionally broad and can miss substantive provisions absent from captions. New unreviewed measures carry official captions, not machine-generated legal conclusions. Review the queue regularly.
 
+## Phone website and installable 90R app
+
+The full website is responsive for phone browsers. `/90r/` is a separate, installable **90R-only** tracker with the existing bill list, personal watchlist, activity, sources, and author information. It excludes news and court pages from the app navigation. Linked hearing notices open separately on the website. `/90r/install/`, linked as **Install 90R app** across the site, has iPhone Safari and Samsung Chrome/Samsung Internet instructions. iOS uses Share → Add to Home Screen; compatible Android browsers also expose a native install prompt.
+
+The manifest's identity, launch URL, shortcuts, and scope are confined to `/90r/`. The service worker is `/90r/sw.js` with `/90r/` scope. The normal website does not register it. The app reads the same `/data/bills.json`; no separate bill updater, account, API key, app-store listing, or payment is required. Device installation still requires the visitor's confirmation.
+
+The worker caches only the 90R app pages, shared visual/code assets, and the bill snapshot. All intercepted requests try the network first with browser-cache bypass; successful responses replace the saved copy. Offline or server-error fallbacks preserve the last snapshot and display a saved-content notice. External official records, news, court data, and hearing pages are not cached by the app. Offline availability depends on a successful initial online visit and retained browser storage. Existing watchlist storage is preserved; iOS/browser/installed-app storage may differ, so use the existing backup/restore controls to transfer notes when needed. There is no cross-device sync or push notification service.
+
+For future app-code changes, bump `CACHE_NAME` in `dist/90r/sw.js` if the offline asset set changes. The new worker waits and presents an **Update app** button before reloading an existing session. Daily data does not require a new worker version because data is network-first. New snapshots load on an online page load or refresh, rather than a phone background job. Extend the app archive policy deliberately after sine die.
+
+Validation: `python -m unittest discover -s tests` and `node --test tests/pwa.test.cjs`. Rebuild the static pages with `python scripts/build_pages.py`. PNG icons include 192px, 512px, a maskable 512px image, and a 180px Apple touch icon derived from the existing maroon-and-gold star.
+
 ## Personal watchlists
 
 Stars and notes live only in browser `localStorage`, not on the server. They do not synchronize between devices. Use **Sources & method → Download personal backup / Restore personal backup** to transfer them. CSV export includes the filtered records and personal notes. No email subscriptions, analytics, or third-party trackers are included.

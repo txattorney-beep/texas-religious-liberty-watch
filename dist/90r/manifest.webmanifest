@@ -1,0 +1,22 @@
+{
+  "id": "/90r/",
+  "name": "Texas 90R Liberty Tracker",
+  "short_name": "90R Watch",
+  "description": "Religious liberty bill tracking and personal watchlists for the 90th Texas Legislature.",
+  "lang": "en-US",
+  "start_url": "/90r/",
+  "scope": "/90r/",
+  "display": "standalone",
+  "background_color": "#f4ead7",
+  "theme_color": "#660000",
+  "icons": [
+    {"src": "/90r/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/90r/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/90r/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "90R bill tracker", "url": "/90r/#tracker"},
+    {"name": "My 90R watchlist", "url": "/90r/#watchlist"}
+  ],
+  "prefer_related_applications": false
+}
