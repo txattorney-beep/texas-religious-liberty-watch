@@ -24,7 +24,7 @@ To change the news searches, edit `FEEDS` and `TERMS` in `scripts/sync_news.py`.
 
 `python scripts/sync_news.py` refreshes the snapshot. `python scripts/build_pages.py` generates crawlable news pages, a static author profile, a religious-liberty resource page, canonical metadata, structured data, robots.txt, and sitemap.xml. Source records are in `dist/data/news.json`. There is no personal article-publishing section at present.
 
-Search discovery: add this domain to Google Search Console and Bing Webmaster Tools, then submit `https://texasreligiouslibertywatch.org/sitemap.xml`. These account-side steps are not completed by deploying the site. Google and AI search inclusion and rankings are not guaranteed. OAI-SearchBot and standard search crawlers are permitted. No special AI markup or keyword stuffing is used.
+Search discovery status (November 11, 2026): Google Search Console domain ownership is verified through the Cloudflare DNS TXT record. Google has successfully read `https://texasreligiouslibertywatch.org/sitemap.xml` and discovered all 10 submitted pages. Preserve the verification TXT record. Bing Webmaster Tools account verification remains pending. Sitemap processing is distinct from page indexing; account-side URL Inspection requests are separate from deployment. Google and AI search inclusion and rankings are not guaranteed. OAI-SearchBot and standard search crawlers are permitted. No special AI markup or keyword stuffing is used.
 
 The site uses Loyola University New Orleans' published maroon (#660000) and gold (#F4AA00) palette. It does not use the university's logo or claim university affiliation.
 
@@ -135,7 +135,7 @@ Validation: `python -m unittest discover -s tests` and `node --test tests/pwa.te
 
 ## Personal watchlists
 
-Stars and notes live only in browser `localStorage`, not on the server. They do not synchronize between devices. Use **Sources & method → Download personal backup / Restore personal backup** to transfer them. CSV export includes the filtered records and personal notes. No email subscriptions, analytics, or third-party trackers are included.
+Stars and notes live only in browser `localStorage`, not on the server. They do not synchronize between devices. Use **Sources & method → Download personal backup / Restore personal backup** to transfer them. CSV export includes the filtered records and personal notes. No email subscriptions or server-side watchlist storage are included. Aggregate Cloudflare Web Analytics is described below.
 
 ## Preview locally
 
