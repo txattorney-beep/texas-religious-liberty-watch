@@ -19,6 +19,8 @@ concurrency:
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    outputs:
+      published_sha: ${{ steps.snapshot.outputs.sha }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
@@ -61,6 +63,7 @@ jobs:
           p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
           PY
       - name: Save snapshot to repository
+        id: snapshot
         run: |
           git config user.name "90R tracker update"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -69,6 +72,7 @@ jobs:
             git commit -m "Refresh bills, hearings, news, court opinions, and public pages"
             git push
           fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Package portable source
         run: python scripts/package_starter.py
       - uses: actions/configure-pages@v5
@@ -85,5 +89,24 @@ jobs:
       - name: Publish GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.prepare.outputs.published_sha }}
+      - name: Notify search engines of published changes
+        id: indexnow
+        continue-on-error: true
+        run: python scripts/submit_indexnow.py
+      - name: Save search notification receipt
+        if: steps.indexnow.outcome == 'success'
+        run: |
+          git config user.name "90R tracker update"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f search/indexnow-state.json ]; then
+            git add search/indexnow-state.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Record received IndexNow notifications"
+              git push origin HEAD:main
+            fi
+          fi
 
 

@@ -2,6 +2,16 @@
 
 A portable static website for religious-liberty bill monitoring across faiths in the 90th Texas Legislature. No paid API, database, or JavaScript build tooling is required.
 
+**Live website:** [Texas Religious Liberty Watch](https://texasreligiouslibertywatch.org/). [90R phone app](https://texasreligiouslibertywatch.org/90r/). [Sitemap](https://texasreligiouslibertywatch.org/sitemap.xml).
+
+## Search notifications
+
+After each successful deployment, `scripts/submit_indexnow.py` notifies IndexNow about newly published or changed sitemap pages. Bing and other participating search engines share these notifications. Google Search Console verification, sitemap submission, and URL Inspection remain separate account steps; IndexNow does not complete them or guarantee indexing.
+
+The script verifies the published ownership file before submitting, includes bill data when checking the JavaScript tracker for changes, and stores the HTTP receipt and fingerprints in `search/indexnow-state.json` only after HTTP 200 or 202. HTTP 202 means key validation is pending. Failed requests do not prevent site deployment and remain eligible for the next publication. Use `python scripts/submit_indexnow.py --dry-run` to inspect pending URLs without sending them.
+
+For a copied deployment, replace the host and key file in `search/indexnow.json`, generate a new 32-character hexadecimal key, and publish the matching root text file on your own domain before enabling notifications. Remove any copied submission-state file. The key is for IndexNow ownership verification only; it grants no access to GitHub, Cloudflare, or the search-console accounts.
+
 The initial November 11, 2026 snapshot screens 1,378 official captions, retains 30 potentially relevant measures, and includes nine summaries of identified introduced bill texts. This is a caption-based review queue, not a complete full-text census. All bill records link to Texas Legislature Online.
 
 ## Daily religious liberty news
