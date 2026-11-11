@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T21:48:11.625684+00:00",
-  "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+  "updatedAt": "2026-11-11T21:58:30.249082+00:00",
+  "checkedAt": "2026-11-11T21:58:30.249082+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+      "checkedAt": "2026-11-11T21:58:30.249082+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T21:48:11.625684+00:00",
+      "lastSuccessAt": "2026-11-11T21:58:30.249082+00:00",
       "count": 22
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T21:48:11.625684+00:00",
+      "checkedAt": "2026-11-11T21:58:30.249082+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T21:48:11.625684+00:00",
-      "count": 42
+      "lastSuccessAt": "2026-11-11T21:58:30.249082+00:00",
+      "count": 41
     }
   ],
   "items": [
@@ -255,11 +255,9 @@
       "publisher": "USA Today",
       "publishedAt": "2026-11-07T11:04:00+00:00",
       "scopes": [
-        "National",
         "Texas"
       ],
       "feedIds": [
-        "national",
         "texas"
       ]
     },
@@ -506,19 +504,6 @@
       ]
     },
     {
-      "id": "86a992e7200de93e",
-      "title": "LGBTQ+ rights vs. religious liberty: Why Colorado is 'ground zero'",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbzRiai1YTkxHM1dGNFBGZVZnNUx5WmIwU3B0ZWZQNVRXRzBMY18tT3owR1dQdERrMW5rUTdQZ0l4VF9uUGk0dEZkUkpiQURlYnVrZTRWNzlDR3dqY0FKZlBlMFhRVUQ4eHFEblJpVFlEVEVucHdQUEZBU1lIeDl5RWxORmpVMm9VRzI2X0RDVDlBek5mRzJSZE5tdzYyZUdoT1RVSXJ4WGs0anFMdDZ3WEpEUzdpTFk5UDkzXzRmSU9yenN2?oc=5",
-      "publisher": "USA Today",
-      "publishedAt": "2026-11-01T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "08843931f1c6397f",
       "title": "Utah State football players, fans targeted by religious discrimination at Texas State game",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMWFoWEhIMTc2RUQ0OHlYS2JDWUFlYnRybTJheDREdmd1WmhqelFCZDk1WnN4cUJ5SFphc21DamRHTnV6RmZRMXVEQW43Tk50Yks0Z2R2ZGpJUFpiVlhGMW5OV3JHaW9DVXg3dmpOejBkWTRuSW1YSFgzclJmWU5mWmFwMWJvUHE2WmJOYU5WdXpHZldNNmhPTTFQRTVnY205aXlGR0FmTXhSZVg0Y29jNm9jUXBHQ2dq?oc=5",
@@ -746,6 +731,19 @@
       "title": "Florida’s attorney general fights for religious freedom. Has he crossed a line?",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEkteS1WUlpOVUtvOExHR3RlZkZLZFFYdlZGb2NBcDloTnltTWFaU0xycThqZVRkeE50d181SXk1RXBUYl9qUk52eGV5NlA3LWZEOUhTSGhiV0JnemtFTEVtTFFhak5LeC1iTWsxZ1N3Z3AtZWhQa2JDZ3pITFJhdDV0clJRQlRpd1U3dkF4UE1mRGvSAZMBQVVfeXFMTmdsNWlhUVhrdTNqNTdZZThrc3pBMVV1alJCbm1oOHNUcHM2Rmx3Q3JyNzZ1UlM2U3hLWDNaclhudEZIanBtNXJJQXZpQTVvNkpuajE2bHdaU0NlRnlEZ2Q0NXdyRW5xMUQyQktqeUh6U2oxVk9tLVloZzh2WDhJUV9MY0llWGZMU2MyZlRLRWQyZU13?oc=5",
       "publisher": "Miami Herald",
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "1b24251aefb0f839",
+      "title": "Defending Religious Freedom: Luke Goodrich | The World Over with Raymond Arroyo | October 15, 2026",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQODJSQzVZQnM1c2xvc2NTV3lxdGlxeWxyVjlWblY1VzBXTzZvSTlQQmZrN0pXUTd1Njc3NW5sd2VJRnNjcEJwUGtHdVluMVJEdjFOajd3Z3JuZDY4X1ZXSTRvUUh6eGdzU2o0X3ppM3Rvdm9GWXJXWWxzNXNnZlBOTk1pa0M2aE5oWnVQLS1OWUl6NHZ5eU95dEctZi01NmNDWkRHdzB5OVdVdWpLRmdoQVNWSjFCSms?oc=5",
+      "publisher": "EWTN Great Britain",
       "publishedAt": "2026-10-15T07:00:00+00:00",
       "scopes": [
         "National"
