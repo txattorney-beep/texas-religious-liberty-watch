@@ -1,0 +1,72 @@
+name: Publish and update 90R tracker
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+  schedule:
+    - cron: '37 13 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: texas-90r-publish
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate updater
+        run: python -m unittest discover -s tests
+      - name: Refresh official data through sine die
+        if: github.event_name != 'push'
+        shell: bash
+        run: |
+          today=$(TZ=America/Chicago date +%F)
+          if [[ "$today" > "2027-05-31" ]]; then
+            echo "The regular-session update window has ended. Publishing the stored snapshot."
+          else
+            python scripts/sync_tlo.py --text
+          fi
+      - name: Record enabled update mode
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('dist/data/bills.json')
+          d=json.loads(p.read_text()); d['updateMode']='github-actions'
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Save snapshot to repository
+        run: |
+          git config user.name "90R tracker update"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data/bills.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh official 90R bill snapshot"
+            git push
+          fi
+      - name: Package portable source
+        run: python scripts/package_starter.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

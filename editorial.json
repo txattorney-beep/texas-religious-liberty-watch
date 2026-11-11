@@ -1,0 +1,140 @@
+{
+  "HCR13": {
+    "exclude": true
+  },
+  "HB931": {
+    "exclude": true
+  },
+  "HB236": {
+    "title": "Muslim Heritage Day",
+    "summary": "Would designate February 4 as Muslim Heritage Day in recognition of Muslim Americans’ contributions to Texas, with observance through appropriate ceremonies and activities.",
+    "relevance": "Tracks a proposal expressly recognizing a Muslim community observance. This is a commemorative measure, not a new religious-exercise cause of action.",
+    "sections": "Section 1",
+    "topics": [
+      "Faith communities"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00236I.htm",
+    "reviewedTextHash": "d30545dcd83704235b2535550fe81f65e17dbae98aabd19f300b213656c2d56a"
+  },
+  "HB242": {
+    "title": "Marriage-related conscience protections",
+    "summary": "Would extend the marriage-related religious protections in Family Code sections 2.601 and 2.602 to individuals generally. Protected refusals would include services, goods, accommodations, and facilities, with protections against specified civil actions and government penalties or loss of benefits.",
+    "relevance": "Directly concerns conscience protections and the interaction between religious objections, private civil claims, and government benefits.",
+    "sections": "Sections 1–3",
+    "topics": [
+      "Conscience & licensing",
+      "Religious exercise",
+      "Equal treatment"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00242I.htm",
+    "reviewedTextHash": "2b7ae6f70532a67a312f2e3c81323c2722c98a2b88654453f87e2468869905dd"
+  },
+  "HB317": {
+    "title": "Faith-based foster-care facilities",
+    "summary": "Would create a framework for religious organizations to operate round-the-clock facilities for children in state conservatorship. It provides for faith-family programs, a grant program, exemption from ordinary child-care licensing rules, and separate minimum standards and periodic evaluations.",
+    "relevance": "Raises questions about access to public support for religious providers, differing regulatory requirements, and protections for children placed in religious settings.",
+    "sections": "Articles 2–3",
+    "topics": [
+      "Religious exercise",
+      "Conscience & licensing"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00317I.htm",
+    "reviewedTextHash": "da1753c8891836384a8ccb9e401fdcecc130f4238396075467f73ec0ba12572d"
+  },
+  "HB324": {
+    "title": "ESA schools: disability-service disclosures",
+    "summary": "Would require a participating private school to post its disability services and accommodations online, along with a statement that it is not required to provide services in the manner prescribed by an IEP or Section 504 plan. The new condition would apply beginning with the 2027–2028 school year.",
+    "relevance": "Changes the conditions for private schools, including religious schools, to participate in the education savings account program.",
+    "sections": "Sections 1–2",
+    "topics": [
+      "Schools & education"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00324I.htm",
+    "reviewedTextHash": "50a4c7820c46a848b4f673d81ebe73773ff25c32c3002d8196f31dfe21200e6d"
+  },
+  "HB580": {
+    "title": "ESA schools: federal disability-law conditions",
+    "summary": "Would add compliance with IDEA, ADA Title II, and Section 504 to the conditions for private-school participation in the education savings account program, beginning with the 2027–2028 school year.",
+    "relevance": "The proposed funding condition warrants review for its effect on participating religious schools and the obligations attached to program participation.",
+    "sections": "Sections 1–2",
+    "topics": [
+      "Schools & education",
+      "Equal treatment"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00580I.htm",
+    "reviewedTextHash": "8366966e05bd00016a92d7ad35779befb487c58be558bdd1911b2a8736e02e05"
+  },
+  "HB916": {
+    "title": "ESA schools: medical-absence disclosures",
+    "summary": "Would require participating private schools to disclose whether they accept students with frequent medically necessary absences and what accommodations they provide. Disclosures would appear on the website, in application materials, and in the enrollment contract.",
+    "relevance": "Affects participation requirements for private schools, including religious schools. The proposal concerns disclosure rather than a specific religious classification.",
+    "sections": "Sections 1–2",
+    "topics": [
+      "Schools & education"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00916I.htm",
+    "reviewedTextHash": "d47ecdde039225f6e3ebf9b8bd4b735038d03b3827246c7bcd1c393c6dd6883c"
+  },
+  "HJR47": {
+    "title": "Constitutional protection for private-school programs",
+    "summary": "Would propose a constitutional amendment barring state and local government, including the Legislature, from regulating a private school’s educational program, including a home school’s program. It proposes submission to voters on November 2, 2027.",
+    "relevance": "Could affect the autonomy of religious and other private schools. This is a proposed constitutional amendment and would require the applicable legislative and voter approvals.",
+    "sections": "Sections 1–2",
+    "topics": [
+      "Schools & education",
+      "Religious exercise"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HJ00047I.htm",
+    "reviewedTextHash": "9f26cdc49f1b2d59ab4c1414b43bf6b35909dc7f45335718705e522c8994fc57"
+  },
+  "SB115": {
+    "title": "Repeal of classroom Ten Commandments mandate",
+    "summary": "Would repeal Education Code section 1.0041, the provision requiring display of the Ten Commandments in public school classrooms.",
+    "relevance": "Directly concerns government-prescribed religious displays in public education and the treatment of students of different faiths or no faith.",
+    "sections": "Section 1",
+    "topics": [
+      "Religious exercise",
+      "Schools & education"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00115I.htm",
+    "reviewedTextHash": "77034e183ca151502afcb475ae35b580bb3c29dac2357baa17514fd93d4f4f5a"
+  },
+  "SB106": {
+    "title": "Repeal of the education savings account program",
+    "summary": "Would repeal the education savings account program and related provisions. It addresses disposition of the program fund, preserves administration of money already transferred for the 2026–2027 school year, and provides transitional treatment for certain contractual commitments.",
+    "relevance": "Would affect program access for religious and other private schools. Program-wide repeal should be distinguished from excluding particular schools because of religion.",
+    "sections": "Sections 1, 9–10",
+    "topics": [
+      "Schools & education"
+    ],
+    "reviewState": "Text reviewed",
+    "reviewVersion": "Introduced version",
+    "reviewedAt": "2026-11-11T17:20:42+00:00",
+    "reviewedTextUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00106I.htm",
+    "reviewedTextHash": "72468b0d26006b19d7ec7470de8f3282c3aaf5a5848b145c15cc600fc11b06c2"
+  }
+}

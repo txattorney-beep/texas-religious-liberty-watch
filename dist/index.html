@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153c33">
+  <meta name="author" content="Eric A. Hudson">
+  <meta name="description" content="Follow religious liberty legislation across faiths in the 90th Texas Legislature. Official sources, clear review status, and a personal watchlist.">
+  <title>Texas Religious Liberty Watch · 90R</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to legislation</a>
+<aside class="sidebar">
+  <a href="#tracker" class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span>TEXAS<span class="brand-name">Liberty Watch</span></span></a>
+  <div class="session-label"><span>90</span><div>TH LEGISLATURE<small>REGULAR SESSION · 2027</small></div></div>
+  <div class="nav-label">YOUR LEGISLATIVE DESK</div>
+  <nav aria-label="Main navigation">
+    <button data-view="tracker" class="nav-item active"><span aria-hidden="true">▤</span> Bill tracker <span class="nav-count" id="nav-total">–</span></button>
+    <button data-view="watchlist" class="nav-item"><span aria-hidden="true">☆</span> My watchlist <span class="nav-count" id="nav-saved">0</span></button>
+    <button data-view="activity" class="nav-item"><span aria-hidden="true">→</span> Activity</button>
+    <button data-view="methodology" class="nav-item"><span aria-hidden="true">◎</span> Sources</button>
+    <button data-view="about" class="nav-item"><span aria-hidden="true">◉</span> About Eric</button>
+  </nav>
+  <div class="sidebar-note"><span class="small-star">✦</span><h3>Every faith.<br>Equal liberty.</h3><p>Following legislation that affects religious exercise, equal treatment, and freedom of conscience.</p></div>
+  <div class="sidebar-bottom"><button class="nav-item" data-view="setup"><span aria-hidden="true">→</span> Free hosting setup</button><a href="https://capitol.texas.gov/" target="_blank" rel="noopener">Texas Legislature Online <span>→</span></a><small>Independent tracker · Official sources</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><button data-view="about" class="topbar-title byline">BY ERIC A. HUDSON <span>· ARAMBULA TERRAZAS PLLC</span></button><div><span class="session-chip" id="session-phase">90R · Prefiling</span><span class="topbar-date" id="today"></span></div></header>
+  <main id="main" tabindex="-1">
+    <section class="intro"><div><p class="eyebrow">THE 90TH, IN FOCUS</p><h1 id="page-title">Religious liberty, tracked.</h1><p id="page-description">A clear view of the bills that could shape freedom of faith in Texas.</p></div><button class="button export-button" id="export"><span aria-hidden="true">↓</span> Export CSV</button></section>
+    <div class="source-line" id="source-line" aria-live="polite">Loading official-source snapshot…</div>
+    <div id="load-error" class="notice" hidden></div>
+    <div id="tracker-content">
+      <section class="stats" aria-label="Tracker totals">
+        <div class="stat"><div class="stat-label">Measures on the radar <span aria-hidden="true">▤</span></div><div class="stat-number" id="stat-total">–</div><p>Bills and resolutions flagged for review</p></div>
+        <div class="stat"><div class="stat-label">Bill texts reviewed <span class="green" aria-hidden="true">✓</span></div><div class="stat-number" id="stat-reviewed">–</div><p>With a summary and a relevance note</p></div>
+        <button class="stat stat-watch" data-view="watchlist"><div class="stat-label">Your watchlist <span aria-hidden="true">☆</span></div><div class="stat-number" id="stat-saved">0</div><p>Saved on this browser for a closer look <span>→</span></p></button>
+      </section>
+      <div class="desk-grid">
+        <section class="legislation">
+          <div class="section-heading"><div><h2 id="list-title">Legislation to watch</h2><p id="results-count" aria-live="polite"></p></div><span class="outline-pill">90R only</span></div>
+          <div class="filter-panel">
+            <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search bill number, subject, or author…" aria-label="Search bills"><kbd>/</kbd></label>
+            <div class="filters"><label>Topic<select id="topic"><option value="">All topics</option></select></label><label>Chamber<select id="chamber"><option value="">Both chambers</option><option>House</option><option>Senate</option></select></label><label>Review<select id="review"><option value="">Any review status</option><option value="reviewed">Text reviewed</option><option value="pending">Needs review</option></select></label><label>Sort by<select id="sort"><option value="recent">Latest action</option><option value="number">Bill number</option><option value="review">Reviewed first</option></select></label></div>
+          </div>
+          <div class="active-filters" id="active-filters" hidden><span>Filters applied</span><button id="clear-filters">Clear all ×</button></div>
+          <div id="bill-list"></div>
+          <div class="pagination" id="pagination"></div>
+          <div class="list-note"><span aria-hidden="true">ⓘ</span><p>Inclusion signals a potential connection to religious liberty.  It does not express support, opposition, or a legal conclusion.</p></div>
+        </section>
+        <aside class="right-rail">
+          <section class="calendar-panel"><p class="eyebrow">SESSION AT A GLANCE</p><h2>From filing<br>to the finish.</h2><ol class="calendar"><li class="current"><span class="calendar-dot"></span><div><time datetime="2026-11-09">NOV 9, 2026</time><strong>Prefiling opens</strong><small>Bills begin arriving</small></div></li><li><span class="calendar-dot"></span><div><time datetime="2027-01-12">JAN 12, 2027</time><strong>Opening day</strong><small>The 90th convenes</small></div></li><li><span class="calendar-dot"></span><div><time datetime="2027-03-12">MAR 12, 2027</time><strong>60th day</strong><small>General filing deadline*</small></div></li><li><span class="calendar-dot"></span><div><time datetime="2027-05-31">MAY 31, 2027</time><strong>140th day</strong><small>Regular-session limit</small></div></li></ol><p class="calendar-foot">*Subject to exceptions and the rules adopted for 90R.</p><button data-view="methodology" class="text-button light">Calendar sources <span>→</span></button></section>
+          <section class="rail-card"><div class="rail-icon" aria-hidden="true">◎</div><h3>Follow the source.</h3><p>Every measure links to official text and history.  Review labels tell you how far the analysis goes.</p><button data-view="methodology" class="text-button">How this tracker works <span>→</span></button></section>
+          <section class="rail-card author-rail"><p class="eyebrow">ABOUT THE AUTHOR</p><h3>Eric A. Hudson</h3><p>Litigation partner at Arambula Terrazas PLLC.  Commercial litigation, constitutional disputes, injunctions, and appeals.</p><button data-view="about" class="text-button">About Eric & contact <span>→</span></button><a class="text-button" href="https://www.linkedin.com/in/txattorney" target="_blank" rel="noopener">Follow on LinkedIn <span>→</span></a></section>
+        </aside>
+      </div>
+    </div>
+    <section id="other-content" hidden></section>
+    <div class="contact-strip"><button data-view="about">Eric A. Hudson <span>· Arambula Terrazas PLLC</span></button><div><a href="mailto:ehudson@atlawpllc.com">ehudson@atlawpllc.com</a><a href="tel:+15122949891">(512) 294-9891</a><a href="https://www.linkedin.com/in/txattorney" target="_blank" rel="noopener">LinkedIn →</a></div></div>
+    <footer><span>Texas Liberty Watch <b>✦</b> 90th Regular Session</span><button data-view="setup">Free hosting setup →</button><span>All faiths.  Official sources.  Clear context.</span></footer>
+  </main>
+</div>
+<dialog id="bill-dialog" aria-labelledby="detail-title"><div id="detail"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
