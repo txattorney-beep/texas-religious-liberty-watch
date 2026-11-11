@@ -3,7 +3,7 @@
   "updatedAt": "2026-11-11T17:20:44+00:00",
   "screenedCount": 1378,
   "coverage": "All filed House and Senate bill and resolution captions in the two official reports. Keyword screening, not a full-text census. Broad matches require review.",
-  "updateMode": "manual",
+  "updateMode": "github-actions",
   "reports": [
     {
       "label": "Filed House legislation",
