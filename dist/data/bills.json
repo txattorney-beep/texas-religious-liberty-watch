@@ -1,6 +1,6 @@
 {
   "session": "90R",
-  "updatedAt": "2026-11-11T22:59:44+00:00",
+  "updatedAt": "2026-11-11T23:14:36+00:00",
   "screenedCount": 1378,
   "coverage": "All filed House and Senate bill and resolution captions in the two official reports. Keyword screening, not a full-text census. Broad matches require review.",
   "updateMode": "github-actions",
@@ -9,13 +9,13 @@
       "label": "Filed House legislation",
       "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=housefiled",
       "records": 1059,
-      "checkedAt": "2026-11-11T22:59:44+00:00"
+      "checkedAt": "2026-11-11T23:14:36+00:00"
     },
     {
       "label": "Filed Senate legislation",
       "url": "https://capitol.texas.gov/reports/Report.aspx?LegSess=90R&ID=senatefiled",
       "records": 319,
-      "checkedAt": "2026-11-11T22:59:44+00:00"
+      "checkedAt": "2026-11-11T23:14:36+00:00"
     }
   ],
   "bills": [
@@ -33,13 +33,13 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textFetchError": "ValueError",
-      "textAttemptedAt": "2026-11-11T22:59:44+00:00"
+      "textAttemptedAt": "2026-11-11T23:14:36+00:00"
     },
     {
       "id": "SB294",
@@ -55,15 +55,15 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00294I.htm",
       "textHash": "4b8f5f9f372b1aa0334170a03ec9ec71440600c686faebb92d6cc578141d809b",
-      "textCheckedAt": "2026-11-11T22:30:17+00:00",
-      "textFetchError": "CalledProcessError",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
+      "textFetchError": null,
       "textAttemptedAt": "2026-11-11T22:59:44+00:00"
     },
     {
@@ -80,14 +80,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00291I.htm",
       "textHash": "1edaa719491258476795721eeb7abcf56a2e8bf2ecae480bf3ed8192ae3d8183",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null,
       "textAttemptedAt": "2026-11-11T21:56:01+00:00"
     },
@@ -105,14 +105,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00284I.htm",
       "textHash": "66a9ba408fb78776ce5c09d191ed2b40ce59bd9e40e29a3f59fe72efd6282a8b",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -129,14 +129,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00215I.htm",
       "textHash": "1f6b9ad5cb5efeb44b1668b917e4798f075c173e83ab652817e540eb3283d47b",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -153,14 +153,14 @@
       "topics": [
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00151I.htm",
       "textHash": "d1bc636c968db8569ca56ae8bbeeae226649057b6dec61d7417d0072bb92f8e4",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null,
       "textAttemptedAt": "2026-11-11T21:56:01+00:00"
     },
@@ -179,7 +179,7 @@
         "Religious exercise",
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would repeal Education Code section 1.0041, the provision requiring display of the Ten Commandments in public school classrooms.",
@@ -192,7 +192,7 @@
       "reviewedTextHash": "77034e183ca151502afcb475ae35b580bb3c29dac2357baa17514fd93d4f4f5a",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00115I.htm",
       "textHash": "77034e183ca151502afcb475ae35b580bb3c29dac2357baa17514fd93d4f4f5a",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -209,14 +209,14 @@
       "topics": [
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00110I.htm",
       "textHash": "f0ab99e922d1387498656ae07d0345c661182bd388475e3c625e54a25a924aff",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -233,7 +233,7 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would repeal the education savings account program and related provisions. It addresses disposition of the program fund, preserves administration of money already transferred for the 2026–2027 school year, and provides transitional treatment for certain contractual commitments.",
@@ -246,7 +246,7 @@
       "reviewedTextHash": "72468b0d26006b19d7ec7470de8f3282c3aaf5a5848b145c15cc600fc11b06c2",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00106I.htm",
       "textHash": "72468b0d26006b19d7ec7470de8f3282c3aaf5a5848b145c15cc600fc11b06c2",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null,
       "textAttemptedAt": "2026-11-11T21:56:01+00:00"
     },
@@ -265,7 +265,7 @@
         "Schools & education",
         "Religious exercise"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would propose a constitutional amendment barring state and local government, including the Legislature, from regulating a private school’s educational program, including a home school’s program. It proposes submission to voters on November 2, 2027.",
@@ -278,7 +278,7 @@
       "reviewedTextHash": "9f26cdc49f1b2d59ab4c1414b43bf6b35909dc7f45335718705e522c8994fc57",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HJ00047I.htm",
       "textHash": "9f26cdc49f1b2d59ab4c1414b43bf6b35909dc7f45335718705e522c8994fc57",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null,
       "textAttemptedAt": "2026-11-11T21:56:01+00:00"
     },
@@ -296,7 +296,7 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would require participating private schools to disclose whether they accept students with frequent medically necessary absences and what accommodations they provide. Disclosures would appear on the website, in application materials, and in the enrollment contract.",
@@ -309,7 +309,7 @@
       "reviewedTextHash": "d47ecdde039225f6e3ebf9b8bd4b735038d03b3827246c7bcd1c393c6dd6883c",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00916I.htm",
       "textHash": "d47ecdde039225f6e3ebf9b8bd4b735038d03b3827246c7bcd1c393c6dd6883c",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -326,14 +326,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00873I.htm",
       "textHash": "fcedee1e58e0b436aa31ff79a6b2d5b09d603e314d835b05aa8a6c54664d1767",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -350,14 +350,14 @@
       "topics": [
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00810I.htm",
       "textHash": "4e30852af2e5e535b7a6205a57d5a92a8a02afacb52cf18d8efb10cf9c1892ac",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -374,14 +374,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00739I.htm",
       "textHash": "930a0acf93cd83eeff2721fb9466d12a39fdc09803f550b06d2e526729802973",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -398,14 +398,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00735I.htm",
       "textHash": "f8486559e1d327df4840b179e81757405a19ab647c67e40ce3df99a275b39dbe",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -422,14 +422,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00720I.htm",
       "textHash": "418d6778de439365f615dd2af2328ce621ddd88e70868ec4a789b756cede5c2f",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -446,14 +446,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00675I.htm",
       "textHash": "1840217e1fde430c740ad86188c5a57384e7674e06b1721937d68e35c1af076d",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -470,14 +470,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00646I.htm",
       "textHash": "aa05c9312aac013dc6cd676968462f175bc5a3ea85b4cf4797fbb5d793e446a9",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -494,14 +494,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00594I.htm",
       "textHash": "6a47acf3bc9af5be294da79f9a1696665f5c649d65a5eb637c1868c1805731d9",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -519,7 +519,7 @@
         "Schools & education",
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would add compliance with IDEA, ADA Title II, and Section 504 to the conditions for private-school participation in the education savings account program, beginning with the 2027–2028 school year.",
@@ -532,7 +532,7 @@
       "reviewedTextHash": "8366966e05bd00016a92d7ad35779befb487c58be558bdd1911b2a8736e02e05",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00580I.htm",
       "textHash": "8366966e05bd00016a92d7ad35779befb487c58be558bdd1911b2a8736e02e05",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -549,14 +549,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00536I.htm",
       "textHash": "57b1a5f9c81cc10b1a7e9b3ddb0b4d8d002afc57ebfd922e9cc9ae9661f80ae5",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -573,14 +573,14 @@
       "topics": [
         "Worship & land use"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00495I.htm",
       "textHash": "93a8a5e8f91528f610bab4bcb27108cb82a04d7d94db2ba52f2240f63352eb5c",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -597,7 +597,7 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would require a participating private school to post its disability services and accommodations online, along with a statement that it is not required to provide services in the manner prescribed by an IEP or Section 504 plan. The new condition would apply beginning with the 2027–2028 school year.",
@@ -610,7 +610,7 @@
       "reviewedTextHash": "50a4c7820c46a848b4f673d81ebe73773ff25c32c3002d8196f31dfe21200e6d",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00324I.htm",
       "textHash": "50a4c7820c46a848b4f673d81ebe73773ff25c32c3002d8196f31dfe21200e6d",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -628,7 +628,7 @@
         "Religious exercise",
         "Conscience & licensing"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would create a framework for religious organizations to operate round-the-clock facilities for children in state conservatorship. It provides for faith-family programs, a grant program, exemption from ordinary child-care licensing rules, and separate minimum standards and periodic evaluations.",
@@ -641,7 +641,7 @@
       "reviewedTextHash": "da1753c8891836384a8ccb9e401fdcecc130f4238396075467f73ec0ba12572d",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00317I.htm",
       "textHash": "da1753c8891836384a8ccb9e401fdcecc130f4238396075467f73ec0ba12572d",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -658,14 +658,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00275I.htm",
       "textHash": "ff16a87737a6fbb5f04d7b807335030de5a3556a8785f3d12e0ca50d8b9f5122",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -684,7 +684,7 @@
         "Religious exercise",
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would extend the marriage-related religious protections in Family Code sections 2.601 and 2.602 to individuals generally. Protected refusals would include services, goods, accommodations, and facilities, with protections against specified civil actions and government penalties or loss of benefits.",
@@ -697,7 +697,7 @@
       "reviewedTextHash": "2b7ae6f70532a67a312f2e3c81323c2722c98a2b88654453f87e2468869905dd",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00242I.htm",
       "textHash": "2b7ae6f70532a67a312f2e3c81323c2722c98a2b88654453f87e2468869905dd",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -714,7 +714,7 @@
       "topics": [
         "Faith communities"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Text reviewed",
       "summary": "Would designate February 4 as Muslim Heritage Day in recognition of Muslim Americans’ contributions to Texas, with observance through appropriate ceremonies and activities.",
@@ -727,7 +727,7 @@
       "reviewedTextHash": "d30545dcd83704235b2535550fe81f65e17dbae98aabd19f300b213656c2d56a",
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00236I.htm",
       "textHash": "d30545dcd83704235b2535550fe81f65e17dbae98aabd19f300b213656c2d56a",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -744,14 +744,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00193I.htm",
       "textHash": "99a93ad20bd98ad2040b7199ecf9a0a6b28f089126cf89f1c1eeb41be6d8732d",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -768,14 +768,14 @@
       "topics": [
         "Equal treatment"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00174I.htm",
       "textHash": "607caad0a749d0fc32a466471cbbdc5238cb406062c374133ad7f6617e7c128f",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     },
     {
@@ -792,14 +792,14 @@
       "topics": [
         "Schools & education"
       ],
-      "sourceCheckedAt": "2026-11-11T22:59:44+00:00",
+      "sourceCheckedAt": "2026-11-11T23:14:36+00:00",
       "firstSeen": "2026-11-11T17:12:54+00:00",
       "reviewState": "Caption screened",
       "summary": null,
       "relevance": null,
       "textUrl": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00164I.htm",
       "textHash": "184c6bc381bbe89014bdbcc4580478c287fde8c8f9abbb83497d88e1b5b91644",
-      "textCheckedAt": "2026-11-11T22:59:44+00:00",
+      "textCheckedAt": "2026-11-11T23:14:36+00:00",
       "textFetchError": null
     }
   ],
