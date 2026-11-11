@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T23:14:43.226039+00:00",
-  "checkedAt": "2026-11-11T23:14:43.226039+00:00",
+  "updatedAt": "2026-11-11T23:24:43.085226+00:00",
+  "checkedAt": "2026-11-11T23:24:43.085226+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T23:14:43.226039+00:00",
+      "checkedAt": "2026-11-11T23:24:43.085226+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T23:14:43.226039+00:00",
+      "lastSuccessAt": "2026-11-11T23:24:43.085226+00:00",
       "count": 23
     },
     {
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-11T23:14:43.226039+00:00",
+      "checkedAt": "2026-11-11T23:24:43.085226+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-11T23:14:43.226039+00:00",
+      "lastSuccessAt": "2026-11-11T23:24:43.085226+00:00",
       "count": 42
     }
   ],
@@ -530,10 +530,10 @@
       ]
     },
     {
-      "id": "76ef5d824514d839",
-      "title": "BYU is going where only a handful of other schools have gone before",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSVpoVVFFd1NPc2Y0S2xYNmhocm9YYVpsTFMwcW56X1RyMXE0ZThjX3VXSngwcWZqU3NCMkowS0hPbEl3WjdRQTBEamctV29CeEprLXVUOHc5ZzRqVUtVV21ScjB1dlMxamJjUHdnN2owX004MFgxWWtRenZFOVdENA?oc=5",
-      "publisher": "The Salt Lake Tribune",
+      "id": "fca04fe8e0d8da56",
+      "title": "Court to hear argument in religious discrimination challenge brought by Catholic preschools in Colorado",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUxUSW1EczJoazdFS2syZVNoU3JrTnVtbzZOR1RaNUVnelN3UHRmQzd0dDhrNkVNMF9FeXgyYWZWR0VQSWY0cmNvWmt6Q3lWSEFYWVp5em45eFZwUTcxb3VHNEFTTnJkSm1ldE9Qazg0a2NJUDk4bm11SlU5RmdxbnZsWDdWSk82ckY5Zkl6SWNmN1FYdUpDVkRKdmU1YnRqUDYyZHBNX2RGVzVWMGdXOTBTV2lVZ3EySFhNakJiRVh1M0xpZ0FiRTlzODk?oc=5",
+      "publisher": "SCOTUSblog",
       "publishedAt": "2026-10-30T07:00:00+00:00",
       "scopes": [
         "National"
@@ -543,10 +543,10 @@
       ]
     },
     {
-      "id": "fca04fe8e0d8da56",
-      "title": "Court to hear argument in religious discrimination challenge brought by Catholic preschools in Colorado",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUxUSW1EczJoazdFS2syZVNoU3JrTnVtbzZOR1RaNUVnelN3UHRmQzd0dDhrNkVNMF9FeXgyYWZWR0VQSWY0cmNvWmt6Q3lWSEFYWVp5em45eFZwUTcxb3VHNEFTTnJkSm1ldE9Qazg0a2NJUDk4bm11SlU5RmdxbnZsWDdWSk82ckY5Zkl6SWNmN1FYdUpDVkRKdmU1YnRqUDYyZHBNX2RGVzVWMGdXOTBTV2lVZ3EySFhNakJiRVh1M0xpZ0FiRTlzODk?oc=5",
-      "publisher": "SCOTUSblog",
+      "id": "76ef5d824514d839",
+      "title": "BYU is going where only a handful of other schools have gone before",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSVpoVVFFd1NPc2Y0S2xYNmhocm9YYVpsTFMwcW56X1RyMXE0ZThjX3VXSngwcWZqU3NCMkowS0hPbEl3WjdRQTBEamctV29CeEprLXVUOHc5ZzRqVUtVV21ScjB1dlMxamJjUHdnN2owX004MFgxWWtRenZFOVdENA?oc=5",
+      "publisher": "The Salt Lake Tribune",
       "publishedAt": "2026-10-30T07:00:00+00:00",
       "scopes": [
         "National"
