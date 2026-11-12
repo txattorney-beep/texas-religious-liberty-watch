@@ -28,7 +28,7 @@ def app_home(home):
 
 def app_pages(home, shell):
     base = app_home(home)
-    app = base.replace('<script src="app.js"', '<script src="/app.js"')
+    app = base.replace('<script src="app.js', '<script src="/app.js')
     app = app.replace('</head>', '<link rel="canonical" href="'+SITE+'/90r/">\n</head>')
     install_content = '''<section class="news-hero install-hero"><div><p class="eyebrow">THE 90R TRACKER · IPHONE & SAMSUNG</p><h1>The 90th.<br>In your pocket.</h1><p>Add the Texas 90R Liberty Tracker to your home screen.  Follow bills and keep a personal watchlist with one tap.</p></div><img class="install-icon" src="/90r/icons/icon-192.png" alt="90R Watch app icon" width="112" height="112"></section>
 <section class="install-action content-card"><div><h2>Your legislative desk, on your phone.</h2><p>The app contains the 90R bill tracker and your personal watchlist.  News and court-ruling sections remain on the full website.</p><p class="install-status" id="install-status" role="status">Choose your phone below to add the app.  No account or app-store purchase is needed.</p><div class="install-buttons"><button type="button" class="button primary" data-install-button hidden>Install 90R app ↓</button><a class="button primary" href="/90r/">Open 90R tracker →</a><a class="button" href="#iphone">iPhone instructions</a><a class="button" href="#samsung">Samsung instructions</a></div></div><span class="install-tag">90R<br><small>2027 SESSION</small></span></section>

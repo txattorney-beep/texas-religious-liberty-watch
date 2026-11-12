@@ -15,7 +15,7 @@ class AppTests(unittest.TestCase):
         app=pages['/90r/']
         for route in ['/news/','/rulings/','/hearings/']:
             self.assertNotIn('href="'+route+'"',app)
-        for token in ['id="bill-list"','id="bill-dialog"','data-view="watchlist"','data-app="90r"','src="/app.js"']:
+        for token in ['id="bill-list"','id="bill-dialog"','data-view="watchlist"','data-app="90r"','src="/app.js']:
             self.assertIn(token,app)
         self.assertNotIn('class="discovery-panel"',app)
 
@@ -25,7 +25,7 @@ class AppTests(unittest.TestCase):
         self.assertIn('Safari',page)
         self.assertIn('Samsung Internet',page)
         self.assertIn('id="app-connection"',page)
-        self.assertNotIn('src="app.js"',page)
+        self.assertNotIn('src="app.js',page)
         self.assertNotIn('src="/app.js"',page)
         self.assertEqual(page.count('rel="canonical"'),1)
 

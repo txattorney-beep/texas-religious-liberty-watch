@@ -23,7 +23,7 @@ PERSON = {'@type': 'Person', '@id': SITE + '/about/#eric-hudson', 'name': AUTHOR
 
 def shell(home, title, description, path, content, article=None):
     home = re.sub(r'<!-- SEARCH META -->.*?<!-- /SEARCH META -->', '', home, flags=re.S)
-    page = home.replace('href="styles.css?v=maroon-news"', 'href="/styles.css?v=maroon-news"').replace('href="favicon.svg"', 'href="/favicon.svg"')
+    page = home.replace('href="styles.css?', 'href="/styles.css?').replace('href="favicon.svg"', 'href="/favicon.svg"')
     page = re.sub(r'<title>.*?</title>', '<title>' + escape(title) + ' | Texas Religious Liberty Watch</title>', page)
     page = re.sub(r'<meta name="description"[^>]*>', '<meta name="description" content="' + escape(description, quote=True) + '">', page)
     canonical = SITE + path
@@ -37,7 +37,7 @@ def shell(home, title, description, path, content, article=None):
         page = page.replace('class="nav-item active" aria-current="page" href="/news/"', 'class="nav-item" href="/news/"')
     page = page.replace('<body>', '<body class="news-page">').replace('Skip to legislation', 'Skip to content')
     page = page.replace('href="#tracker"', 'href="/#tracker"')
-    page = re.sub(r'<script src="app.js" defer></script>', '', page)
+    page = re.sub(r'<script src="app\.js(?:\?[^"]*)?" defer></script>', '', page)
     page = re.sub(r'<dialog id="bill-dialog".*?</dialog>', '', page, flags=re.S)
     page = re.sub(r'<div id="toast".*?</div>', '', page)
     page = re.sub(r'<span class="nav-count".*?</span>', '', page)
