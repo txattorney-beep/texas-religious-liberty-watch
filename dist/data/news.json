@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T16:52:21.666038+00:00",
-  "checkedAt": "2026-11-12T16:52:21.666038+00:00",
+  "updatedAt": "2026-11-12T17:09:53.355957+00:00",
+  "checkedAt": "2026-11-12T17:09:53.355957+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T16:52:21.666038+00:00",
+      "checkedAt": "2026-11-12T17:09:53.355957+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T16:52:21.666038+00:00",
+      "lastSuccessAt": "2026-11-12T17:09:53.355957+00:00",
       "count": 28
     },
     {
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T16:52:21.666038+00:00",
+      "checkedAt": "2026-11-12T17:09:53.355957+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T16:52:21.666038+00:00",
+      "lastSuccessAt": "2026-11-12T17:09:53.355957+00:00",
       "count": 37
     }
   ],
@@ -327,6 +327,19 @@
       ]
     },
     {
+      "id": "d5999a3edb562762",
+      "title": "Democratic candidates with a Christian message help flip Congress",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcy1uV2FvMVlEVnJ4ZEEwb01BUlFuNDdWS0lJU0hoY085MVZGUFF3X0xlZ1BDU0NXd2VUcWxJNTRkbmNzTHlwWUZ1Sm9ubzFJemdWRGd0RDFEemwzS0dQdUdxY0VHVzN2Q3Q0bTJxSndiZF9NMlY5R1FObDFYMTUwTWlRM0I4SFcxZUVXcUhrTFR0c1F2ZFFia0M5TXg?oc=5",
+      "publisher": "KKTV",
+      "publishedAt": "2026-11-06T20:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
       "id": "28675d0cb1152078",
       "title": "Senate Judiciary Will Weigh Religious Liberty Bill",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLY05VMnlwcmJERXRNemJENjFrTUQ4dndxNVAwMmx5NkFrUDJoUXYxMzdRZlg4Y2pwWGl2aWdvaFdTODFRNDRzdlJlR1l5dGtlVlI1UFEyU2FzbUdraWMzVW1TVUY5NDFiaGlkamxVYzdzME5ETWNF?oc=5",
@@ -353,19 +366,6 @@
       ],
       "feedIds": [
         "national",
-        "texas"
-      ]
-    },
-    {
-      "id": "d5999a3edb562762",
-      "title": "Democratic candidates with a Christian message help flip Congress",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRkhBdjJlbFpXRkJzTFV2VkpkUW9Ecm44MVlPbDhNVEY5UUJsYVFGMnBNTTNCbkJOMGthX2lVYklVU21RYlJ3c2hNNklQMF9yQTFoeE92X1pjcDlaaE1YZzZlMEpVbkdvUDJueFB4eThobWRkdmc3cFI4OW1ubmozQmtMaV8wYkpYcWlpVE9JZEtFRE5qNmpvX3daLWUtSHRRbnV3WG9rdTNFbmhyRXBRTE8xR1l2WlFQTkJsZ0FxRTlJRkQ1Q3d2UDhB0gHKAUFVX3lxTE9GSEF2MmVsWldGQnNMVXZWSmRRb0RybjgxWU9sOE1URjlRQmxhUUYycE1NM0JuQk4wa2FfaVViSVVTbVFiUndzaE02SVAwX3JBMWh4T3ZfWmNwOVpoTVhnNmUwSlVuR29QMm54UHh5OGhtZGR2ZzdwUjg5bW5uajNCa0xpXzBiSlhxaWlUT0lkS0VETmo2am9fd1otZS1IdFFudXdYb2t1M0VuaHJFcFFMTzFHWXZaUVBOQmxnQXFFOUlGRDVDd3ZQOEE?oc=5",
-      "publisher": "WKRG",
-      "publishedAt": "2026-11-06T12:17:49+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
         "texas"
       ]
     },
