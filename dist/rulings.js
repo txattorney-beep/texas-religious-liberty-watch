@@ -8,7 +8,7 @@ function filterRulings(){
  const cutoff=rulingControls.period.value?new Date(Date.parse(windowEnd+'T12:00:00Z')-Number(rulingControls.period.value)*86400000).toISOString().slice(0,10):'';
  for(const card of rulingCards){
   const d=card.dataset;
-  const match=d.review===rulingView&&(!cutoff||d.date>=cutoff)&&(!q||d.search.toLowerCase().includes(q))&&(!rulingControls.group.value||d.group===rulingControls.group.value)&&(!rulingControls.state.value||d.state===rulingControls.state.value)&&(rulingView==='match'||(!rulingControls.topic.value||d.topics.split('|').includes(rulingControls.topic.value))&&(!rulingControls.kind.value||d.kind===rulingControls.kind.value));
+  const match=d.review===rulingView&&(!cutoff||d.date>=cutoff)&&(!q||q.split(/\s+/).filter(Boolean).every(term=>d.search.toLowerCase().includes(term)))&&(!rulingControls.group.value||d.group===rulingControls.group.value)&&(!rulingControls.state.value||d.state===rulingControls.state.value)&&(rulingView==='match'||(!rulingControls.topic.value||d.topics.split('|').includes(rulingControls.topic.value))&&(!rulingControls.kind.value||d.kind===rulingControls.kind.value));
   card.hidden=!match;if(match)shown++;
  }
  document.querySelector('#ruling-count').textContent=`${shown} ${rulingView==='checked'?'source-checked entries':'opinion matches awaiting review'}`;
@@ -34,3 +34,5 @@ document.querySelector('#ruling-export').addEventListener('click',()=>{
 const stale=document.querySelector('#ruling-stale');stale.hidden=Date.now()-Date.parse(stale.dataset.updated)<=36*3600000;
 if(location.hash){const card=document.getElementById(location.hash.slice(1));if(card?.dataset.review==='match')setRulingView('match');}
 filterRulings();
+
+document.querySelector('#ruling-search-form')?.addEventListener('submit',event=>{event.preventDefault();filterRulings();});
