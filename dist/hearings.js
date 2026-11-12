@@ -11,11 +11,12 @@ const requestedBill=new URLSearchParams(location.search).get('bill');
 if(requestedBill && /^(HB|SB|HJR|SJR|HCR|SCR|HR|SR)\d+$/.test(requestedBill)){hearingSearch.value=requestedBill;hearingPeriod.value='all';}
 function filterHearings(){
  const query=hearingSearch.value.trim().toLowerCase();const compact=query.replace(/\s/g,'');
+ const terms=query.split(/\s+/).filter(Boolean);
  let shown=0;
  for(const card of hearingCards){
   const bills=card.dataset.bills.split(' ');const period=hearingPeriod.value;
   const date=card.dataset.date,status=card.dataset.status;
-  const matches=(!query||card.dataset.search.toLowerCase().includes(query)||bills.some(b=>b.toLowerCase()===compact))&&(!hearingChamber.value||card.dataset.chamber===hearingChamber.value)&&(!hearingWatch.checked||bills.some(b=>hearingSaved.includes(b)))&&(period==='all'||period==='upcoming'&&date>=hearingToday&&status!=='Canceled'||period==='past'&&date<hearingToday||period==='canceled'&&status==='Canceled');
+  const matches=(terms.every(term=>card.dataset.search.toLowerCase().includes(term))||bills.some(b=>b.toLowerCase()===compact))&&(!hearingChamber.value||card.dataset.chamber===hearingChamber.value)&&(!hearingWatch.checked||bills.some(b=>hearingSaved.includes(b)))&&(period==='all'||period==='upcoming'&&date>=hearingToday&&status!=='Canceled'||period==='past'&&date<hearingToday||period==='canceled'&&status==='Canceled');
   card.hidden=!matches;if(matches)shown++;
  }
  document.querySelector('#hearing-count').textContent=`${shown} notice${shown===1?'':'s'} matching this view`;
@@ -23,6 +24,10 @@ function filterHearings(){
  document.querySelector('#hearing-empty-detail').textContent=hearingWatch.checked&&!hearingSaved.length?'Your watchlist is empty in this browser. Star bills in the tracker, then return here.':'Try all notices, another bill, or a different chamber.';
 }
 hearingSearch.addEventListener('input',filterHearings);
+document.querySelector('#hearing-search-form').addEventListener('submit',event=>{
+ event.preventDefault();
+ filterHearings();
+});
 for(const control of [hearingChamber,hearingPeriod,hearingWatch])control.addEventListener('change',filterHearings);
 document.querySelector('#hearing-reset').addEventListener('click',()=>{hearingSearch.value='';hearingChamber.value='';hearingPeriod.value='all';hearingWatch.checked=false;filterHearings();});
 document.querySelector('#hearing-export').addEventListener('click',()=>{
