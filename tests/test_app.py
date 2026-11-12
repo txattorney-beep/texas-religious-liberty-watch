@@ -10,11 +10,12 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 class AppTests(unittest.TestCase):
-    def test_app_contains_only_90r_navigation_and_retains_tracker(self):
+    def test_app_links_to_site_sections_and_retains_tracker(self):
         pages=app_pages((ROOT/'dist/index.html').read_text(),shell)
         app=pages['/90r/']
         for route in ['/news/','/rulings/','/hearings/']:
-            self.assertNotIn('href="'+route+'"',app)
+            self.assertIn('href="'+route+'"',app)
+            self.assertIn('href="'+route+'"',pages['/90r/install/'])
         for token in ['id="bill-list"','id="bill-dialog"','data-view="watchlist"','data-app="90r"','src="/app.js']:
             self.assertIn(token,app)
         self.assertNotIn('class="discovery-panel"',app)
