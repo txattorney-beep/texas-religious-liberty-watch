@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T17:09:53.355957+00:00",
-  "checkedAt": "2026-11-12T17:09:53.355957+00:00",
+  "updatedAt": "2026-11-12T21:01:59.533425+00:00",
+  "checkedAt": "2026-11-12T21:01:59.533425+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T17:09:53.355957+00:00",
+      "checkedAt": "2026-11-12T21:01:59.533425+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T17:09:53.355957+00:00",
-      "count": 28
+      "lastSuccessAt": "2026-11-12T21:01:59.533425+00:00",
+      "count": 27
     },
     {
       "id": "national",
@@ -20,32 +20,32 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T17:09:53.355957+00:00",
+      "checkedAt": "2026-11-12T21:01:59.533425+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T17:09:53.355957+00:00",
-      "count": 37
+      "lastSuccessAt": "2026-11-12T21:01:59.533425+00:00",
+      "count": 39
     }
   ],
   "items": [
     {
-      "id": "28447a8a2cab602c",
-      "title": "After the midterms, I’m reeling with hope for church-state separation",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zX0ZORWtYLW5xeU1USlJqUlpRc2NMbzBGcHdZTjBGUXFHLWRLYzdVbDM0MzRPQVVWOHVIV3hUNWw4YmUyZWdWWG9ob09DQkhSUGZ0QWE1aE4yYmtLNzdIajVMMDA0ZHQ0QTFPUXZKZkNuS3FhVWVaUkl3OXc?oc=5",
-      "publisher": "Americans United",
-      "publishedAt": "2026-11-12T15:49:31+00:00",
+      "id": "b1f845b0ed3c2f3d",
+      "title": "A Change of Heart to End the War Between Religious Freedom and LGBTQ+ People",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVVEdFRwbDQ0Q0lDUHRUYkhCc3hFdXdjbnlheG9lVmQzY1lCZXRSZDZZVFFlNUZNbEpEeEU4VkplNWljdktmQmVLVEpMMHphbTAxSG92UzRjbnFJVTdQMlVKM05rN1JpQlVWenhmNFRXbkNfdGZXV0dXNlRVdzYxZGl0M20yTUc1MmRZNE5KZVdZRWdsS2VpZ0c1M1BhSmhTTWtRSnJvcF9TRXBqanhN?oc=5",
+      "publisher": "Word&Way",
+      "publishedAt": "2026-11-12T19:36:22+00:00",
       "scopes": [
-        "Texas"
+        "National"
       ],
       "feedIds": [
-        "texas"
+        "national"
       ]
     },
     {
-      "id": "d8d3593d0155e50b",
-      "title": "This Day in Liberal Judicial Activism—November 12",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOWRIVlNZT1F2X0U3V2V3djB2bXAzTlFlQ3JSSVhGVVl5dHhzSFB5OGNELUdGNmxTZy16aG5lS1Ywa3ZIZWhBVXRBcTZFUDBHT1J0NklkX24tVDNMS0doSEUxOUM2QVdnSXExQjhJSTcwNklYaFNYcXZqZHV2Vko3eXkteC1JQ0Q5cG5RRm5zNTZVY25xeGMwLThR?oc=5",
-      "publisher": "National Review",
-      "publishedAt": "2026-11-12T13:00:43+00:00",
+      "id": "ee852cf4827feeb7",
+      "title": "Texas’ Next Chief Justice Targets Judges’ Religious Opt-Out For Same-Sex Weddings",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVDNPTGZFZXNzLUZGanFadU9KNHBZYkdZeGRCbjRCblIzQmZnd3JfZThVYUZSSzZSeHZublc3dF9ZSnJXMU5TdDZzcmNkOGY3dS1nNW9MLXl4VWQxSFNVLUcyc1VFNWZibG42aWF3OE54LVMxTW5VZnZKdm5QeHZsc21MTUQyQkNDMWlTaW9uWEdkWk1hdHRZZ2ZRWkxMaGhya2ZXN0ZKOFRBOUxrMnc0NThR?oc=5",
+      "publisher": "WBAP",
+      "publishedAt": "2026-11-12T18:18:28+00:00",
       "scopes": [
         "Texas"
       ],
@@ -327,19 +327,6 @@
       ]
     },
     {
-      "id": "d5999a3edb562762",
-      "title": "Democratic candidates with a Christian message help flip Congress",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcy1uV2FvMVlEVnJ4ZEEwb01BUlFuNDdWS0lJU0hoY085MVZGUFF3X0xlZ1BDU0NXd2VUcWxJNTRkbmNzTHlwWUZ1Sm9ubzFJemdWRGd0RDFEemwzS0dQdUdxY0VHVzN2Q3Q0bTJxSndiZF9NMlY5R1FObDFYMTUwTWlRM0I4SFcxZUVXcUhrTFR0c1F2ZFFia0M5TXg?oc=5",
-      "publisher": "KKTV",
-      "publishedAt": "2026-11-06T20:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
       "id": "28675d0cb1152078",
       "title": "Senate Judiciary Will Weigh Religious Liberty Bill",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLY05VMnlwcmJERXRNemJENjFrTUQ4dndxNVAwMmx5NkFrUDJoUXYxMzdRZlg4Y2pwWGl2aWdvaFdTODFRNDRzdlJlR1l5dGtlVlI1UFEyU2FzbUdraWMzVW1TVUY5NDFiaGlkamxVYzdzME5ETWNF?oc=5",
@@ -370,6 +357,19 @@
       ]
     },
     {
+      "id": "d5999a3edb562762",
+      "title": "Democratic candidates with a Christian message help flip Congress",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRkhBdjJlbFpXRkJzTFV2VkpkUW9Ecm44MVlPbDhNVEY5UUJsYVFGMnBNTTNCbkJOMGthX2lVYklVU21RYlJ3c2hNNklQMF9yQTFoeE92X1pjcDlaaE1YZzZlMEpVbkdvUDJueFB4eThobWRkdmc3cFI4OW1ubmozQmtMaV8wYkpYcWlpVE9JZEtFRE5qNmpvX3daLWUtSHRRbnV3WG9rdTNFbmhyRXBRTE8xR1l2WlFQTkJsZ0FxRTlJRkQ1Q3d2UDhB0gHKAUFVX3lxTE9GSEF2MmVsWldGQnNMVXZWSmRRb0RybjgxWU9sOE1URjlRQmxhUUYycE1NM0JuQk4wa2FfaVViSVVTbVFiUndzaE02SVAwX3JBMWh4T3ZfWmNwOVpoTVhnNmUwSlVuR29QMm54UHh5OGhtZGR2ZzdwUjg5bW5uajNCa0xpXzBiSlhxaWlUT0lkS0VETmo2am9fd1otZS1IdFFudXdYb2t1M0VuaHJFcFFMTzFHWXZaUVBOQmxnQXFFOUlGRDVDd3ZQOEE?oc=5",
+      "publisher": "WKRG",
+      "publishedAt": "2026-11-06T12:17:49+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
       "id": "50fcb56aa91e20c8",
       "title": "Religious Freedom Restoration Act (RFRA)",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pNk5QbXQ1SXAyM0h3OWFOcmhWUElRRWVZeHRLcXBCb3BQMUROM3JxZEhJcWFFUGpZZXM1WVhzMzhKWHczMUJwNVRrQnVCN01PLUcwMzJaMlBlU0dRQ2xWcE9tLUxBREZwZnlfTGIzVEo5WmdB?oc=5",
@@ -380,6 +380,19 @@
       ],
       "feedIds": [
         "national"
+      ]
+    },
+    {
+      "id": "bf2b5f67e9f2965e",
+      "title": "The Christian Nationalist Agenda Is Dead",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOXBTZU9kbW5ydy1IdjZMUlZiQ1VxUHJHbDlOV2hnd1ZnRHBHdVpFTmpCM252UGpHNjRBWjdLMjJ3dWFxaTJWV3I4ZnE4dVlBQ2xVUUxaeldwWGtXdDJyQWFpVmM4WEFxVllqLS1ValFyeTFWZHpnRm9QVUZYMmtyMFhFNEQwNDg?oc=5",
+      "publisher": "Texas Monthly",
+      "publishedAt": "2026-11-05T20:25:23+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
       ]
     },
     {
@@ -414,6 +427,19 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDZHNW83a2tWdkI3QkpGd08tODJSOWl6NXUtSmZjLWV4WVJweXluRGVIYUJ1cUJRemlHZVpoOS1wdVV3TWZPTG5FMVZsRlNPMmRDeHVxb0VmdjdWaEY2MHRsUGdqM3BBR2tqanNCdkJMX051TFR1ck1jV1J5ZzFITWZNYmQ?oc=5",
       "publisher": "Irish Rover - Notre Dame",
       "publishedAt": "2026-11-04T14:16:06+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "177df3857d5a11a3",
+      "title": "Wednesday, November 4, 2026",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGYmVXNXFic2t4N19oU0NPRlVfZkUzaGxPaVFMUmJ2OWhmVzZQRVgwSlpQY0ZSTkxBamR5ZmJSRmFZbHFqN1pNQjBZQmFnLXhlQ0YwQnlnUGctcWF5bWwwTUlPQQ?oc=5",
+      "publisher": "AlbertMohler.com",
+      "publishedAt": "2026-11-04T09:51:42+00:00",
       "scopes": [
         "Texas"
       ],
@@ -608,19 +634,6 @@
       ]
     },
     {
-      "id": "718756f5043c3d1a",
-      "title": "What is Sharia law, and why is it so controversial in the United States?",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnJ2V0RBX2hVall5ZmFOekU4ZEl1cEJ4ZmxKRmxUeHIwSEFBQl9SM1hGaVg0UlgydkxNXzdxV2wySVhzNFlTMTVqVHBUcm14a0VvMW9GdmNOOHNZTGxzaUxTUUdaR18xRF9mNTY3UGxCOHlwc2R6T2p5eHM1Q200YVBtSi1pejFDT1gxNktLbmo4X3hLeHFFN0tzbDE5NUhEU3d1bE1YUEc?oc=5",
-      "publisher": "The Conversation",
-      "publishedAt": "2026-10-29T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
       "id": "2bb8e5e62b080cd2",
       "title": "Testing church/state separation, Albuquerque megachurch endorses Hull, Cunningham",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV09aTjRyTkJlcF9oelh2V3BwR0MzVFhUUXpMZEV1eGw1ZDZmZ3JOLWEwYWE4WFgxemt4TG00Z1VLR0FWQzdXOVp1anFZYmRnaFY2aHFXRlZEenpScFZHNVoxMThTenRIQkJBbjloczJlWWc0NFFQd1FnZTZNM0FfaVlBcUE4dXJmcEVtd2pQSlhtX21YTmltd2lyOWlkQjg2LTJ0UFViOGpOeTVnLUJZVHk1cHNxQ0hJdG1KRFlB?oc=5",
@@ -766,19 +779,6 @@
       ]
     },
     {
-      "id": "d56ad563e4ed9448",
-      "title": "Vietnam pledges religious freedom in meeting with Franklin Graham",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVG5rUWFJVnhsN20zNjhyY2prSThjVmlEU0RaLXdmZ2RlVzVHMWN5WG5kUDlJZzlWaVJiNl94S1hlUnpqN1lWOHNtd3dvMm4xU3BEM0RUUjB2QjFjMldkcUlITHpYZ2RHWDEzemUzb0kyRkRGX0MzeTF3Z1ZzZHVEUURDYXJIcFlzZjBTcWJWY0h1QXVzOGl6cDVLeFBaZw?oc=5",
-      "publisher": "WORLD News Group",
-      "publishedAt": "2026-10-16T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
       "id": "5f2c116950526419",
       "title": "Florida’s attorney general fights for religious freedom. Has he crossed a line?",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEkteS1WUlpOVUtvOExHR3RlZkZLZFFYdlZGb2NBcDloTnltTWFaU0xycThqZVRkeE50d181SXk1RXBUYl9qUk52eGV5NlA3LWZEOUhTSGhiV0JnemtFTEVtTFFhak5LeC1iTWsxZ1N3Z3AtZWhQa2JDZ3pITFJhdDV0clJRQlRpd1U3dkF4UE1mRGvSAZMBQVVfeXFMTmdsNWlhUVhrdTNqNTdZZThrc3pBMVV1alJCbm1oOHNUcHM2Rmx3Q3JyNzZ1UlM2U3hLWDNaclhudEZIanBtNXJJQXZpQTVvNkpuajE2bHdaU0NlRnlEZ2Q0NXdyRW5xMUQyQktqeUh6U2oxVk9tLVloZzh2WDhJUV9MY0llWGZMU2MyZlRLRWQyZU13?oc=5",
@@ -802,6 +802,19 @@
       ],
       "feedIds": [
         "texas"
+      ]
+    },
+    {
+      "id": "932340cfe81f8946",
+      "title": "Physicians for Informed Consent Files Amicus Brief with U.S. Supreme Court to Protect Religious Freedom for Virtual Public School Students",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQalQ3NjhqaHgxVjRrdG4zM3hNdThUYjFoY1FvaDZJTGpyTDRwdVdadnJEOEI5MGhJMm5wREM0c0ZYZG43eG5pZ3dRN3pCS2VTMG5HUE9CbElLXzBIeTN3WXRmNFp6TDcxQXZqVnpHLWhTbmdmYzRnLUNQT3lkYmhpMjBfRlM3Q2NMU3k0SlU3R3pvNjVGM01PUEVqTXFBYUdtTlQxS3VKNkpfUQ?oc=5",
+      "publisher": "Newswire",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
       ]
     }
   ]
