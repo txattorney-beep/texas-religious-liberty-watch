@@ -123,7 +123,7 @@ To compute a review hash, use `hashlib.sha256(clean(fetch(url)).encode()).hexdig
 
 ## Phone website and installable 90R app
 
-The full website is responsive for phone browsers. `/90r/` is a separate, installable **90R-only** tracker with the existing bill list, personal watchlist, activity, sources, and author information. It excludes news and court pages from the app navigation. Linked hearing notices open separately on the website. `/90r/install/`, linked as **Install 90R app** across the site, has iPhone Safari and Samsung Chrome/Samsung Internet instructions. iOS uses Share → Add to Home Screen; compatible Android browsers also expose a native install prompt.
+The full website is responsive for phone browsers. `/90r/` is a separate, installable **90R-only** tracker with the existing bill list, personal watchlist, activity, sources, and author information. It excludes news and court pages from the app navigation. Linked hearing notices open separately on the website. `/90r/install/`, linked as **Install 90R app** across the site, has instructions for Safari on iPhone and Chrome on Android. iOS uses Share → Add to Home Screen; compatible Android browsers also expose a native install prompt.
 
 The manifest's identity, launch URL, shortcuts, and scope are confined to `/90r/`. The service worker is `/90r/sw.js` with `/90r/` scope. The normal website does not register it. The app reads the same `/data/bills.json`; no separate bill updater, account, API key, app-store listing, or payment is required. Device installation still requires the visitor's confirmation.
 
