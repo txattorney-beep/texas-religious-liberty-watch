@@ -23,7 +23,9 @@ class AppTests(unittest.TestCase):
         page=app_pages((ROOT/'dist/index.html').read_text(),shell)['/90r/install/']
         self.assertIn('href="/90r/#watchlist"',page)
         self.assertIn('Safari',page)
-        self.assertIn('Samsung Internet',page)
+        self.assertIn('href="#android"',page)
+        self.assertIn('id="android"',page)
+        self.assertIn('Chrome',page)
         self.assertIn('id="app-connection"',page)
         self.assertNotIn('src="app.js',page)
         self.assertNotIn('src="/app.js"',page)
