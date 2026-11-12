@@ -21,3 +21,12 @@ footer button{padding:0;font-size:10px;color:var(--ink)}
 #page-title{font-size:clamp(40px,4.6vw,64px);line-height:1.08;letter-spacing:-1.5px;text-wrap:balance}
 .intro>div{min-width:0}.intro .export-button{flex-shrink:0}
 @media(max-width:680px){#page-title{font-size:clamp(38px,9vw,48px);letter-spacing:-1px}}
+
+/* One primary search field, with optional refinements. */
+.filter-panel{padding:0;border:0;background:transparent}
+.search.simple-search{border-radius:999px;background:#fffdf8;padding:6px 8px 6px 22px;gap:8px;box-shadow:0 2px 8px #6600000c;min-height:58px}
+.search.simple-search:focus-within{border-color:#a77b35;box-shadow:0 2px 12px #66000018}
+.search.simple-search input{font-size:16px;min-width:0;flex:1;outline:none;padding:8px 0}
+.simple-search button{width:44px;height:44px;flex-shrink:0;border-radius:50%;background:#660000;color:#fff4db;display:grid;place-items:center}
+.search-options{margin-top:9px}.search-options summary{width:fit-content;cursor:pointer;color:var(--muted);font-size:12px;padding:10px 4px;min-height:40px}.search-options .filters{margin:0 0 12px;padding:12px;background:#fffaf1;border:1px solid var(--line);border-radius:8px}
+@media(max-width:680px){.search.simple-search{padding-left:16px;min-height:58px}.search-options summary{min-height:44px}}

@@ -21,8 +21,9 @@ function setCounts() {
 function filtered() {
   const query = $('#search').value.trim().toLocaleLowerCase();
   const compactQuery = query.replace(/\s/g, '');
+  const terms = query.split(/\s+/).filter(Boolean);
   const topic = $('#topic').value, chamber = $('#chamber').value, review = $('#review').value;
-  let bills = state.data.bills.filter(b => (!query || `${b.caption} ${b.title || ''} ${b.number} ${b.author} ${b.summary || ''} ${b.topics.join(' ')}`.toLocaleLowerCase().includes(query) || b.id.toLowerCase().includes(compactQuery)) && (!topic || b.topics.includes(topic)) && (!chamber || b.chamber === chamber) && (!review || (review === 'reviewed' ? reviewed(b) : !reviewed(b))) && (state.view !== 'watchlist' || local.saved.includes(b.id)));
+  let bills = state.data.bills.filter(b => (!query || terms.every(term => `${b.caption} ${b.title || ''} ${b.number} ${b.author} ${b.summary || ''} ${b.topics.join(' ')}`.toLocaleLowerCase().includes(term)) || b.id.toLowerCase().includes(compactQuery)) && (!topic || b.topics.includes(topic)) && (!chamber || b.chamber === chamber) && (!review || (review === 'reviewed' ? reviewed(b) : !reviewed(b))) && (state.view !== 'watchlist' || local.saved.includes(b.id)));
   bills.sort((a,b) => {
     if ($('#sort').value === 'number') return billSort(a,b);
     if ($('#sort').value === 'review') return Number(reviewed(b))-Number(reviewed(a)) || billSort(a,b);
@@ -111,6 +112,7 @@ document.addEventListener('change',async e=>{
   if(e.target.id!=='restore-backup'||!e.target.files[0])return;
   try{const file=e.target.files[0];if(file.size>2000000)throw Error('The backup is too large.');const backup=JSON.parse(await file.text());if(backup.session!=='90R'||!Array.isArray(backup.saved)||!backup.notes||typeof backup.notes!=='object')throw Error('Use a 90R personal backup file.');const valid=id=>/^(HB|SB|HJR|SJR|HCR|SCR|HR|SR)\d+$/.test(id);local.saved=[...new Set([...local.saved,...backup.saved.filter(id=>typeof id==='string'&&valid(id))])];for(const [id,note] of Object.entries(backup.notes))if(valid(id)&&typeof note==='string')local.notes[id]=note;persist();setCounts();toast('Personal backup restored.');}catch(error){toast(error.message||'Could not read that backup.');}
 });
+$('#bill-search').addEventListener('submit',e=>{e.preventDefault();state.page=1;renderBills();});
 $('#search').addEventListener('input',()=>{state.page=1;renderBills();});
 for(const id of ['topic','chamber','review','sort'])$('#'+id).addEventListener('change',()=>{state.page=1;renderBills();});
 $('#export').addEventListener('click',exportCSV);
