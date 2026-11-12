@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T14:59:19.945258+00:00",
-  "checkedAt": "2026-11-12T14:59:19.945258+00:00",
+  "updatedAt": "2026-11-12T15:34:46.588967+00:00",
+  "checkedAt": "2026-11-12T15:34:46.588967+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T14:59:19.945258+00:00",
+      "checkedAt": "2026-11-12T15:34:46.588967+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T14:59:19.945258+00:00",
-      "count": 26
+      "lastSuccessAt": "2026-11-12T15:34:46.588967+00:00",
+      "count": 28
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T14:59:19.945258+00:00",
+      "checkedAt": "2026-11-12T15:34:46.588967+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T14:59:19.945258+00:00",
-      "count": 41
+      "lastSuccessAt": "2026-11-12T15:34:46.588967+00:00",
+      "count": 37
     }
   ],
   "items": [
@@ -90,6 +90,19 @@
       ],
       "feedIds": [
         "texas"
+      ]
+    },
+    {
+      "id": "09c9433675318b58",
+      "title": "\"USCIRF biased, ill-informed organisation with political agenda\": MEA hits back at US religious freedom panel",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcjlZMnFuQVRsdXNmYjFRc2pUX1VNNDZEZnZFTHkzRzRVUjktdzNKTzVFV2RUdF8xc0FxZHNBMXNFTE5vdEZ6eC1heEZXSWtFc0M1STZWZ2tNTHpfc2ZteUtQOThIN0t4YjYwNW1WS25sdXJBQ19yU0hHZGx3ckZQRU1heHQ0Z1RmS2ROR204MkRucUtoZlQtZVYzQjNvUV9DZEd0UVdBZjRyRDUwM1lTTDhpN000SzF4QlZhbTFVeGhpVW4wVjluV2JiX2daWXFvdG9nNWtWM2RURl9xRVlzOQ?oc=5",
+      "publisher": "India's News.Net",
+      "publishedAt": "2026-11-11T12:33:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
       ]
     },
     {
@@ -160,7 +173,7 @@
     {
       "id": "f435f4cefd9f6195",
       "title": "India Slams US Religious Freedom Watchdog Over Sikh Gurdwara Attack Claims",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU1BQTE1HZG9KLUhJaHZtOW04U09UXzlmb0d3WWtaX29JSWtoTHR1c192YVdTZzl4bko3bkxwVVk2clZfSzV2WDI5VVFnVVg3bmIxbzdQYVpldllfV3dXU3VhSmFKTHZ0Z3ZYUW9OV1paN0thRDVqWlY2eC1WNU9lVXZwaEZpeE1faURYXzVIVFc4bGxMakU4cHdUNk9GVE1jYjlhNl9mS1JIWnNnbHUwUnVuZGF6Mm1qSFBwcVc1clRUUzBIRU1Oa1dLeDJYUTR1bUd2QW9mbDFaSWJ3d2xmcTFkRk5zMURNN2fSAe8BQVVfeXFMTm4xN3JaTEVPN3FYWWdNT1NQOVhJeTNqd2lzUDl1ZEJYNVI2bko2M0F3R1I0a1FSbm9OX2FpeE9jUzU2V2JHWmVpNGxEbzkxdHhCQkRkZ2gxOUhidHhmS3VzUG1IUVBWWjViU2JvV3BMX2JzMEZXR3dJb0RwTzdHeFpGZTdQMkZWQnJNU3hIdFd4MEp0TVl5RTFFakRFeWF1QzBZRXJvVFR5RGJsSE5CRE1OTGs1bFN3OU05WkJBcjVWLVZwaDVwbWdRNzJadE84NWpjcmx4R3M4WVJXV29helpHc20wNWVfMElJWXd5Uzg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTVBjNjhvSXBSTl9LdDhHMkhrclplZUNFaVRWc3FDQ01lVmRZX0FDX3hjN0UtOE41c2JyNlREV1Q4ZktvejE1U1Zvd29LZGlTTkpGN2Z1ZTNsUDlzRE9hb3Z3Y3hqNlpMZnN3RUg2TXduNDc1RkZDLXVvV2dwMWcwLTRtYmcwb2xKbFVGc2VJYjZhUUpBcmZ5UFF5SEJfZWNoNC04MnI1SlJXN2RDU3NqYVpNeWJnbUR2T08wRVN5STlKUC1vSlRid0s2ZWxnS0xIZG1mWGljNlUxVldTOElRZXBNVjFaUzA0UVpF?oc=5",
       "publisher": "The Times of India",
       "publishedAt": "2026-11-10T17:44:56+00:00",
       "scopes": [
@@ -181,19 +194,6 @@
       ],
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "aae8a2bdcff1ce64",
-      "title": "India Accuses US Religious Freedom Commission of Bias, Cites Silence on Anti-Indian Hate Crimes",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajlLQzEzMVYwZXFCeWo4b3RYOXhHRUY5V085OWNaVkFGdUxGaEt4UG4wZTkwajRpSUhYS2VUNXgwNEZwX1BONjFQS0ZYU0FzWGVyLVdKOUdtaTY3eHljZ2FMRFFVVUhYOWZhMmtkTExEOEJzT2UwU1FwUVE3cXBxelRMb2wwVE9Dc0dSdjlmUUZ6VWh1bTJYVW0xeE8zQUNzYXdaUUd1VkI0cDFSRnpkOWt1WU5QVlNha2lCR2JWTUU?oc=5",
-      "publisher": "INDIA New England News",
-      "publishedAt": "2026-11-10T15:47:27+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
       ]
     },
     {
@@ -220,45 +220,6 @@
       ],
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "e30666ea973aac4a",
-      "title": "‘Biased And Ill-Informed’: MEA Slams US Commission Over Remarks On Attacks On Religious Places In India",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMWpVTURkT3ROMVpGbVdvcjE5MVJ1NmxUT2tZR0d0OC1mR090MmU1V3lFRm5fYlJCWTRQY1dhMnN6YndLQkcta0F3NUhTcTBRWWgzVWs0MVQxZV9NSE9LenBDR1FXTzlCVGg4NjdiNkRHSm93QUJIaGZpVWp0bExUNmE0RnFvN2VxdFIya05wY3hjM055aHpsTldBZ25Vc3pMV2pYaXViNEl6UFJMYjZOM1oxR251N3Bndl9DX1BJZEVWMGhfMDRkOVQ2SDB0WlozMWVWMGtkdHNlYzc1bjR0aWpEQ3c5aFFKME51OVg2ONIB9AFBVV95cUxNMGltZmdCUmJkQ1JSU3NRZGlzb2ViMDNRVk9ITEdMNHpEU1NscURQUElaMTNRMVpIWlBNRVlfMGpnb3otUTVHV3hyaXF2a0NIZ1hPYUIwZVU4TDZiZW5hVjJaQ0U0R180UlNwVTRJTzNOUVJ5Q1F4eFpYU1VjMEhBUkotOVdSX190RnB0ay1HYkwxc0NuTDFSR0hhYXdyWDdBWVJqcXY4V2p1X0NORS04NXBmdlBiY2lvT0FncmhjcXNyYzBkdVZ4V1piT2c1Z2tTcWk0bGRIV1Nwb2ZzcldQaXFhUlNsWnN1M0RIa2JPUXF3RTBJ?oc=5",
-      "publisher": "ABP Live English",
-      "publishedAt": "2026-11-10T13:07:09+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "28f7c86096a5de6b",
-      "title": "India Rejects US Religious Freedom Commission's Remarks On Gurdwara Attacks, Calls Them 'Blatantly Political'",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRWNZN3IyNVU5UkpDV1MwZHRmb0dJQkFhbndyb3NZWUNLUVc1a0VfbGJVdklTRnVLdFJoaG1keW1WbDlmeHJtMVhmU1BhaDI5VVhzMHNwTmFzN3owOGp6OHFsXzJXQWR4S0RaNXRnTEpvQVE5OXAxLUNBVEFLdDg2LXZVN2VkanNCMVhsdTlrZEV5OG1TeGZaMkZhcnVSXzFXLWlxTW11eVFlRmdwS1RMSERXZllpZzZNUkdIOWdTc9IBxgFBVV95cUxObnN1MkNKQ292WjRDZW1TVmNGdy1XYmJWNFJwWHZfQ2xicWRudTdtNXVCUXFzbXRYbG01ZjhPY2ZiZVlnSFd5NGRnUVBiSTUzNW5KWk1KYVpKb0E4aXNtOG9Ia3kwSzMwLTZra3RFVWFZaFJfenNJYV8wWnd5aWVvdGtaRDdBWi1zcHc0LTdidmNmUkpwb3dWVnRVa2tKa29iY1JYZGFFNmZUbU40MlBYTVpidzlCZllMRGRxOWV0aFZ0bjUtMnc?oc=5",
-      "publisher": "The Daily Jagran",
-      "publishedAt": "2026-11-10T12:41:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "09c9433675318b58",
-      "title": "\"USCIRF biased, ill-informed organisation with political agenda\": MEA hits back at US religious freedom panel",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVUwtTmJJaXpsXzVCZVZZeGFHM0tRZG1rXzdhazl1elVwZ0U3Vno2dU1wVHdQdWdhc2lmZFo5d0FTdDZHVkNESG1Rckhoa2V3S3lPTk43SG9kQ1NmSzBzV1p6WUlxSTJKalRWTmRmNE5Udmd3UjZVVWdacUxFcDVwSmRSaWo0czdJNko5WTNnNWt4ZjQyLUFMcHpTNDdnaTcyYVB6U2Rua3dJaUc5ZEplal8ySHdxMngwMDdoazhFUC14MnRJSUdndW1lM2J2WElad1BrNmNVOVFsQWJBcjR0djVaQUxEYzVLdEEtR0ZJaw?oc=5",
-      "publisher": "ANI News",
-      "publishedAt": "2026-11-10T12:23:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
       ]
     },
     {
@@ -293,19 +254,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmwxQ3lPVnFNMXR0U3VDMVpaWDB1MnF4R0huQThHSTJtSnVHYUZFOXg5UlpocTJYeHpkdDcxcUcyRTBudEFVeDlHbDBfUTEyZnZaRFliZTAtdkVpVjNQWVhRZGtPR1JrUjhPM3lwMUwzYm1CbmxmblB2R0lVR1hUUml5QTJHSjdCSjN1V3NGMEJQTm80WkVYaUxzdE9SQzJGME5F?oc=5",
       "publisher": "Bloomberg Law News",
       "publishedAt": "2026-11-09T09:45:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "d5999a3edb562762",
-      "title": "Democratic candidates with a Christian message help flip Congress",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3alVabDM5R05kZ2lHNEhqQUR6cjZmcFIxYlBQNHNUTWxzaU5tc2d4WXJsbERFMjAweTJLYThHRzFWb1pJMFp3YlpHOURrWHRWelRzNzlvNWZpVHRoNVZ2cTIwMUw2Tl9LYk1ydUpsbGg?oc=5",
-      "publisher": "Hays Post",
-      "publishedAt": "2026-11-08T14:16:05+00:00",
       "scopes": [
         "Texas"
       ],
@@ -358,6 +306,19 @@
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdGlyUDQyUXY3T092cHp3UGhZTDVGM2tFMzVmNEJxZVFhWERSQUEzVW5UeFNpVVN6ZS1wS2dNcmNSOWYwY0VmR0t0eWMxcWg5MWxBTmNjSWhvRmM4VFp3R3BqeDU1YVRNZjZncEFTNHNubmg2YTVhTzRLdVJGSVgtZ0s0cGJ5NFctMXR4cm11akpMNThPZnRnMy1Nc1VGcDBoQi1MbjFWZ28zTDYwbWNIZXdaSHpnS2lTQWZ0aVl5SXFLR0hmM1NzeEZ6T3FsMF8yYkNENVlzMGx3bmxiNXBhaWhDeENaVG93ZTktWVdxMG12d9IBhgJBVV95cUxOdzJGZ0NjZkw0dWN4M3A3TGVkbUlRaXE4Mmlta1NfSVRpUzg0Ty1aVU5FQnRxMjVSSFMtRzlBcFBXbThyMTk2NUJsTWZsNGs1S1pvN0JrU2ptSTN1NDdsdEI2SVhORnhFZ1l3cllmU25HQmFtU1B2RVhwSGEtYnZnS2xMWXY4UlhwY25MSkwtY21zdFpLVm9QVUlQN1l3NWxaRWIyUzVZaDc0S1RneV9KZ0lYMk1xYnVXX3pGQ0dMaFhNcW5hSFUwdjZjaUtMUnZvVjJ0UmdHS3h2RmZiY1NDa0VOTkVySUZ0RXlsU3NDNEVPVDJ5eTlkRkxSYk1hRkplb2oxNXhB?oc=5",
       "publisher": "KWTX",
       "publishedAt": "2026-11-06T22:01:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "d5999a3edb562762",
+      "title": "Democratic candidates with a Christian message help flip Congress",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcy1uV2FvMVlEVnJ4ZEEwb01BUlFuNDdWS0lJU0hoY085MVZGUFF3X0xlZ1BDU0NXd2VUcWxJNTRkbmNzTHlwWUZ1Sm9ubzFJemdWRGd0RDFEemwzS0dQdUdxY0VHVzN2Q3Q0bTJxSndiZF9NMlY5R1FObDFYMTUwTWlRM0I4SFcxZUVXcUhrTFR0c1F2ZFFia0M5TXg?oc=5",
+      "publisher": "KKTV",
+      "publishedAt": "2026-11-06T20:00:00+00:00",
       "scopes": [
         "Texas"
       ],
@@ -435,19 +396,6 @@
       ]
     },
     {
-      "id": "67b1f23f746920ed",
-      "title": "Supreme Court hears Colorado religious discrimination case",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS1BiRnNaem9fZzI4U0hzTjJzTkNhNFhEaTl3M1JOZmhYWmVDTnJqYV9sb2JZTWc5U2ZRNldabXAydUotYi1JV2NJUTdwZl9YR0F4OVJFazZFakRhYWk3VndDZDNSTWNWdUNBSzczakRrcjBjejhpSi05b2EyUEZ6SFNlOWQ5WTQ2cXU3TUZjdlBHR3pIOU0tZjk5NFpKUFJxRU1VRldpczJQOV9ZTUk4?oc=5",
-      "publisher": "Baptist Press",
-      "publishedAt": "2026-11-04T15:55:51+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "2188e3603080f1c6",
       "title": "NDLS Contests Ten Commandments in Texas Schools",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDZHNW83a2tWdkI3QkpGd08tODJSOWl6NXUtSmZjLWV4WVJweXluRGVIYUJ1cUJRemlHZVpoOS1wdVV3TWZPTG5FMVZsRlNPMmRDeHVxb0VmdjdWaEY2MHRsUGdqM3BBR2tqanNCdkJMX051TFR1ck1jV1J5ZzFITWZNYmQ?oc=5",
@@ -465,7 +413,7 @@
       "title": "Court hears argument in religious discrimination dispute",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcE8wN09KZFN6enpFcjQ3a29FUjlKME1takNnTmNvbmx6MVhYRXpaRXhRTkY4ei1QaDAzaDRoY2FQdXNMRXdOSkFwcGpVTGRUdF84aDRRSHI5WXpGMlp1MHVOb0FEMWVxREFhSmNqNHZVVUZsTFRUQkhENUtNc1ctdXIyTnI2a2RKcTNRSVFQQWZwN2hlVHlj?oc=5",
       "publisher": "SCOTUSblog",
-      "publishedAt": "2026-11-04T14:00:24+00:00",
+      "publishedAt": "2026-11-04T08:00:00+00:00",
       "scopes": [
         "National",
         "Texas"
@@ -473,6 +421,19 @@
       "feedIds": [
         "national",
         "texas"
+      ]
+    },
+    {
+      "id": "67b1f23f746920ed",
+      "title": "Supreme Court hears Colorado religious discrimination case",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS1BiRnNaem9fZzI4U0hzTjJzTkNhNFhEaTl3M1JOZmhYWmVDTnJqYV9sb2JZTWc5U2ZRNldabXAydUotYi1JV2NJUTdwZl9YR0F4OVJFazZFakRhYWk3VndDZDNSTWNWdUNBSzczakRrcjBjejhpSi05b2EyUEZ6SFNlOWQ5WTQ2cXU3TUZjdlBHR3pIOU0tZjk5NFpKUFJxRU1VRldpczJQOV9ZTUk4?oc=5",
+      "publisher": "Baptist Press",
+      "publishedAt": "2026-11-04T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
       ]
     },
     {
@@ -625,6 +586,32 @@
       "title": "Texas Muslims Increase Political Engagement Amid Concerns Over Islamophobia, Religious Discrimination",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa29feVdfU3dCSG04eFZXTGVPU1c3cUlJLTA3emVJcmZ2R2pvQXlnMWkzQ1hQbm1ta0tlQ2NaT2szYndkQ2tQYUNxVklIdHBmSlR1MjhfdHJ6azZOdFBLWGNkNS1MNV81X0pwMjFzbHUtYWFGbjMwdUtidVVGWkx1b0ZoS3FjTzZSTUt1SnBYdF9iS0otMnp2Z1VIWXpwSWdoUm5MY1dJZmtJd09POGY1YUJTUnk1cmN4UFhVZDNyci10aXhkekJMNmk5ZXdLLUdUV1BIQ0FhdURPZ01fZGtEcVZWZ3RPVk0?oc=5",
       "publisher": "ShiaWaves",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "718756f5043c3d1a",
+      "title": "What is Sharia law, and why is it so controversial in the United States?",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnJ2V0RBX2hVall5ZmFOekU4ZEl1cEJ4ZmxKRmxUeHIwSEFBQl9SM1hGaVg0UlgydkxNXzdxV2wySVhzNFlTMTVqVHBUcm14a0VvMW9GdmNOOHNZTGxzaUxTUUdaR18xRF9mNTY3UGxCOHlwc2R6T2p5eHM1Q200YVBtSi1pejFDT1gxNktLbmo4X3hLeHFFN0tzbDE5NUhEU3d1bE1YUEc?oc=5",
+      "publisher": "The Conversation",
+      "publishedAt": "2026-10-29T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "7ac8466711b6db34",
+      "title": "Florida mosque controversy sparks fight over development and religious freedom",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YbkI4bXN3bUdHY1UwVnNyMi1uQ19kM2JRaHpiUU5TTlhFSzFqMHMxTm9IRWJ1ajdXRUFXMndsdDFXQWRWWEU2bVRiVDZaU2pxM09WQmhkSDluNld6?oc=5",
+      "publisher": "The Real Deal",
       "publishedAt": "2026-10-29T07:00:00+00:00",
       "scopes": [
         "Texas"
@@ -815,19 +802,6 @@
       ],
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "932340cfe81f8946",
-      "title": "Physicians for Informed Consent Files Amicus Brief with U.S. Supreme Court to Protect Religious Freedom for Virtual Public School Students",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQalQ3NjhqaHgxVjRrdG4zM3hNdThUYjFoY1FvaDZJTGpyTDRwdVdadnJEOEI5MGhJMm5wREM0c0ZYZG43eG5pZ3dRN3pCS2VTMG5HUE9CbElLXzBIeTN3WXRmNFp6TDcxQXZqVnpHLWhTbmdmYzRnLUNQT3lkYmhpMjBfRlM3Q2NMU3k0SlU3R3pvNjVGM01PUEVqTXFBYUdtTlQxS3VKNkpfUQ?oc=5",
-      "publisher": "Newswire",
-      "publishedAt": "2026-10-14T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
       ]
     }
   ]
