@@ -1,5 +1,5 @@
 {
-  "submittedAt": "2026-11-12T15:35:13.743026+00:00",
+  "submittedAt": "2026-11-12T15:43:40.797389+00:00",
   "httpStatus": 200,
   "submittedUrls": [
     "https://texasreligiouslibertywatch.org/",
@@ -7,22 +7,20 @@
     "https://texasreligiouslibertywatch.org/news/texas/",
     "https://texasreligiouslibertywatch.org/news/national/",
     "https://texasreligiouslibertywatch.org/90r/",
-    "https://texasreligiouslibertywatch.org/90r/install/",
     "https://texasreligiouslibertywatch.org/hearings/",
     "https://texasreligiouslibertywatch.org/rulings/",
-    "https://texasreligiouslibertywatch.org/religious-liberty/",
     "https://texasreligiouslibertywatch.org/about/"
   ],
   "pages": {
-    "https://texasreligiouslibertywatch.org/": "05712f1c0b241773a7746c5554c92632662875c1d3a19fdd0c9b5e00384c39dc",
-    "https://texasreligiouslibertywatch.org/news/": "7193841b2ae1ddfa50479599a568cd8835240a39fe613b04f9c9a2bbd6cb0617",
-    "https://texasreligiouslibertywatch.org/news/texas/": "011ca5fd4700b5925f27789ccf7a0c25c8926604d65826fa835f5cdc4cec29ce",
-    "https://texasreligiouslibertywatch.org/news/national/": "0dc421bc98fe37743047c2ac2b11c1765fd55d5077e1cb9ae9aded6ea6016429",
-    "https://texasreligiouslibertywatch.org/90r/": "9c2081ecc4b81ec2da06c32d6fe6f896fea8da5106830a7bf6c12aad652fa9fb",
+    "https://texasreligiouslibertywatch.org/": "87d2824c598beeedf262c52b0fbe94189c961bef2549be4875254148e5007d9a",
+    "https://texasreligiouslibertywatch.org/news/": "95b4d6f8f15a416195f97e20738b232606c4427a193f042cacbda50ed778cfa8",
+    "https://texasreligiouslibertywatch.org/news/texas/": "97e6f16117956c011f06c077d2f838a278ccfa1ea68777fb3c8279ab633b33e9",
+    "https://texasreligiouslibertywatch.org/news/national/": "37983b3c1ffa9cd87c8e5e210d3a97c005df4203529623a21cdf3d4452020e35",
+    "https://texasreligiouslibertywatch.org/90r/": "8845a97918e2a9f5da15005d5af141a6ff7ab359bb2377ceeb7e8e7ae1270a53",
     "https://texasreligiouslibertywatch.org/90r/install/": "cd0f054cea96ac8e3bad001458413468270fdd90d100d273c106ceb9e462ce2b",
-    "https://texasreligiouslibertywatch.org/hearings/": "051db37820c5aaae198f76f1d741a7b8cfa34806e60143c0fe559d87bf3544ce",
-    "https://texasreligiouslibertywatch.org/rulings/": "96555731fd480e9568b4afa99e40bb4b8a1bab01384f91dcb172cf9035446a5b",
+    "https://texasreligiouslibertywatch.org/hearings/": "eec8fcffa68003923b631901d4f7662bd4fbc67c9ae23e44b2f9beb4c556de48",
+    "https://texasreligiouslibertywatch.org/rulings/": "1e5db02b7def8522fd09c756ccef8c8bac197932d397af3c4d881f383deca711",
     "https://texasreligiouslibertywatch.org/religious-liberty/": "03f7e59de2599d57ab5b927432442d59a3d5e1f17fdeaa91932e1357519fdf67",
-    "https://texasreligiouslibertywatch.org/about/": "6558c4f127605c7e937ae87085cf9b7073d6a07e3bf6aac4f30ce9d804656cb2"
+    "https://texasreligiouslibertywatch.org/about/": "d6a0bbe93c922bf0cd7d1f240f6abf85701cc4de47af9b9cc4f8a2ab9ce78eed"
   }
 }
