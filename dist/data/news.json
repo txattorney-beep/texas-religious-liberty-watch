@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T14:44:42.939689+00:00",
-  "checkedAt": "2026-11-12T14:44:42.939689+00:00",
+  "updatedAt": "2026-11-12T14:59:19.945258+00:00",
+  "checkedAt": "2026-11-12T14:59:19.945258+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T14:44:42.939689+00:00",
+      "checkedAt": "2026-11-12T14:59:19.945258+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T14:44:42.939689+00:00",
-      "count": 25
+      "lastSuccessAt": "2026-11-12T14:59:19.945258+00:00",
+      "count": 26
     },
     {
       "id": "national",
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-12T14:44:42.939689+00:00",
+      "checkedAt": "2026-11-12T14:59:19.945258+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-12T14:44:42.939689+00:00",
+      "lastSuccessAt": "2026-11-12T14:59:19.945258+00:00",
       "count": 41
     }
   ],
@@ -353,6 +353,19 @@
       ]
     },
     {
+      "id": "62ff36a95418e6c1",
+      "title": "Newly elected Texas Supreme Court Chief Justice plans to test religious exception order won in court victory by McLennan County judge",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdGlyUDQyUXY3T092cHp3UGhZTDVGM2tFMzVmNEJxZVFhWERSQUEzVW5UeFNpVVN6ZS1wS2dNcmNSOWYwY0VmR0t0eWMxcWg5MWxBTmNjSWhvRmM4VFp3R3BqeDU1YVRNZjZncEFTNHNubmg2YTVhTzRLdVJGSVgtZ0s0cGJ5NFctMXR4cm11akpMNThPZnRnMy1Nc1VGcDBoQi1MbjFWZ28zTDYwbWNIZXdaSHpnS2lTQWZ0aVl5SXFLR0hmM1NzeEZ6T3FsMF8yYkNENVlzMGx3bmxiNXBhaWhDeENaVG93ZTktWVdxMG12d9IBhgJBVV95cUxOdzJGZ0NjZkw0dWN4M3A3TGVkbUlRaXE4Mmlta1NfSVRpUzg0Ty1aVU5FQnRxMjVSSFMtRzlBcFBXbThyMTk2NUJsTWZsNGs1S1pvN0JrU2ptSTN1NDdsdEI2SVhORnhFZ1l3cllmU25HQmFtU1B2RVhwSGEtYnZnS2xMWXY4UlhwY25MSkwtY21zdFpLVm9QVUlQN1l3NWxaRWIyUzVZaDc0S1RneV9KZ0lYMk1xYnVXX3pGQ0dMaFhNcW5hSFUwdjZjaUtMUnZvVjJ0UmdHS3h2RmZiY1NDa0VOTkVySUZ0RXlsU3NDNEVPVDJ5eTlkRkxSYk1hRkplb2oxNXhB?oc=5",
+      "publisher": "KWTX",
+      "publishedAt": "2026-11-06T22:01:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
       "id": "28675d0cb1152078",
       "title": "Senate Judiciary Will Weigh Religious Liberty Bill",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLY05VMnlwcmJERXRNemJENjFrTUQ4dndxNVAwMmx5NkFrUDJoUXYxMzdRZlg4Y2pwWGl2aWdvaFdTODFRNDRzdlJlR1l5dGtlVlI1UFEyU2FzbUdraWMzVW1TVUY5NDFiaGlkamxVYzdzME5ETWNF?oc=5",
@@ -452,7 +465,7 @@
       "title": "Court hears argument in religious discrimination dispute",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcE8wN09KZFN6enpFcjQ3a29FUjlKME1takNnTmNvbmx6MVhYRXpaRXhRTkY4ei1QaDAzaDRoY2FQdXNMRXdOSkFwcGpVTGRUdF84aDRRSHI5WXpGMlp1MHVOb0FEMWVxREFhSmNqNHZVVUZsTFRUQkhENUtNc1ctdXIyTnI2a2RKcTNRSVFQQWZwN2hlVHlj?oc=5",
       "publisher": "SCOTUSblog",
-      "publishedAt": "2026-11-04T08:00:00+00:00",
+      "publishedAt": "2026-11-04T14:00:24+00:00",
       "scopes": [
         "National",
         "Texas"
