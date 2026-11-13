@@ -18,7 +18,7 @@ The initial November 11, 2026 snapshot screens 1,378 official captions, retains 
 
 The public news watch is at https://texasreligiouslibertywatch.org/news/, with separate Texas and national views. Headlines are collected daily from Google News RSS searches, attributed to their publishers, deduplicated, and linked through to the source. Article bodies and automated legal summaries are not published. Coverage includes reporting, opinion, and advocacy releases. Search matches are provisional and not endorsements.
 
-The same active GitHub Actions workflow refreshes news every day at 13:37 UTC, including weekends. News continues after May 31, 2027; only the 90R bill-fetching window ends then. Failed feeds retain available prior records and show their status. The page warns when the snapshot is older than 36 hours. A bill-source outage no longer prevents news publication.
+The same active GitHub Actions workflow refreshes news at 7:00 a.m. and 4:00 p.m. Central time every day. News continues after May 31, 2027; only the 90R bill-fetching window ends then. Failed feeds retain available prior records and show their status. The page warns when the snapshot is older than 36 hours. A bill-source outage no longer prevents news publication.
 
 To change the news searches, edit `FEEDS` and `TERMS` in `scripts/sync_news.py`. Manual refresh: Actions → Publish and update 90R tracker → Run workflow. No news API key or paid service is required. This uses public RSS endpoints, whose availability can change.
 
@@ -49,7 +49,7 @@ To review a new case, read the actual opinion and relevant later orders, then ad
 3. Open **Settings → Pages**. Select **GitHub Actions** under Build and deployment.
 4. If organization or account policy restricts writes, open **Settings → Actions → General → Workflow permissions**, select read/write permissions, and save. Branch protections may require adjustment or a pull-request update workflow.
 5. Open **Actions → Publish and update 90R tracker → Run workflow**. The successful deployment provides the `https://YOUR-ACCOUNT.github.io/YOUR-REPOSITORY/` address.
-6. Confirm the live snapshot date and the workflow result in Actions. Scheduled checks run at **13:37 UTC daily**, equivalent to 7:37 a.m. CST / 8:37 a.m. CDT. Automated bill checks stop after May 31, 2027; news, court, and hearing checks continue. The site remains available afterward.
+6. Confirm the live snapshot date and the workflow result in Actions. Scheduled checks run at **7:00 a.m. and 4:00 p.m. Central time every day**. Automated bill checks stop after May 31, 2027; news, court, and hearing checks continue. The site remains available afterward.
 
 Git alternative, from the extracted folder after creating an empty repository:
 
@@ -150,7 +150,7 @@ Open http://localhost:8000. Opening `index.html` directly with a `file:` URL may
 - `dist/`: deployable static website and current data.
 - `scripts/sync_tlo.py`: official-source fetch, validation, screening, and text-change detection.
 - `editorial.json`: curated summaries and inclusion/exclusion decisions.
-- `.github/workflows/publish.yml`: daily refresh and GitHub Pages publishing.
+- `.github/workflows/publish.yml`: twice-daily refresh and GitHub Pages publishing.
 - `scripts/package_starter.py`: portable ZIP without hosting identity or credentials.
 - `tests/test_sync.py`: safeguards for data integrity and review invalidation.
 

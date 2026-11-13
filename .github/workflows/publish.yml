@@ -5,7 +5,10 @@ on:
     branches: [main, master]
   workflow_dispatch:
   schedule:
-    - cron: '37 13 * * *'
+    - cron: '0 7 * * *'
+      timezone: 'America/Chicago'
+    - cron: '0 16 * * *'
+      timezone: 'America/Chicago'
 
 permissions:
   contents: write

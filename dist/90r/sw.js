@@ -1,10 +1,10 @@
 'use strict';
 // This worker controls /90r/ only. It never caches the wider news or court site.
-const CACHE_NAME='texas-90r-app-v12';
+const CACHE_NAME='texas-90r-app-v13';
 const CORE=[
  '/90r/','/90r/install/','/90r/offline.html',
  '/styles.css?v=simple-search-20261112','/news.css?v=hearings-media-20261112','/mobile.css?v=phone-brand-20261112',
- '/app.js?v=mahmoud-bio-20261112','/90r/pwa.js','/90r/manifest.webmanifest','/favicon.svg','/data/bills.json',
+ '/app.js?v=bill-schedule-20261113','/90r/pwa.js','/90r/manifest.webmanifest','/favicon.svg','/data/bills.json',
  '/90r/icons/icon-192.png','/90r/icons/icon-512.png','/90r/icons/maskable-512.png','/90r/icons/apple-touch-icon.png'
 ];
 const CACHEABLE=new Set(CORE.map(path=>new URL(path,self.location.origin).pathname));
