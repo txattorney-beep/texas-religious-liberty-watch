@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T01:13:42.399989+00:00",
-  "checkedAt": "2026-11-16T01:13:42.399989+00:00",
+  "updatedAt": "2026-11-16T01:15:43.571567+00:00",
+  "checkedAt": "2026-11-16T01:15:43.571567+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T01:13:42.399989+00:00",
+      "checkedAt": "2026-11-16T01:15:43.571567+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T01:13:42.399989+00:00",
+      "lastSuccessAt": "2026-11-16T01:15:43.571567+00:00",
       "count": 32
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T01:13:42.399989+00:00",
+      "checkedAt": "2026-11-16T01:15:43.571567+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T01:13:42.399989+00:00",
-      "count": 48
+      "lastSuccessAt": "2026-11-16T01:15:43.571567+00:00",
+      "count": 49
     }
   ],
   "items": [
@@ -230,6 +230,19 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUmtjRkhnQzg5ZkZMc0lNSDZxNk1UNXBJNkpEV1NzMTZhUDBOWTdJT3lqb0hucFRUUTd2WUxEX3V3UzNzcGUxRHE2QWh6YnFDekJvRVd5VGpER2VGNEhkaklBTXRhSkxlZGM1dFFmNmswOWxOeUc5bW90MkozSlY4M005Wll4M0NvXzhOdDRieDU3Q0RIang3dEE0Q2w5R3dham5qeW5NTjQ0TTR4TlBaUw?oc=5",
       "publisher": "New Jersey Globe",
       "publishedAt": "2026-11-13T22:55:48+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "ae13ddf11fd47ed7",
+      "title": "Advocates for Faith & Freedom Wins Critical Religious Liberty Trial - Federal Court Rules Maine School Department Violated Church’s First Amendment Rights",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVXJNU29US3Z1VE5LRkdzbldpYWw1MXdOZG8xOTNOdWZWQ0o1cHAwaUFkV1NSMVJXU25Qc19NVnQxN0RzUGpLNlMtZDRoX2w4WGR6UGxiWjZVRHVtWXRQbTQtM2FxOHJDRWVGRHp2RnhidFFwdm1GdENDakdSTzNMUzhvTHh0czluWkNpbGZaN0FpUEF5RTBxb1lVRVQ4ZWpOV2xxejdGUDJNV1hIM1J3LVVveExUSU5TUFdfNmhsVE9RbVJheWl0TUNnc0p5akJrY0tKa1BySUEzY0xmSElINXhvaVJ1X0daS1BMRzFQT2lBV2lmekVBdXQxekw3UVRPVDRIM2o1X3BLWm8?oc=5",
+      "publisher": "Standard Newswire",
+      "publishedAt": "2026-11-13T21:10:25+00:00",
       "scopes": [
         "National"
       ],
