@@ -6,7 +6,7 @@
   const out=[],add=(type,title,description,url,meta,extra='')=>{out.push({type,title,description:description||'',url,meta:meta||'',search:normalize([title,description,meta,extra].join(' '))});};
   for(const b of data.bills?.bills||[])add('bills',`${b.number}: ${b.title||b.summary?.title||b.caption}`,typeof b.summary==='string'?b.summary:[b.summary?.plainEnglish,b.relevance,b.caption].filter(Boolean).join(' '),`/#bill/${encodeURIComponent(b.id)}`,[b.author,b.reviewState,b.actionDate].filter(Boolean).join(' · '),(b.topics||[]).join(' '));
   for(const b of [...data.rulings?.rulings||[],...data.rulings?.matches||[]])add('rulings',b.name,b.summary||b.excerpt,b.sourceUrl,[b.court,b.date,b.reviewState].filter(Boolean).join(' '),[b.docket,...b.topics||[]].join(' '));
-  for(const b of data.hearings?.events||[])add('hearings',b.committee,[b.timeAndDate,b.location,(b.relatedBills||[]).join(' '),b.status].filter(Boolean).join(' · '),`/hearings/#${encodeURIComponent(b.id)}`,[b.chamber,b.date].join(' '));
+  for(const b of data.hearings?.events||[])add('hearings',b.committee,[b.timeAndDate,b.location,(b.relatedBills||[]).join(' '),b.status].filter(Boolean).join(' · '),`/hearings/#${encodeURIComponent(b.id)}`,[b.chamber,b.date].join(' '),(b.relatedBills||[]).map(id=>{const bill=(data.bills?.bills||[]).find(row=>row.id===id);return bill?[bill.number,bill.caption,bill.summary,...bill.topics||[]].join(' '):'';}).join(' '));
   for(const b of data.news?.items||[])add('news',b.title,b.publisher,b.url,[b.publisher,(b.publishedAt||'').slice(0,10),...(b.scopes||[])].join(' · '));
   for(const page of data.pages?.pages||[])add('pages',page.title,page.text,page.url,'Site information');
   if(!data.pages?.pages?.length){
