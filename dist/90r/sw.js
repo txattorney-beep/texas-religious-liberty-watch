@@ -1,7 +1,8 @@
 'use strict';
 // This worker controls /90r/ only. It never caches the wider news or court site.
-const CACHE_NAME='texas-90r-app-v13';
+const CACHE_NAME='texas-90r-app-v14';
 const CORE=[
+ '/editorial.css?v=20261116',
  '/90r/','/90r/install/','/90r/offline.html',
  '/styles.css?v=simple-search-20261112','/news.css?v=hearings-media-20261112','/mobile.css?v=phone-brand-20261112',
  '/app.js?v=bill-schedule-20261113','/90r/pwa.js','/90r/manifest.webmanifest','/favicon.svg','/data/bills.json',
