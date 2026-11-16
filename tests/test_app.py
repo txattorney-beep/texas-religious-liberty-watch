@@ -19,6 +19,7 @@ class AppTests(unittest.TestCase):
         for token in ['id="bill-list"','id="bill-dialog"','data-view="watchlist"','data-app="90r"','src="/app.js']:
             self.assertIn(token,app)
         self.assertNotIn('class="discovery-panel"',app)
+        self.assertIn('<link rel="canonical" href="https://texasreligiouslibertywatch.org/">', app)
 
     def test_install_page_is_within_app_and_does_not_run_tracker_script(self):
         page=app_pages((ROOT/'dist/index.html').read_text(),shell)['/90r/install/']

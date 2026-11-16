@@ -72,7 +72,12 @@ def news_card(item):
 def news_page(home, data, scope=None):
     items = [item for item in data['items'] if not scope or scope in item['scopes']]
     title = f'{scope} religious liberty news' if scope else 'Religious liberty in the news.'
-    description = 'Daily headlines on religious freedom, constitutional rights, and church-state issues in Texas and across the United States.'
+    descriptions = {
+        None: 'Daily religious liberty news from Texas and across the United States, with links to original coverage of legislation, court cases, and policy.',
+        'Texas': 'Follow Texas and Fifth Circuit religious liberty news, including legislation, court cases, and church-state disputes.',
+        'National': 'Follow U.S. religious liberty news, including federal court cases, congressional proposals, and national policy.',
+    }
+    description = descriptions[scope]
     path = '/news/' + (scope.lower() + '/' if scope else '')
     checked = central_date(data['updatedAt'], True) if data['updatedAt'] else 'No successful refresh yet'
     tabs = ''.join(f'<a href="/news/{value.lower() + "/" if value else ""}" class="news-tab {"selected" if value == scope else ""}" {"aria-current=\"page\"" if value == scope else ""}>{label}</a>' for value, label in [(None, 'All coverage'), ('Texas', 'Texas'), ('National', 'National')])
@@ -132,11 +137,18 @@ def build(root=ROOT):
     home = re.sub(r'<!-- SEARCH META -->.*?<!-- /SEARCH META -->\s*', '', home, flags=re.S)
     graph = {'@context':'https://schema.org', '@type':'WebSite', 'name':'Texas Religious Liberty Watch', 'url':SITE + '/', 'description':'Texas 90R religious liberty bill tracking and daily Texas and national religious freedom news.', 'inLanguage':'en-US', 'publisher':PERSON}
     search_meta = '<!-- SEARCH META -->\n<link rel="canonical" href="' + SITE + '/">\n<meta name="robots" content="index,follow,max-image-preview:large">\n<meta property="og:title" content="Texas Religious Liberty Watch | Bills & Daily News">\n<meta property="og:description" content="Religious liberty in Texas: a 90R bill tracker, daily state and national news, and official sources.">\n<meta property="og:url" content="' + SITE + '/">\n<meta property="og:type" content="website">\n<script type="application/ld+json">' + json.dumps(graph) + '</script>\n<!-- /SEARCH META -->\n'
+    home = re.sub(
+        r'<title>.*?</title>',
+        '<title>Texas Religious Liberty Watch | 90R Bill Tracker and News</title>',
+        home,
+    )
     home = home.replace('</head>', search_meta + '</head>')
     home_path.write_text(home)
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
     for path in ['/', *pages]:
+        if path == '/90r/':
+            continue  # The installable tracker uses the homepage as its canonical URL.
         url = ET.SubElement(sitemap, 'url')
         ET.SubElement(url, 'loc').text = SITE + path
         if path.startswith('/news/') and data['updatedAt']:
