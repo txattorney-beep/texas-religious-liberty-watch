@@ -98,6 +98,20 @@ class NewsTests(unittest.TestCase):
             urls = ET.parse(root / 'dist/sitemap.xml').getroot()
             self.assertEqual(len(urls), 6)
 
+    def test_courthouse_rss_requires_topic_geography_and_publisher_domain(self):
+        feed = next(f for f in sync_news.FEEDS if f['id'] == 'cns-texas-rss')
+        def rss(title, link='https://www.courthousenews.com/story/'):
+            return feed_xml(title=title, link=link).replace('<source>Test Publisher</source>', '')
+        items = sync_news.parse_feed(rss('Texas court hears religious freedom dispute'), feed, NOW)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]['publisher'], 'Courthouse News Service')
+        for title, link in [
+            ('Florida court hears religious freedom dispute', 'https://www.courthousenews.com/story/'),
+            ('Texas court hears contract dispute', 'https://www.courthousenews.com/story/'),
+            ('Texas court hears religious freedom dispute', 'https://example.com/story/'),
+        ]:
+            self.assertEqual(sync_news.parse_feed(rss(title, link), feed, NOW), [])
+
 
 if __name__ == '__main__':
     unittest.main()
