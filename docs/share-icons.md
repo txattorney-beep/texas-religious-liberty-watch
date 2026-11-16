@@ -1,0 +1,1 @@
+Social brand icons: Simple Icons 13.21.0 (CC0), https://github.com/simple-icons/simple-icons/tree/13.21.0/icons. Facebook, LinkedIn, X, Instagram and WhatsApp marks identify sharing destinations. No endorsement implied. Utility icons are original inline SVG. No third-party scripts are loaded.\n
