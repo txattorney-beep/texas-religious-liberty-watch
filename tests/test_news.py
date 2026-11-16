@@ -85,7 +85,7 @@ class NewsTests(unittest.TestCase):
             once = (root / 'dist/index.html').read_text()
             build_pages.build(root)
             self.assertEqual(once, (root / 'dist/index.html').read_text())
-            for path in ['news/index.html','news/texas/index.html','news/national/index.html','about/index.html','religious-liberty/index.html']:
+            for path in ['news/index.html','news/texas/index.html','news/national/index.html','about/index.html','religious-liberty/index.html','sponsor/index.html']:
                 html = (root / 'dist' / path).read_text()
                 self.assertEqual(html.count('rel="canonical"'), 1)
                 self.assertNotIn('<script src="app.js"', html)
@@ -96,7 +96,7 @@ class NewsTests(unittest.TestCase):
             self.assertIn('Texas religious liberty', texas)
             self.assertNotIn('National religious liberty</a>', texas)
             urls = ET.parse(root / 'dist/sitemap.xml').getroot()
-            self.assertEqual(len(urls), 6)
+            self.assertEqual(len(urls), 7)
 
     def test_courthouse_rss_requires_topic_geography_and_publisher_domain(self):
         feed = next(f for f in sync_news.FEEDS if f['id'] == 'cns-texas-rss')

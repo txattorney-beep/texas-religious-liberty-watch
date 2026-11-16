@@ -90,6 +90,10 @@ def news_page(home, data, scope=None):
 def build(root=ROOT):
     home_path = root / 'dist/index.html'
     home = home_path.read_text()
+    if 'href="/sponsor/"' not in home:
+        menu_end = home.index('</nav>', home.index('<nav aria-label="Main navigation">'))
+        home = home[:menu_end] + '  <a class="nav-item" href="/sponsor/"><span aria-hidden="true">10</span> Sponsor</a>\n  ' + home[menu_end:]
+        home = home.replace('LinkedIn →</a></div></div>', 'LinkedIn →</a><a href="/sponsor/">Sponsorship inquiries</a></div></div>', 1)
     data = json.loads((root / 'dist/data/news.json').read_text())
     pages = dict(news_page(home, data, scope) for scope in (None, 'Texas', 'National'))
     if (root / 'dist/90r/manifest.webmanifest').exists():
@@ -112,6 +116,15 @@ def build(root=ROOT):
     pages['/about/'] = shell(home, 'Eric A. Hudson, Texas litigation attorney', 'Eric A. Hudson is an Austin litigation partner at Arambula Terrazas PLLC and the creator of Texas Religious Liberty Watch.', '/about/', about)
     person_markup = {'@context':'https://schema.org', '@type':'ProfilePage', 'mainEntity':PERSON}
     pages['/about/'] = pages['/about/'].replace('</head>', '<script type="application/ld+json">' + json.dumps(person_markup) + '</script></head>')
+    sponsorship = (
+        '<section class="intro"><div><h1>Sponsor Texas Religious Liberty Watch</h1>'
+        '<p>Reach readers who follow religious liberty legislation, court rulings, and news.</p></div></section>'
+        '<section class="content-card"><p>Contact Eric Hudson for sponsorship details, available placements, and rates.</p>'
+        '<p><a class="button primary" href="mailto:txattorney@gmail.com?subject=Texas%20Religious%20Liberty%20Watch%20sponsorship%20inquiry">'
+        'Email Eric about sponsorship</a></p></section>'
+    )
+    sponsor_page = shell(home, 'Sponsorship', 'Inquire about sponsorship opportunities on Texas Religious Liberty Watch.', '/sponsor/', sponsorship)
+    pages['/sponsor/'] = re.sub(r'<a href="mailto:[^"]+">[^<]*</a>(?=<a href="https://www.linkedin.com/)', '', sponsor_page).replace('>ehudson@atlawpllc.com<', '>Email about copyright<')
     for path, html in pages.items():
         destination = root / 'dist' / path.strip('/') / 'index.html'
         destination.parent.mkdir(parents=True, exist_ok=True)
