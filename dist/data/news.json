@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T19:12:24.158700+00:00",
-  "checkedAt": "2026-11-15T19:12:24.158700+00:00",
+  "updatedAt": "2026-11-16T00:15:09.363022+00:00",
+  "checkedAt": "2026-11-16T00:15:09.363022+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-15T19:12:24.158700+00:00",
+      "checkedAt": "2026-11-16T00:15:09.363022+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-15T19:12:24.158700+00:00",
-      "count": 32
+      "lastSuccessAt": "2026-11-16T00:15:09.363022+00:00",
+      "count": 31
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-15T19:12:24.158700+00:00",
+      "checkedAt": "2026-11-16T00:15:09.363022+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-15T19:12:24.158700+00:00",
-      "count": 46
+      "lastSuccessAt": "2026-11-16T00:15:09.363022+00:00",
+      "count": 49
     }
   ],
   "items": [
@@ -225,6 +225,19 @@
       ]
     },
     {
+      "id": "8705d2ef3d47441f",
+      "title": "D.C. Dispatch: What N.J.’s members of Congress did in Washington this week",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUmtjRkhnQzg5ZkZMc0lNSDZxNk1UNXBJNkpEV1NzMTZhUDBOWTdJT3lqb0hucFRUUTd2WUxEX3V3UzNzcGUxRHE2QWh6YnFDekJvRVd5VGpER2VGNEhkaklBTXRhSkxlZGM1dFFmNmswOWxOeUc5bW90MkozSlY4M005Wll4M0NvXzhOdDRieDU3Q0RIang3dEE0Q2w5R3dham5qeW5NTjQ0TTR4TlBaUw?oc=5",
+      "publisher": "New Jersey Globe",
+      "publishedAt": "2026-11-13T22:55:48+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
       "id": "ae13ddf11fd47ed7",
       "title": "Advocates for Faith & Freedom Wins Critical Religious Liberty Trial - Federal Court Rules Maine School Department Violated Church’s First Amendment Rights",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVXJNU29US3Z1VE5LRkdzbldpYWw1MXdOZG8xOTNOdWZWQ0o1cHAwaUFkV1NSMVJXU25Qc19NVnQxN0RzUGpLNlMtZDRoX2w4WGR6UGxiWjZVRHVtWXRQbTQtM2FxOHJDRWVGRHp2RnhidFFwdm1GdENDakdSTzNMUzhvTHh0czluWkNpbGZaN0FpUEF5RTBxb1lVRVQ4ZWpOV2xxejdGUDJNV1hIM1J3LVVveExUSU5TUFdfNmhsVE9RbVJheWl0TUNnc0p5akJrY0tKa1BySUEzY0xmSElINXhvaVJ1X0daS1BMRzFQT2lBV2lmekVBdXQxekw3UVRPVDRIM2o1X3BLWm8?oc=5",
@@ -287,19 +300,6 @@
       ],
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "28447a8a2cab602c",
-      "title": "After the midterms, I’m reeling with hope for church-state separation",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zX0ZORWtYLW5xeU1USlJqUlpRc2NMbzBGcHdZTjBGUXFHLWRLYzdVbDM0MzRPQVVWOHVIV3hUNWw4YmUyZWdWWG9ob09DQkhSUGZ0QWE1aE4yYmtLNzdIajVMMDA0ZHQ0QTFPUXZKZkNuS3FhVWVaUkl3OXc?oc=5",
-      "publisher": "Americans United",
-      "publishedAt": "2026-11-12T15:49:31+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
       ]
     },
     {
@@ -391,6 +391,19 @@
       ],
       "feedIds": [
         "texas"
+      ]
+    },
+    {
+      "id": "f448159160175c81",
+      "title": "How to Take Action for Students' Religious Freedom",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZWJzdnp0VE82aFFDNGdUdG9EWFVpY1U4OGU3SlQ2RFoyZmdNcXY0Rnh2THlta1E0MkxJTzkyS2NjSG9lLUNqWE1yQ2toV0lQSFVOTjhNT3llMjNkc0liWFlwcG9aQzVRb2RKaW54dzN6QTNpemp5ZVY0bW1aQTdYLUV1a3pZR09XTjI5QUVFUXFpOFhvLW14aXhjTDhuTXp2RUhOcU1JVU9ZSmdTQmd1ZHY2Nk1PMXVPVVhYaVN4SHMyNDJuQjBZc3Z0aVhaek05S2NPdE1BSHUyem92cUJXbUFiR2dIRnNfZ3hWcmxsM0ZINVNVZzNscS1oVUVyazQ?oc=5",
+      "publisher": "American Civil Liberties Union",
+      "publishedAt": "2026-11-09T18:24:39+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
       ]
     },
     {
@@ -621,10 +634,10 @@
       ]
     },
     {
-      "id": "77d4106f9563c11f",
-      "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
-      "publisher": "National Catholic Reporter",
+      "id": "011cd3e5068d7b4c",
+      "title": "Court seems poised to side with Catholic preschools in religious discrimination dispute",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONnEzbWZIdW5yVzhsQUlLSkh5RUJFcmcyTEltSU1GaHo4SEhZNkJ6VzRRYkNhU1RwM1F4Y1M4X1g5ZFlMWm9vdV8ybmR5eWI0V0VPaHNlNFkzd1Z4QXRCWFk4NGVvZXhEbEdKQ0ZVTE1sdmozLWxOWHNacjM1SlZCVmlqT3N0d3ZQY1FCOEhiM3p1bnE1aUd4d2pJYU5iekFjZDZ0ZEs1UFJzZzRqQzNQckhNLUloeE9YVWJrSFBzYng?oc=5",
+      "publisher": "SCOTUSblog",
       "publishedAt": "2026-11-03T08:00:00+00:00",
       "scopes": [
         "National"
@@ -634,10 +647,10 @@
       ]
     },
     {
-      "id": "011cd3e5068d7b4c",
-      "title": "Court seems poised to side with Catholic preschools in religious discrimination dispute",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONnEzbWZIdW5yVzhsQUlLSkh5RUJFcmcyTEltSU1GaHo4SEhZNkJ6VzRRYkNhU1RwM1F4Y1M4X1g5ZFlMWm9vdV8ybmR5eWI0V0VPaHNlNFkzd1Z4QXRCWFk4NGVvZXhEbEdKQ0ZVTE1sdmozLWxOWHNacjM1SlZCVmlqT3N0d3ZQY1FCOEhiM3p1bnE1aUd4d2pJYU5iekFjZDZ0ZEs1UFJzZzRqQzNQckhNLUloeE9YVWJrSFBzYng?oc=5",
-      "publisher": "SCOTUSblog",
+      "id": "77d4106f9563c11f",
+      "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
+      "publisher": "National Catholic Reporter",
       "publishedAt": "2026-11-03T08:00:00+00:00",
       "scopes": [
         "National"
@@ -718,19 +731,6 @@
       "title": "Utah State football players, fans targeted by religious discrimination at Texas State game",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMWFoWEhIMTc2RUQ0OHlYS2JDWUFlYnRybTJheDREdmd1WmhqelFCZDk1WnN4cUJ5SFphc21DamRHTnV6RmZRMXVEQW43Tk50Yks0Z2R2ZGpJUFpiVlhGMW5OV3JHaW9DVXg3dmpOejBkWTRuSW1YSFgzclJmWU5mWmFwMWJvUHE2WmJOYU5WdXpHZldNNmhPTTFQRTVnY205aXlGR0FmTXhSZVg0Y29jNm9jUXBHQ2dq?oc=5",
       "publisher": "KUTV",
-      "publishedAt": "2026-10-30T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "adbbecee00fbda26",
-      "title": "Religious freedom in focus at the Supreme Court with Colorado universal preschool case",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONXRVQ3dsWTRaMlV2QXBaQVFMUG00V09rWFJLd0ZycVp6eTdBOGxzRUFXMzlTcXFmNHBLZlZLR0JCblZRLUl0elRjT3JrU0tYLWd1UnNNWmNQb3F0UEw0SW1RbnpDTk1PZzFjVFlaM2F5RVhvZEJIVkRrYXhDdGlUU0lTOGpIYWdld3BXaHhuTUg1clVlaW9BT3RsNTlWeHNRSEoxSlpjaVR3dm9MdGhkaTJYRS1qV0x3XzluTHhrazRsMGhIZ2c0?oc=5",
-      "publisher": "Washington Examiner",
       "publishedAt": "2026-10-30T07:00:00+00:00",
       "scopes": [
         "Texas"
@@ -844,23 +844,23 @@
       ]
     },
     {
-      "id": "238983bcdefa0503",
-      "title": "BYU Law announces new religious liberty clinic",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNDZMUjdDbF9qTWZNcEI0REJBOS1lSnFOUUNGYXZ5SHp1SkhVV3pyMTlQU0ZXeE5KZ1VuQ3ZFTFpHQzFXNl84UWFKNUVvYmFhV1BsMFpFTEduOFEyckNnR0h2VnlFOU1tUUFZZUZUWTh1d2Zra0t3SnhET3ZRek12QTRWZVNRQndYYW1obktZekJqTEhXR3RaQWpfdURDdw?oc=5",
-      "publisher": "Church News",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
       "id": "465a66d29e933f7c",
       "title": "Justices to Consider LGBTQ Discrimination and Religious Freedom in Colorado Case",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNazNNQk5zMURRQ0RoVUkxRmJTMzJfNGlDb1NqR2w2Um9LMkhlLWhTQ3VoUGp2S3g0aFRodEpwZnlJQkJ4Z21tOU16WTVWbkFaNThqZGxvWGZTc24zWEZtQ0c1d0RzLU5aOXZ4XzNKNXNDYUlRVFQzZ1AxdlJwd2FEMzU3QTI1QWtmclIzVHNWQzM5NDIxek9OY3FRVWNoSHVBRXh3STFJd3g1UjM1NWVFZ0NnNktFb1l4SXc?oc=5",
       "publisher": "The 74",
+      "publishedAt": "2026-10-28T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "ca25bc690ae8ccd0",
+      "title": "Chemerinsky: Supreme Court once again examines conflicts over the free exercise of religion",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaE9KN1lVMmw2VEk1QXEtNkJBUjhGTk9UckZCay1MQUpkWlpfc0RZS2RWY0xQQjZFTTE4MjBnN2V4YzNMejZBTWVzTmNPR0hnMWVPcGloU3UyYmFiY3JQeTRVcUYtbmpVWWdFdzRVZExYZXJCZEFfZkhOMDUxZjQ4ME83RS1yYTNvT2hZckVVWVA5cFRGY1AzcWtoWTNjdUJScHcxNFZKbGpCOGw1Mmh3TWtQa3FLNW5WYXRuNS1CMnNMTGE2bVloYTV4MHlBUQ?oc=5",
+      "publisher": "ABA Journal",
       "publishedAt": "2026-10-28T07:00:00+00:00",
       "scopes": [
         "National"
@@ -880,6 +880,19 @@
       ],
       "feedIds": [
         "national"
+      ]
+    },
+    {
+      "id": "9601d67f88600cee",
+      "title": "Opinion | JD Vance’s remarks to a Catholic nun unraveled the White House’s claims about religious freedom",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TTElvWVVEMWEtVVM0SGl4ZGtBdkxpZGx1UUdheW1DREhad0wtdDV2ZzMzSlktOTlnelFhUlJxbDJsaUQzbWpsVm9ZdFpmZjUxY1F3SDZSZjV0MklsYnJCMkliblQyTC1GRUhjNm15LUREZ2V2Ukw1RnhB?oc=5",
+      "publisher": "MS NOW",
+      "publishedAt": "2026-10-25T07:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
       ]
     },
     {
@@ -937,23 +950,25 @@
       ]
     },
     {
-      "id": "6f7836c6fd9bae29",
-      "title": "The Supreme Court’s next major case on the free exercise of religion",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
-      "publisher": "SCOTUSblog",
-      "publishedAt": "2026-10-20T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "91e61f66133f83cb",
       "title": "U.S. companies settle religious discrimination claims by Christian, Muslim workers, government says",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2N4aGg1Qnc4VjBfbFBaNVcxenF0UTdXNHg1UUlaOS1taGNsT2MzcEJjOFAzR0FCOHgtRDJaZjRmdUdPVWlLN2RXclkwUE4xNGk0RXpfNHBuMWVMS1BhdS13OGVOcWpIUS1VUXFkaTU5SGt3LW1FZWlvYllJa3VYNEtDUHdjMVdPQnBPVF9RZ29BOWk3VG1WYlpkdGczQ19JUXBRQ3M3dXNteXAxaGhsdWpxTGxiNjdoOWl4N2VLSQ?oc=5",
       "publisher": "EWTN News",
+      "publishedAt": "2026-10-20T07:00:00+00:00",
+      "scopes": [
+        "National",
+        "Texas"
+      ],
+      "feedIds": [
+        "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "6f7836c6fd9bae29",
+      "title": "The Supreme Court’s next major case on the free exercise of religion",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
+      "publisher": "SCOTUSblog",
       "publishedAt": "2026-10-20T07:00:00+00:00",
       "scopes": [
         "National"
