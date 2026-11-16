@@ -1,39 +1,17 @@
 {
-  "updatedAt": "2026-11-16T18:16:07.522820+00:00",
-  "checkedAt": "2026-11-16T18:16:07.522820+00:00",
+  "updatedAt": "2026-11-16T18:16:51.709439+00:00",
+  "checkedAt": "2026-11-16T18:16:51.709439+00:00",
   "status": "ok",
   "sources": [
-    {
-      "id": "courthouse-texas",
-      "scope": "Texas",
-      "label": "Courthouse News Service: Texas and Fifth Circuit",
-      "query": "site:courthousenews.com (\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
-      "url": "https://news.google.com/rss/search?q=site%3Acourthousenews.com+%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T18:16:07.522820+00:00",
-      "status": "ok",
-      "lastSuccessAt": "2026-11-16T18:16:07.522820+00:00",
-      "count": 5
-    },
-    {
-      "id": "courthouse-national",
-      "scope": "National",
-      "label": "Courthouse News Service: national religious liberty",
-      "query": "site:courthousenews.com (\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
-      "url": "https://news.google.com/rss/search?q=site%3Acourthousenews.com+%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T18:16:07.522820+00:00",
-      "status": "ok",
-      "lastSuccessAt": "2026-11-16T18:16:07.522820+00:00",
-      "count": 0
-    },
     {
       "id": "texas",
       "scope": "Texas",
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T18:16:07.522820+00:00",
+      "checkedAt": "2026-11-16T18:16:51.709439+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T18:16:07.522820+00:00",
+      "lastSuccessAt": "2026-11-16T18:16:51.709439+00:00",
       "count": 31
     },
     {
@@ -42,10 +20,34 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T18:16:07.522820+00:00",
+      "checkedAt": "2026-11-16T18:16:51.709439+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T18:16:07.522820+00:00",
+      "lastSuccessAt": "2026-11-16T18:16:51.709439+00:00",
       "count": 51
+    },
+    {
+      "id": "cns-texas-rss",
+      "scope": "Texas",
+      "label": "Courthouse News Service: Texas and Fifth Circuit",
+      "url": "https://www.courthousenews.com/feed/",
+      "publisher": "Courthouse News Service",
+      "geography": "\\b(Texas|Texan|Houston|Dallas|Austin|San Antonio|El Paso|Fort Worth|Fifth Circuit|5th Circuit)\\b",
+      "checkedAt": "2026-11-16T18:16:51.709439+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-16T18:16:51.709439+00:00",
+      "count": 0
+    },
+    {
+      "id": "cns-national-rss",
+      "scope": "National",
+      "label": "Courthouse News Service: national religious liberty",
+      "url": "https://www.courthousenews.com/feed/",
+      "publisher": "Courthouse News Service",
+      "geography": "\\b(Supreme Court|SCOTUS|Congress|nationwide|United States)\\b",
+      "checkedAt": "2026-11-16T18:16:51.709439+00:00",
+      "status": "ok",
+      "lastSuccessAt": "2026-11-16T18:16:51.709439+00:00",
+      "count": 0
     }
   ],
   "items": [
@@ -483,19 +485,6 @@
       ]
     },
     {
-      "id": "c99af9d352f8806c",
-      "title": "United States Court of Appeals",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRzVZS3RsTTEtREczUlk5U1NxWGlkOVlfWDJJemx1akpEd0htME1HeUtrd3JYZDM0M1drLVJTV1VZc3NiUnlETDg3ZzlNZDlRNXVtenFBXzJKMHRlYXdneTRNa1oxa1loaVhqLVBETzdXQVU4c01ZSGhGRFBzOENnOUhVS3NMaU5lUW5mVjhXanpES2FROHl4SW45V0ExdE9QOGpMd0t4Zm5tWS0zTXh3LW1R?oc=5",
-      "publisher": "Courthouse News Service",
-      "publishedAt": "2026-11-10T08:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "courthouse-texas"
-      ]
-    },
-    {
       "id": "105a74c949d0d0ad",
       "title": "Texas’ Flip to Blue Is Major Blow to Red States’ Legal Fights",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmwxQ3lPVnFNMXR0U3VDMVpaWDB1MnF4R0huQThHSTJtSnVHYUZFOXg5UlpocTJYeHpkdDcxcUcyRTBudEFVeDlHbDBfUTEyZnZaRFliZTAtdkVpVjNQWVhRZGtPR1JrUjhPM3lwMUwzYm1CbmxmblB2R0lVR1hUUml5QTJHSjdCSjN1V3NGMEJQTm80WkVYaUxzdE9SQzJGME5F?oc=5",
@@ -777,32 +766,6 @@
       ]
     },
     {
-      "id": "9b2969af52240287",
-      "title": "St. Mary's States Amicus Brief",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUUl3d0FwdjF1SkZYTllsMFYwQUJMZnpVWjFyMndhZ1V2d042ZGFIWElCTWhjUFdLV0dJY1lWNFJkSmNoT2poQjhhMWxwSGk4NHBHQXlYQlVQZm5NZlVkd0lRR2poSGF6VUFCWVNIQ2hJNS1CNFNTTENYXy1JcEVoTDBSS1JsbmpoMFMxb2U1bm82OUswV3JXSHNNMjBuQQ?oc=5",
-      "publisher": "Courthouse News Service",
-      "publishedAt": "2026-10-31T14:26:50+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "courthouse-texas"
-      ]
-    },
-    {
-      "id": "8479647744582e35",
-      "title": "Supreme Court of the United States",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOd0hxbTBDdXVtaEpMbzJab042TDU2SzZpLThEWGNYQi1SemJFRlBlakhPMUk0R1NSZDB6ZzFadFlSMk01Z0pTMGZKSXY1aVlVb3VKQkNyWGd6Rnk1akxhaEMtYkF2UHVxTlg2Tl9sdlZSNS13Tm1YaWF6akpvVDdKclJxZTkzTG5jc0RKTnhMS1VPMVM3dTBHLWpB?oc=5",
-      "publisher": "Courthouse News Service",
-      "publishedAt": "2026-10-31T14:26:50+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "courthouse-texas"
-      ]
-    },
-    {
       "id": "4de105364b4a26e1",
       "title": "Protecting each others’ religious freedom helps build trust, Elder Dushku says at Iowa Religious Freedom Day event",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM045d0p6Q2lneTE5dW1uZFFSSXgyNk9neTJTaGtZRGVvQUppTnlJOVZHUE5weWFUVjRQdDAwZExRQnQyM2VPNm9jX2IzdUttWGQtakp2Zi1XekNDcnp0VTJPREN2R202Ti1HN0NWZHh5TF9rNU8xSGlEZHN5aWh3aG9zWlJoUk53TkFFdVRVcnRPWFlsU1kxdjI1MlRTd2Nf?oc=5",
@@ -813,19 +776,6 @@
       ],
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "fee68c8a283729ee",
-      "title": "Catholic preschools pit religion against LGBTQ rights in Supreme Court fight over public funds",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSWhzdm9WVEZnbll4RE9CSWR5YnBsLUVIbjd3NWdjYWZGcUw4Qi1VS0dGOG5UV2hDR1JWb182QzVxR0JieVdEYjM3c3pJN2Q3eE9fNE45VU9meDRNMVBJVjhVRGFYSllWRjlaSlhFdGhnUG5ma2thNlFRVndCb1dKSjFjSUxwZm40MUNrNmhMX2VXbFVUaXpMWGlXQ0YtRXdjVGdBQTBtR0w4dmF5ZHg5aThURmVuRUw3Qk5tMk85U2dtM0U?oc=5",
-      "publisher": "Courthouse News",
-      "publishedAt": "2026-10-30T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "courthouse-texas"
       ]
     },
     {
@@ -969,19 +919,6 @@
       ],
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "c857e618b9e08dc8",
-      "title": "New Mexico Pueblo tribes sue over eagle-take plan at national preserve",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbHE2YlB0QXcxVktUZ2ZwSE1CUHh1eV9vYUFQRGJOZlpwUExMWXB6TlpaYUpRY1hRWUxDTWE1MjNiTUdUcVRsaFl0WHdNVmtHYk1mazU4RUtyZnRZRkZhckxwcHF5TVJ1UVpSUmlNSmwxLXQ5NkgwMklDaklHVG82NXNlZWF0Y05zMTVrVFNwUENZMXI4OGFQQzF6OVl4bDB2dXRB?oc=5",
-      "publisher": "Courthouse News Service",
-      "publishedAt": "2026-10-26T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "courthouse-texas"
       ]
     },
     {
