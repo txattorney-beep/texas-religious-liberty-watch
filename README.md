@@ -165,3 +165,10 @@ Eric can access the private reports by signing into the existing Cloudflare acco
 
 Collection starts when the beacon is deployed; it cannot recover earlier visits. Blocked scripts, offline visits, and browser restrictions can cause undercounting. Reports do not identify visitors by name or email, and the site does not send watchlists or personal notes to analytics. The public beacon identifier is not a Cloudflare login or API credential. Cloudflare currently provides a six-month reporting window.
 
+
+
+### Site-wide search and navigation
+
+The Menu button opens a keyboard-accessible navigation drawer on desktop and phones. Shared search searches the published bill, ruling, opinion-match, hearing, news, and informational-page snapshots. Results are grouped with the current section first; clearing the query restores section filters. Unreviewed opinion matches retain their labels. Search uses published metadata, summaries, and excerpts, not the full text of linked third-party articles or PDFs. Missing datasets produce an incomplete-results notice and retry control. Informational pages are reindexed by `scripts/build_pages.py`; data refreshes become searchable on the next page load without a separate indexing service.
+
+Run `node --test tests/site-search.test.cjs` for cross-section ranking and matching checks. New UI assets are included in the 90R offline app cache; external-section data still requires a connection and missing sections are reported.

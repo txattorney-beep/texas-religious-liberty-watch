@@ -137,3 +137,22 @@ if __name__ == '__main__':
     build()
 
 
+
+
+def build_search_pages():
+    from html.parser import HTMLParser
+    class Text(HTMLParser):
+        def __init__(self):
+            super().__init__(); self.parts = []
+        def handle_data(self, text):
+            self.parts.append(text)
+    pages = []
+    for path, title in [('about/', 'About Eric A. Hudson'), ('religious-liberty/', 'Religious liberty: issues and sources'), ('90r/install/', 'Install the 90R tracker')]:
+        html = (ROOT / 'dist' / path / 'index.html').read_text()
+        content = re.search(r'<main[^>]*>(.*?)<div class="contact-strip">', html, re.S).group(1)
+        parser = Text(); parser.feed(content)
+        pages.append({'title': title, 'url': '/' + path, 'text': ' '.join(' '.join(parser.parts).split())})
+    (ROOT / 'dist/data/pages.json').write_text(json.dumps({'pages': pages}, ensure_ascii=False) + '\n')
+
+if __name__ == '__main__':
+    build_search_pages()
