@@ -137,7 +137,7 @@ def build(root=ROOT):
         content = document.read_text()
         content = re.sub(r'<link rel="stylesheet" href="/share\.css(?:\?[^"]*)?">', '', content)
         content = re.sub(r'<script src="/share\.js(?:\?[^"]*)?" defer></script>', '', content)
-        content = content.replace('</head>', '<link rel="stylesheet" href="/share.css?v=20261115-badges"><script src="/share.js?v=20261115-badges" defer></script></head>')
+        content = content.replace('</head>', '<link rel="stylesheet" href="/share.css?v=20261115-compact"><script src="/share.js?v=20261115-compact" defer></script></head>')
         document.write_text(content)
     print(f'Built {len(pages)} crawlable pages, metadata, robots.txt, and sitemap.xml.')
 
