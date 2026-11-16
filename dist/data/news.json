@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T00:22:41.555885+00:00",
-  "checkedAt": "2026-11-16T00:22:41.555885+00:00",
+  "updatedAt": "2026-11-16T01:13:42.399989+00:00",
+  "checkedAt": "2026-11-16T01:13:42.399989+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T00:22:41.555885+00:00",
+      "checkedAt": "2026-11-16T01:13:42.399989+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T00:22:41.555885+00:00",
+      "lastSuccessAt": "2026-11-16T01:13:42.399989+00:00",
       "count": 32
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T00:22:41.555885+00:00",
+      "checkedAt": "2026-11-16T01:13:42.399989+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T00:22:41.555885+00:00",
-      "count": 49
+      "lastSuccessAt": "2026-11-16T01:13:42.399989+00:00",
+      "count": 48
     }
   ],
   "items": [
@@ -238,24 +238,24 @@
       ]
     },
     {
-      "id": "ae13ddf11fd47ed7",
-      "title": "Advocates for Faith & Freedom Wins Critical Religious Liberty Trial - Federal Court Rules Maine School Department Violated Church’s First Amendment Rights",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNVXJNU29US3Z1VE5LRkdzbldpYWw1MXdOZG8xOTNOdWZWQ0o1cHAwaUFkV1NSMVJXU25Qc19NVnQxN0RzUGpLNlMtZDRoX2w4WGR6UGxiWjZVRHVtWXRQbTQtM2FxOHJDRWVGRHp2RnhidFFwdm1GdENDakdSTzNMUzhvTHh0czluWkNpbGZaN0FpUEF5RTBxb1lVRVQ4ZWpOV2xxejdGUDJNV1hIM1J3LVVveExUSU5TUFdfNmhsVE9RbVJheWl0TUNnc0p5akJrY0tKa1BySUEzY0xmSElINXhvaVJ1X0daS1BMRzFQT2lBV2lmekVBdXQxekw3UVRPVDRIM2o1X3BLWm8?oc=5",
-      "publisher": "Standard Newswire",
-      "publishedAt": "2026-11-13T21:10:25+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "85d8738edaeb7347",
       "title": "Texas’ Political Landscape Could See Huge Changes Post ‘Blue Tsunami’",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSjFXRjZ3Ukh5bkktZ1N2UHh2d0M3UDRlR3Z5QzB5Qy1tWjR2WEZGaGo0RjFkdFVGVU5LSk9tdGxzTVh0cF9OZVZMYUtoSWNFMWFMTS1xamZEYlZWRmtFY0FOc3dyV0hWMmJPVUlhLWRxNXBYMkZvbGJXTU9JZW1QM0hZLW1hSTRUTzNGa2Q0eTAyTWJGMWNzaFFkTG5PY282cVkwencxcG5haUdiVkttbDJ2NDFZY2RKRXZQbnNDcWNPTTVQSnZ5ZjM5d2FXVThzSm5UOTRaRFprRVlkNG9z?oc=5",
       "publisher": "Billy Graham Evangelistic Association",
       "publishedAt": "2026-11-13T20:35:53+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "f3eb1eaa27389136",
+      "title": "Paxton says high court shouldn’t consider Ten Commandments case now",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkxWVFZXRk5LTHNxRkhNOC1hNzByY04ySldLT3J4cDFsQnJHVjNDcmlaVms2QmJZTlo4S19DTHNzbGV0X2hoc1hRMUtKQXF3b2x5UjhCWnN6VGZSeXEzajRZd29PamxQNmlIZm5UQ2lWZDMySHRPbE1iaUtHY2xOY21JVk1DZ2MwbUpWTWhLZDR4V0h6YTBfelFtalhkclFG?oc=5",
+      "publisher": "Baptist News Global",
+      "publishedAt": "2026-11-13T19:12:43+00:00",
       "scopes": [
         "Texas"
       ],
@@ -841,19 +841,6 @@
       ],
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "238983bcdefa0503",
-      "title": "BYU Law announces new religious liberty clinic",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNDZMUjdDbF9qTWZNcEI0REJBOS1lSnFOUUNGYXZ5SHp1SkhVV3pyMTlQU0ZXeE5KZ1VuQ3ZFTFpHQzFXNl84UWFKNUVvYmFhV1BsMFpFTEduOFEyckNnR0h2VnlFOU1tUUFZZUZUWTh1d2Zra0t3SnhET3ZRek12QTRWZVNRQndYYW1obktZekJqTEhXR3RaQWpfdURDdw?oc=5",
-      "publisher": "Church News",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "feedIds": [
-        "texas"
       ]
     },
     {
