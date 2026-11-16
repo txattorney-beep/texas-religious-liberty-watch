@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T19:49:14.771631+00:00",
-  "checkedAt": "2026-11-16T19:49:14.771631+00:00",
+  "updatedAt": "2026-11-16T19:53:36.999146+00:00",
+  "checkedAt": "2026-11-16T19:53:36.999146+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T19:49:14.771631+00:00",
+      "checkedAt": "2026-11-16T19:53:36.999146+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T19:49:14.771631+00:00",
-      "count": 27
+      "lastSuccessAt": "2026-11-16T19:53:36.999146+00:00",
+      "count": 28
     },
     {
       "id": "national",
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-16T19:49:14.771631+00:00",
+      "checkedAt": "2026-11-16T19:53:36.999146+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T19:49:14.771631+00:00",
+      "lastSuccessAt": "2026-11-16T19:53:36.999146+00:00",
       "count": 40
     },
     {
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "geography": "\\b(Texas|Texan|Houston|Dallas|Austin|San Antonio|El Paso|Fort Worth|Fifth Circuit|5th Circuit)\\b",
-      "checkedAt": "2026-11-16T19:49:14.771631+00:00",
+      "checkedAt": "2026-11-16T19:53:36.999146+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T19:49:14.771631+00:00",
+      "lastSuccessAt": "2026-11-16T19:53:36.999146+00:00",
       "count": 0
     },
     {
@@ -44,9 +44,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "geography": "\\b(Supreme Court|SCOTUS|Congress|nationwide|United States)\\b",
-      "checkedAt": "2026-11-16T19:49:14.771631+00:00",
+      "checkedAt": "2026-11-16T19:53:36.999146+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-16T19:49:14.771631+00:00",
+      "lastSuccessAt": "2026-11-16T19:53:36.999146+00:00",
       "count": 0
     }
   ],
@@ -70,6 +70,19 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjBpUzh5aDBsT1psTUptM2liUVRVWDAxODJPdnlaemdWYWxvMTBnRVpYMGlKVmJiWHB5V21XVUlScmFTRmV4Zk5OV0QxVTVjaFVUcXJ0dFB3Qi1LOFNvczAzR2dCWFNwYW1vUG5LVXRFTEdtQkxJTXBpc3JJaW9xU0ttaWd1S28yaGUwTjdBb1ZJcHc?oc=5",
       "publisher": "San Antonio Express-News",
       "publishedAt": "2026-11-16T17:14:21+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "0be0daeb96c3e01c",
+      "title": "Religious Freedom Trails: Six Sacred Sites in Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVmUwU0JnYTJUOE11VV9MSDNDNS1jX0djaVpEM1dxRFNOcWlCazJtZHo5dkdxbU9PSWhUenFvT0tsOGNVNjRYODZpLUI5NkJJSnFWVFJHOUJKM1UxV2pVTmtuNU5SZ0RfVFRmaXgxZzJsaFp5UW1vSnRFc2FIR0xIZUN1R0JTVjNJZDRRNklWOVR0ZGdvejZFWkRQU1Y0M01wUlE?oc=5",
+      "publisher": "Interfaith America",
+      "publishedAt": "2026-11-16T16:29:59+00:00",
       "scopes": [
         "Texas"
       ],
@@ -124,19 +137,6 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWG5RZHhabENUcF9yVzJ0cExYMktqSmYyQlFGNm5tbnFSTWF4RVJqQTVKUUt4MTVrdkFZNlZnSWlmUDFxSnNydzRhSFQ4UnAzTVJNU1RtWC1JbVFzVFM1SmFidVRwSXl0QXpoTXB5cWxKZi1kTGdEZE5hWndoT0pGcG1VWUF5V3pmUXRZWnhzcS1IbkhiVEhPdERoUjFyclJyMy15TXNLYlcyT2xJd21aOXdwLWFpaURDOHdOLTRxSnE3X0N0SUVMTg?oc=5",
       "publisher": "Premier Christian News",
       "publishedAt": "2026-11-15T12:51:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "3e81b5dfad345d96",
-      "title": "Envoy snubs US body over Sharjeel Imam, rejects remarks on his religious freedom rights",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzZyMFM0dkxfeUFqeURyYTMzc3FiZm55SUtRZmJCQ1BxbVFFNmdrWEhSSnM2bmxBbzBCQ0xYX3VRV2VvTi0zMmNMZFh4c25mZ050LURHTkMzSi0tM2dlSy1PVDdJWU1leGlHY1Q3LVZYOWt4SnBEcGVPX3dhUVRkTDN3RzRrUW5LVFdIdG1VS0VwcG5WeF9od25oWjZ6dU54MlYzTDBrUWQxSXMydjVLU2lHbzJZaDNHNHZDcE5WeDdGVjhTZVhZeDUwYnRiaGkzRUJOY0pyRdIB1wFBVV95cUxNZzZyMFM0dkxfeUFqeURyYTMzc3FiZm55SUtRZmJCQ1BxbVFFNmdrWEhSSnM2bmxBbzBCQ0xYX3VRV2VvTi0zMmNMZFh4c25mZ050LURHTkMzSi0tM2dlSy1PVDdJWU1leGlHY1Q3LVZYOWt4SnBEcGVPX3dhUVRkTDN3RzRrUW5LVFdIdG1VS0VwcG5WeF9od25oWjZ6dU54MlYzTDBrUWQxSXMydjVLU2lHbzJZaDNHNHZDcE5WeDdGVjhTZVhZeDUwYnRiaGkzRUJOY0pyRQ?oc=5",
-      "publisher": "Telegraph India",
-      "publishedAt": "2026-11-14T23:36:45+00:00",
       "scopes": [
         "National"
       ],
@@ -752,6 +752,19 @@
       "feedIds": [
         "national",
         "texas"
+      ]
+    },
+    {
+      "id": "bbe2d79da2e69794",
+      "title": "Ahead of Religious Freedom Day, U.S. bishops call for ethical AI",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ2ZrZlFtV2Q2aEZiZW40ampweVdSZjAyT0F4VFlaUHBtdzU5MWo1VUFGVzZKRWpHT21GTURFSUpjaUxPc3pLYUNmWWRJVEI4ZlJ4aXQ5WG5wZ2I1Y0ZfcEZrbE1EMm9aV3JpWlFEUnBwM0w5WWkyTXl5dlJhMnNGcEREV3BYd2ZjMjVXb1l4RU5naEVOTE5SMl9lZGg?oc=5",
+      "publisher": "EWTN News",
+      "publishedAt": "2026-10-23T07:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "feedIds": [
+        "national"
       ]
     },
     {
