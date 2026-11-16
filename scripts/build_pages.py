@@ -130,6 +130,15 @@ def build(root=ROOT):
             ET.SubElement(url, 'lastmod').text = data['updatedAt']
     ET.ElementTree(sitemap).write(root / 'dist/sitemap.xml', encoding='utf-8', xml_declaration=True)
     (root / 'dist/robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /downloads/\n\nUser-agent: OAI-SearchBot\nAllow: /\nDisallow: /downloads/\n\nSitemap: ' + SITE + '/sitemap.xml\n')
+    # Idempotent: generated pages inherit the homepage head before this pass.
+    for document in (root / 'dist').rglob('*.html'):
+        if 'downloads' in document.parts:
+            continue
+        content = document.read_text()
+        content = re.sub(r'<link rel="stylesheet" href="/share\.css(?:\?[^"]*)?">', '', content)
+        content = re.sub(r'<script src="/share\.js(?:\?[^"]*)?" defer></script>', '', content)
+        content = content.replace('</head>', '<link rel="stylesheet" href="/share.css?v=20261115"><script src="/share.js?v=20261115" defer></script></head>')
+        document.write_text(content)
     print(f'Built {len(pages)} crawlable pages, metadata, robots.txt, and sitemap.xml.')
 
 
