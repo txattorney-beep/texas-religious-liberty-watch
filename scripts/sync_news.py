@@ -15,6 +15,10 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 TERMS = '("religious liberty" OR "religious freedom" OR "free exercise" OR "religious discrimination" OR "church-state")'
 FEEDS = [
+    {'id': 'courthouse-texas', 'scope': 'Texas', 'label': 'Courthouse News Service: Texas and Fifth Circuit',
+     'query': 'site:courthousenews.com ' + TERMS + ' (Texas OR "Fifth Circuit" OR "5th Circuit") when:30d'},
+    {'id': 'courthouse-national', 'scope': 'National', 'label': 'Courthouse News Service: national religious liberty',
+     'query': 'site:courthousenews.com ' + TERMS + ' ("United States" OR U.S. OR "U.S. Supreme Court" OR Congress OR federal) when:30d'},
     {'id': 'texas', 'scope': 'Texas', 'label': 'Texas religious liberty news',
      'query': TERMS + ' (Texas OR "Fifth Circuit" OR "5th Circuit") when:30d'},
     {'id': 'national', 'scope': 'National', 'label': 'United States religious liberty news',
