@@ -15,10 +15,6 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 TERMS = '("religious liberty" OR "religious freedom" OR "free exercise" OR "religious discrimination" OR "church-state")'
 FEEDS = [
-    {'id': 'courthouse-texas', 'scope': 'Texas', 'label': 'Courthouse News Service: Texas and Fifth Circuit',
-     'query': 'site:courthousenews.com ' + TERMS + ' (Texas OR "Fifth Circuit" OR "5th Circuit") when:30d'},
-    {'id': 'courthouse-national', 'scope': 'National', 'label': 'Courthouse News Service: national religious liberty',
-     'query': 'site:courthousenews.com ' + TERMS + ' ("United States" OR U.S. OR "U.S. Supreme Court" OR Congress OR federal) when:30d'},
     {'id': 'texas', 'scope': 'Texas', 'label': 'Texas religious liberty news',
      'query': TERMS + ' (Texas OR "Fifth Circuit" OR "5th Circuit") when:30d'},
     {'id': 'national', 'scope': 'National', 'label': 'United States religious liberty news',
@@ -26,6 +22,17 @@ FEEDS = [
 ]
 for feed in FEEDS:
     feed['url'] = 'https://news.google.com/rss/search?' + urlencode({'q': feed['query'], 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'})
+
+# Use the publisher's own RSS feed; search-engine results can include court PDFs
+# and unrelated state stories. Only attributed, relevant headlines are retained.
+FEEDS.extend([
+    {'id': 'cns-texas-rss', 'scope': 'Texas', 'label': 'Courthouse News Service: Texas and Fifth Circuit',
+     'url': 'https://www.courthousenews.com/feed/', 'publisher': 'Courthouse News Service',
+     'geography': r'\b(Texas|Texan|Houston|Dallas|Austin|San Antonio|El Paso|Fort Worth|Fifth Circuit|5th Circuit)\b'},
+    {'id': 'cns-national-rss', 'scope': 'National', 'label': 'Courthouse News Service: national religious liberty',
+     'url': 'https://www.courthousenews.com/feed/', 'publisher': 'Courthouse News Service',
+     'geography': r'\b(Supreme Court|SCOTUS|Congress|nationwide|United States)\b'},
+])
 
 
 def clean(text):
@@ -40,7 +47,14 @@ def parse_feed(xml, feed, now):
     for item in root.findall('./channel/item'):
         title, link = clean(item.findtext('title')), (item.findtext('link') or '').strip()
         source_element = item.find('source')
-        publisher = clean(source_element.text) if source_element is not None else ''
+        publisher = clean(source_element.text) if source_element is not None else feed.get('publisher', '')
+        if feed.get('publisher'):
+            context = title + ' ' + clean(item.findtext('description'))
+            if not re.search(feed['geography'], context, re.I) or not re.search(r'\b(religio\w*|free exercise|church.state|faith|worship)\b', context, re.I):
+                continue
+            host = urlsplit(link).hostname or ''
+            if host != 'courthousenews.com' and not host.endswith('.courthousenews.com'):
+                continue
         if not title or not publisher or urlsplit(link).scheme not in ('http', 'https'):
             continue
         try:
