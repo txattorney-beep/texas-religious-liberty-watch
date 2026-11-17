@@ -5,13 +5,18 @@ from html import escape
 import json
 from pathlib import Path
 import re
+import shutil
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 try:
+    from .wire_pages import wire_content
+    from .guest_pages import load_guests, guest_strip, guest_pages
     from .hearing_pages import hearing_page
     from .ruling_pages import ruling_page
     from .app_pages import app_pages
 except ImportError:
+    from wire_pages import wire_content
+    from guest_pages import load_guests, guest_strip, guest_pages
     from hearing_pages import hearing_page
     from ruling_pages import ruling_page
     from app_pages import app_pages
@@ -24,8 +29,8 @@ PERSON = {'@type': 'Person', '@id': SITE + '/about/#eric-hudson', 'name': AUTHOR
 def shell(home, title, description, path, content, article=None):
     home = re.sub(r'<!-- SEARCH META -->.*?<!-- /SEARCH META -->', '', home, flags=re.S)
     page = home.replace('href="styles.css?', 'href="/styles.css?').replace('href="favicon.svg"', 'href="/favicon.svg"')
-    page = re.sub(r'<title>.*?</title>', '<title>' + escape(title) + ' | Texas Religious Liberty Watch</title>', page)
-    page = re.sub(r'<meta name="description"[^>]*>', '<meta name="description" content="' + escape(description, quote=True) + '">', page)
+    page = re.sub(r'<title>.*?</title>', lambda _: '<title>' + escape(title) + ' | Texas Religious Liberty Watch</title>', page)
+    page = re.sub(r'<meta name="description"[^>]*>', lambda _: '<meta name="description" content="' + escape(description, quote=True) + '">', page)
     canonical = SITE + path
     seo = f'<link rel="canonical" href="{canonical}">\n<meta property="og:title" content="{escape(title, quote=True)}">\n<meta property="og:description" content="{escape(description, quote=True)}">\n<meta property="og:url" content="{canonical}">\n<meta property="og:type" content="{"article" if article else "website"}">\n'
     if article:
@@ -69,38 +74,34 @@ def news_card(item):
     return f'<article class="news-card" data-news-title="{search}"><div class="news-meta">{scopes}<time datetime="{escape(item["publishedAt"], quote=True)}">{central_date(item["publishedAt"])}</time></div><h2><a href="{escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(item["title"])}</a></h2><div class="news-source"><span>{escape(item["publisher"])}</span><a href="{escape(item["url"], quote=True)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a></div></article>'
 
 
-def news_page(home, data, scope=None):
-    items = [item for item in data['items'] if not scope or scope in item['scopes']]
-    title = f'{scope} religious liberty news' if scope else 'Religious liberty in the news.'
-    descriptions = {
-        None: 'Daily religious liberty news from Texas and across the United States, with links to original coverage of legislation, court cases, and policy.',
-        'Texas': 'Follow Texas and Fifth Circuit religious liberty news, including legislation, court cases, and church-state disputes.',
-        'National': 'Follow U.S. religious liberty news, including federal court cases, congressional proposals, and national policy.',
-    }
-    description = descriptions[scope]
+def news_page(home, data, scope=None, guests=''):
+    title = f'{scope} religious liberty news' if scope else 'Religious liberty in the news'
+    description = 'Daily religious liberty headlines from Texas, the Fifth Circuit, and the nation.'
     path = '/news/' + (scope.lower() + '/' if scope else '')
-    checked = central_date(data['updatedAt'], True) if data['updatedAt'] else 'No successful refresh yet'
-    tabs = ''.join(f'<a href="/news/{value.lower() + "/" if value else ""}" class="news-tab {"selected" if value == scope else ""}" {"aria-current=\"page\"" if value == scope else ""}>{label}</a>' for value, label in [(None, 'All coverage'), ('Texas', 'Texas'), ('National', 'National')])
-    status = '<p class="news-warning">One or more feeds could not be refreshed.  Previously retrieved headlines are retained; see source status below.</p>' if data['status'] != 'ok' else ''
-    source_details = ''.join(f'<li><a href="{escape(source["url"], quote=True)}" target="_blank" rel="noopener">{escape(source["label"])} RSS ↗</a><span>{"Checked successfully" if source["status"] == "ok" else "Refresh unavailable; previous data retained"}</span></li>' for source in data['sources'])
-    cards = ''.join(news_card(item) for item in items) or '<p class="content-card">No headlines are available in this view yet.</p>'
-    content = f'''<section class="news-hero"><div><p class="eyebrow">TEXAS & THE NATION · DAILY NEWS WATCH</p><h1>{escape(title)}</h1><p>{description}</p></div><span class="news-hero-mark" aria-hidden="true">✦</span></section>
-<div class="news-freshness"><span class="source-dot"></span><span>Last refreshed {checked}</span><span>·</span><span>Scheduled daily</span></div>{status}<p id="news-stale" class="news-warning" data-updated="{escape(data['updatedAt'] or '', quote=True)}" hidden>This news snapshot is more than 36 hours old.  A refresh is due.</p>
-<div class="news-layout"><div><div class="news-tools"><nav aria-label="News coverage" class="news-tabs">{tabs}</nav><form id="news-search-form" class="search simple-search section-search" role="search"><label class="sr-only" for="news-search">Search news</label><input id="news-search" type="search" placeholder="Search headlines or publishers" autocomplete="off"><button type="submit" aria-label="Search news"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><p id="news-count" class="news-count" aria-live="polite">{len(items)} headlines from the past 30 days</p><div class="news-list">{cards}</div><p id="news-empty" class="content-card" hidden>No headlines match that search.  Try another term or publisher.</p></div>
-<aside class="news-aside"><section class="contact-card"><p class="eyebrow">FOLLOW THE TEXAS LEGISLATURE</p><h2>Go beyond the headline.</h2><p>Find the proposals, official bill text, and legislative history behind the debate.</p><a class="button news-gold" href="/#tracker">Open the 90R tracker →</a></section><section class="rail-card"><p class="eyebrow">A WIDER VIEW</p><h3>Religious liberty, across faiths.</h3><p>Coverage of religious exercise, equal treatment, conscience, schools, and governmental action.</p><a class="text-button" href="/religious-liberty/">Explore the issues →</a></section><section class="rail-card"><p class="eyebrow">FROM ERIC A. HUDSON</p><h3>A lawyer’s lens on the law.</h3><p>Litigation partner at Arambula Terrazas PLLC in Austin, Texas.</p><a class="text-button" href="/about/">About Eric →</a><a class="text-button" href="https://www.linkedin.com/in/txattorney" target="_blank" rel="noopener">Follow on LinkedIn ↗</a></section></aside></div>
-<section class="news-method content-card"><h2>About this news watch</h2><p>Headlines are collected automatically from Google News RSS searches and link to the original coverage through Google News.  The publisher and reported publication date appear with every headline.  Results may include reporting, opinion, and advocacy releases.  Inclusion does not mean Eric Hudson has reviewed or endorsed a story.</p><p>Texas results match Texas or Fifth Circuit search terms.  National results match United States, federal, or congressional terms, including U.S. policy affecting religious freedom abroad.  Search matches can be imperfect, and this is not an exhaustive news archive.  Article bodies are not copied.  The rolling feed covers the past 30 days.</p><details><summary>Feed sources & update status</summary><ul>{source_details}</ul><p>News checks run daily, including weekends, and continue after the 90R legislative monitoring window ends.  A failed feed retains its previous available records.</p></details></section><script src="/news.js?v=section-search-20261112" defer></script>'''
-    return path, shell(home, title.rstrip('.'), description, path, content)
+    return path, shell(home, title, description, path, wire_content(data, guests, scope))
 
 
 def build(root=ROOT):
     home_path = root / 'dist/index.html'
     home = home_path.read_text()
+    home = re.sub(r'<!-- WIRE FRONT START -->.*?<!-- WIRE FRONT END -->', '', home, flags=re.S)
+    home = home.replace('<div id="legislative-desk" hidden>', '').replace('<!-- LEGISLATIVE DESK END --></div>', '')
+    home = re.sub(r'<script src="/frontpage.js[^"]*" defer></script>', '', home)
+    home = re.sub(r'<link rel="stylesheet" href="/wire.css[^"]*">', '', home)
+    home = home.replace('</head>', '<link rel="stylesheet" href="/wire.css?v=20261117"></head>')
+    home = home.replace('href="#tracker" class="brand"', 'href="/" class="brand"')
+    if 'href="/voices/"' not in home:
+        home = home.replace('<nav aria-label="Main navigation">', '<nav aria-label="Main navigation"><a class="nav-item" href="/">Front page</a><a class="nav-item" href="/voices/">Guest Voices</a>')
+    home = home.replace('> Sponsor</a>', '> Advertising</a>').replace('>Sponsorship inquiries</a>', '>Advertising inquiries</a>')
+    guests = load_guests(root)
+
     if 'href="/sponsor/"' not in home:
         menu_end = home.index('</nav>', home.index('<nav aria-label="Main navigation">'))
         home = home[:menu_end] + '  <a class="nav-item" href="/sponsor/"><span aria-hidden="true">10</span> Sponsor</a>\n  ' + home[menu_end:]
         home = home.replace('LinkedIn →</a></div></div>', 'LinkedIn →</a><a href="/sponsor/">Sponsorship inquiries</a></div></div>', 1)
     data = json.loads((root / 'dist/data/news.json').read_text())
-    pages = dict(news_page(home, data, scope) for scope in (None, 'Texas', 'National'))
+    pages = dict(news_page(home, data, scope, guest_strip(guests)) for scope in (None, 'Texas', 'National'))
+    pages.update(guest_pages(home, shell, guests))
     if (root / 'dist/90r/manifest.webmanifest').exists():
         pages.update(app_pages(home, shell))
     hearing_path = root / 'dist/data/hearings.json'
@@ -122,14 +123,17 @@ def build(root=ROOT):
     person_markup = {'@context':'https://schema.org', '@type':'ProfilePage', 'mainEntity':PERSON}
     pages['/about/'] = pages['/about/'].replace('</head>', '<script type="application/ld+json">' + json.dumps(person_markup) + '</script></head>')
     sponsorship = (
-        '<section class="intro"><div><h1>Sponsor Texas Religious Liberty Watch</h1>'
+        '<section class="intro"><div><h1>Advertise on Texas Religious Liberty Watch</h1>'
         '<p>Reach readers who follow religious liberty legislation, court rulings, and news.</p></div></section>'
-        '<section class="content-card"><p>Contact Eric Hudson for sponsorship details, available placements, and rates.</p>'
+        '<section class="content-card"><p>Contact Eric Hudson for advertising details, available placements, and rates.</p>'
         '<p><a class="button primary" href="mailto:txattorney@gmail.com?subject=Texas%20Religious%20Liberty%20Watch%20sponsorship%20inquiry">'
-        'Email Eric about sponsorship</a></p></section>'
+        'Email Eric about advertising</a></p></section>'
     )
-    sponsor_page = shell(home, 'Sponsorship', 'Inquire about sponsorship opportunities on Texas Religious Liberty Watch.', '/sponsor/', sponsorship)
+    sponsor_page = shell(home, 'Advertising', 'Inquire about advertising opportunities on Texas Religious Liberty Watch.', '/sponsor/', sponsorship)
     pages['/sponsor/'] = re.sub(r'<a href="mailto:[^"]+">[^<]*</a>(?=<a href="https://www.linkedin.com/)', '', sponsor_page).replace('>ehudson@atlawpllc.com<', '>Email about copyright<')
+    voices_dir = root / 'dist/voices'
+    if voices_dir.exists():
+        shutil.rmtree(voices_dir)  # Rebuilt from authoritative approved manuscripts.
     for path, html in pages.items():
         destination = root / 'dist' / path.strip('/') / 'index.html'
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -143,6 +147,10 @@ def build(root=ROOT):
         home,
     )
     home = home.replace('</head>', search_meta + '</head>')
+    front = '<!-- WIRE FRONT START --><div id="wire-front">' + wire_content(data, guest_strip(guests)) + '</div><!-- WIRE FRONT END -->'
+    home = home.replace('<main id="main" tabindex="-1">', '<main id="main" tabindex="-1">' + front + '<div id="legislative-desk" hidden>')
+    home = home.replace('<div class="contact-strip">', '<!-- LEGISLATIVE DESK END --></div><div class="contact-strip">', 1)
+    home = home.replace('</head>', '<script src="/frontpage.js?v=20261117" defer></script></head>')
     home_path.write_text(home)
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')
@@ -186,6 +194,8 @@ def build_search_pages():
         content = re.search(r'<main[^>]*>(.*?)<div class="contact-strip">', html, re.S).group(1)
         parser = Text(); parser.feed(content)
         pages.append({'title': title, 'url': '/' + path, 'text': ' '.join(' '.join(parser.parts).split())})
+    for article in load_guests(ROOT):
+        pages.append({'title': article['title'], 'url': '/voices/' + article['slug'] + '/', 'text': article['author'] + ' ' + article['kind'] + ' ' + article['dek'] + ' ' + ' '.join(article['body'])})
     (ROOT / 'dist/data/pages.json').write_text(json.dumps({'pages': pages}, ensure_ascii=False) + '\n')
 
 if __name__ == '__main__':
