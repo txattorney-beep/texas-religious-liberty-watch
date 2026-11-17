@@ -14,8 +14,7 @@ included += ['scripts/submit_indexnow.py','tests/test_indexnow.py','search/index
 import json
 included += ['dist/' + json.loads((ROOT/'search/indexnow.json').read_text())['keyFile']]
 included += [str(path.relative_to(ROOT)) for path in (ROOT/'dist/90r').rglob('*') if path.is_file()]
-included += ['scripts/wire_pages.py','scripts/guest_pages.py','content/guests.json','docs/GUEST_WRITERS.md','tests/test_wire.py','tests/test_guest.py','tests/frontpage.test.cjs','dist/wire.css','dist/frontpage.js','dist/site-ui.js','dist/site-ui.css','dist/site-search.js','dist/editorial.css','dist/share.js','dist/share.css','dist/data/pages.json','tests/site-search.test.cjs']
-for folder in ('dist/voices','dist/news','dist/about','dist/religious-liberty','dist/hearings','dist/rulings'):
+for folder in ('dist/news','dist/about','dist/religious-liberty','dist/hearings','dist/rulings'):
     included += [str(path.relative_to(ROOT)) for path in (ROOT/folder).rglob('*.html')]
 with ZipFile(out,'w',ZIP_DEFLATED) as archive:
     for name in included: archive.write(ROOT/name, name)
