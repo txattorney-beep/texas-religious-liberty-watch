@@ -28,15 +28,66 @@ for feed in FEEDS:
 FEEDS.extend([
     {'id': 'cns-texas-rss', 'scope': 'Texas', 'label': 'Courthouse News Service: Texas and Fifth Circuit',
      'url': 'https://www.courthousenews.com/feed/', 'publisher': 'Courthouse News Service',
-     'geography': r'\b(Texas|Texan|Houston|Dallas|Austin|San Antonio|El Paso|Fort Worth|Fifth Circuit|5th Circuit)\b'},
+     'screen': 'Texas/Fifth Circuit or national evidence required'},
     {'id': 'cns-national-rss', 'scope': 'National', 'label': 'Courthouse News Service: national religious liberty',
      'url': 'https://www.courthousenews.com/feed/', 'publisher': 'Courthouse News Service',
-     'geography': r'\b(Supreme Court|SCOTUS|Congress|nationwide|United States)\b'},
+     'screen': 'Texas/Fifth Circuit or national evidence required'},
 ])
 
 
 def clean(text):
     return re.sub(r'\s+', ' ', re.sub(r'<[^>]*>', '', unescape(text or ''))).strip()
+
+
+# Feed queries discover candidates, not geographic relevance. Both Google and
+# publisher feeds use the same positive-evidence screen. Do not use publisher
+# names/URLs as evidence: a Texas publisher may report on another state.
+SCOPE_VERSION = 1
+TEXAS = r"\b(Texas|Texan|Houston|Dallas|Austin|San Antonio|El Paso|Fort Worth|McKinney|Plano|Frisco|Waco|Lubbock|Amarillo|Corpus Christi|Brownsville|Fifth Circuit|5th Circuit|Paxton|TEFA|EPIC City)\b"
+NATIONAL = r"\b(U\.?S\.? Supreme Court|United States Supreme Court|SCOTUS|Congress|congressional|U\.?S\.? Senate|Senate confirmation|nationwide|across (?:the )?(?:nation|America|United States)|federal (?:policy|law|rule|regulation)|White House|State Department|IRS|EEOC|U\.?S\.? (?:companies|religious freedom rankings))\b"
+# A bare Supreme Court normally means SCOTUS only when it is not explicitly a
+# state/foreign court. State supreme courts must not become national by accident.
+COURT_PLACES = r"state|Texas|Florida|Colorado|Louisiana|Mississippi|Alabama|Alaska|Arizona|Arkansas|California|Connecticut|Delaware|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Maine|Maryland|Massachusetts|Michigan|Minnesota|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming|India|Pakistan|Canada|Israel"
+OTHER_COURT = r"\b(?:" + COURT_PLACES + r")(?:'s|’s)? Supreme Court\b"
+
+
+def classify_scopes(title, description=''):
+    """Return supported scopes; ambiguous/local out-of-area candidates are omitted.
+
+    RSS summaries are screening input only, never published as article text.
+    This is a conservative metadata screen, not a full-article legal review.
+    """
+    context = title + ' ' + description
+    scopes = []
+    if re.search(TEXAS, context, re.I):
+        scopes.append('Texas')
+    national = re.search(NATIONAL, context, re.I)
+    without_state_courts = re.sub(OTHER_COURT, '', context, flags=re.I)
+    # Also handle the formal 'Supreme Court of [state/country]' form.
+    without_state_courts = re.sub(r'\bSupreme Court of (?:' + COURT_PLACES + r')\b', '', without_state_courts, flags=re.I)
+    if national or re.search(r'\bSupreme Court\b', without_state_courts, re.I):
+        scopes.append('National')
+    return sorted(scopes)
+
+
+def retained_items(previous, feed, now):
+    """Re-screen legacy snapshots so an outage cannot restore old mislabels."""
+    retained = []
+    for item in previous['items']:
+        if feed['id'] not in item['feedIds']:
+            continue
+        try:
+            published = datetime.fromisoformat(item['publishedAt'])
+            if not now - timedelta(days=30) <= published <= now + timedelta(hours=6):
+                continue
+        except (ValueError, TypeError):
+            continue
+        scopes = (item['scopes'] if item.get('scopeVersion') == SCOPE_VERSION
+                  else classify_scopes(item['title']))
+        if scopes:
+            retained.append({**item, 'scopes': scopes, 'scopeVersion': SCOPE_VERSION,
+                             'feedIds': [feed['id']]})
+    return retained
 
 
 def parse_feed(xml, feed, now):
@@ -50,7 +101,7 @@ def parse_feed(xml, feed, now):
         publisher = clean(source_element.text) if source_element is not None else feed.get('publisher', '')
         if feed.get('publisher'):
             context = title + ' ' + clean(item.findtext('description'))
-            if not re.search(feed['geography'], context, re.I) or not re.search(r'\b(religio\w*|free exercise|church.state|faith|worship)\b', context, re.I):
+            if not re.search(r'\b(religio\w*|free exercise|church.state|faith|worship)\b', context, re.I):
                 continue
             host = urlsplit(link).hostname or ''
             if host != 'courthousenews.com' and not host.endswith('.courthousenews.com'):
@@ -66,13 +117,16 @@ def parse_feed(xml, feed, now):
         suffix = ' - ' + publisher
         if title.endswith(suffix):
             title = title[:-len(suffix)].strip()
-        # Keep the national feed focused on domestic coverage when a headline is explicitly foreign.
-        if feed['scope'] == 'National' and re.search(r'\b(India|Pakistan|Nigeria|China|Chinese|Beijing|Russia|Iran|Afghanistan|Bangladesh)\b', title, re.I) and not re.search(r'\b(U\.?S\.?|United States|American|Congress|Texas|Trump|Biden|State Department)\b', title, re.I):
+        description = clean(item.findtext('description'))
+        # Google descriptions often append the publisher to the headline.
+        description = description.replace(publisher, '').strip()
+        scopes = classify_scopes(title, description)
+        if not scopes:
             continue
         key = re.sub(r'\W+', '', title.casefold())
         articles.append({'id': hashlib.sha256(key.encode()).hexdigest()[:16], 'title': title,
                          'url': link, 'publisher': publisher, 'publishedAt': published.isoformat(),
-                         'scopes': [feed['scope']], 'feedIds': [feed['id']]})
+                         'scopes': scopes, 'scopeVersion': SCOPE_VERSION, 'feedIds': [feed['id']]})
     return articles
 
 
@@ -97,15 +151,15 @@ def sync(root=ROOT, now=None, fetch=fetch_feed):
             prior_source = next((s for s in previous.get('sources', []) if s['id'] == feed['id']), {})
             source = {**feed, 'checkedAt': now.isoformat()}
             try:
-                items = parse_feed(futures[feed['id']].result(), feed, now)
+                xml = futures[feed['id']].result()
+                items = parse_feed(xml, feed, now)
                 # An unexpectedly empty result is treated as a retrieval failure when a prior feed exists.
-                if not items and any(feed['id'] in item['feedIds'] for item in previous['items']):
+                if not ET.fromstring(xml).findall('./channel/item') and retained_items(previous, feed, now):
                     raise ValueError('No current items returned; retaining the prior feed snapshot.')
                 source.update(status='ok', lastSuccessAt=now.isoformat(), count=len(items))
             except Exception as error:
                 source.update(status='error', lastSuccessAt=prior_source.get('lastSuccessAt'), error=str(error)[:250])
-                items = [{**item, 'scopes': [feed['scope']], 'feedIds': [feed['id']]} for item in previous['items']
-                         if feed['id'] in item['feedIds'] and datetime.fromisoformat(item['publishedAt']) >= now - timedelta(days=30)]
+                items = retained_items(previous, feed, now)
                 source['count'] = len(items)
                 print(f'::warning::{feed["label"]}: {error}')
             results.extend(items)
