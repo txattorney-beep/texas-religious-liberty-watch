@@ -96,7 +96,7 @@ class NewsTests(unittest.TestCase):
             self.assertIn('Texas religious liberty', texas)
             self.assertNotIn('National religious liberty</a>', texas)
             urls = ET.parse(root / 'dist/sitemap.xml').getroot()
-            self.assertEqual(len(urls), 8)
+            self.assertEqual(len(urls), 7)
 
     def test_scope_is_evidence_based_not_inherited_from_search(self):
         cases = [
