@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T15:15:56.638616+00:00",
-  "checkedAt": "2026-11-17T15:15:56.638616+00:00",
+  "updatedAt": "2026-11-17T17:21:15.609000+00:00",
+  "checkedAt": "2026-11-17T17:21:15.609000+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-17T15:15:56.638616+00:00",
+      "checkedAt": "2026-11-17T17:21:15.609000+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-17T15:15:56.638616+00:00",
-      "count": 19
+      "lastSuccessAt": "2026-11-17T17:21:15.609000+00:00",
+      "count": 18
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-17T15:15:56.638616+00:00",
+      "checkedAt": "2026-11-17T17:21:15.609000+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-17T15:15:56.638616+00:00",
-      "count": 16
+      "lastSuccessAt": "2026-11-17T17:21:15.609000+00:00",
+      "count": 15
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-17T15:15:56.638616+00:00",
+      "checkedAt": "2026-11-17T17:21:15.609000+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-17T15:15:56.638616+00:00",
+      "lastSuccessAt": "2026-11-17T17:21:15.609000+00:00",
       "count": 0
     },
     {
@@ -44,9 +44,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-17T15:15:56.638616+00:00",
+      "checkedAt": "2026-11-17T17:21:15.609000+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-17T15:15:56.638616+00:00",
+      "lastSuccessAt": "2026-11-17T17:21:15.609000+00:00",
       "count": 0
     }
   ],
@@ -361,20 +361,6 @@
       ]
     },
     {
-      "id": "ba12caccac67d3c7",
-      "title": "Colorado’s War on Religious Liberty Heads Back to the Supreme Court",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbmpOd3RaalFpZkNTck4xY3UxY0lKcGdiNjFRUGp0UjF3RThoQjl3d3ZTWUdUeEJKQzFxRzZZY1RCVDhTZUFxZnF6bXpPRDNtYkVoQ1NsN1Jva2JmdDYzeGpBdEFuY2JPTllYN1M2MXIteFNSc3ZhQzBNVldHdjNlakctUmpuaDBhRHNNS08wcEF2VTBYZVJ1allULXZYOFp0dVhCXzBpS0E0ZEptMlE?oc=5",
-      "publisher": "Focus on the Family",
-      "publishedAt": "2026-11-02T08:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "90d48e9188e48f53",
       "title": "Supreme Court hears religious freedom case centered on universal pre-K program",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZXhrdDFXd2daNHRGaWdFU18yVllPQ3o5OHVBSnFaOUhtRzBCdy1sWGtHM3hIWnVMYmRGZmZBclI1VncyaHVBeDJYMUFyalRuQnpJbTV2MDU2WktWN1ZsdjJIaklUYy1ETnlEMVZWTXBhT3hTd3hYYVJldDcyTmU3UGxubmg2aVNVZFlZaFlfaFdoU2tsal9jeEF3QzBpb05HaWtXT2xwNVhfVGwtQ3ZR?oc=5",
@@ -447,25 +433,24 @@
       ]
     },
     {
-      "id": "91e61f66133f83cb",
-      "title": "U.S. companies settle religious discrimination claims by Christian, Muslim workers, government says",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2N4aGg1Qnc4VjBfbFBaNVcxenF0UTdXNHg1UUlaOS1taGNsT2MzcEJjOFAzR0FCOHgtRDJaZjRmdUdPVWlLN2RXclkwUE4xNGk0RXpfNHBuMWVMS1BhdS13OGVOcWpIUS1VUXFkaTU5SGt3LW1FZWlvYllJa3VYNEtDUHdjMVdPQnBPVF9RZ29BOWk3VG1WYlpkdGczQ19JUXBRQ3M3dXNteXAxaGhsdWpxTGxiNjdoOWl4N2VLSQ?oc=5",
-      "publisher": "EWTN News",
+      "id": "6f7836c6fd9bae29",
+      "title": "The Supreme Court’s next major case on the free exercise of religion",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
+      "publisher": "SCOTUSblog",
       "publishedAt": "2026-10-20T07:00:00+00:00",
       "scopes": [
         "National"
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national",
-        "texas"
+        "national"
       ]
     },
     {
-      "id": "6f7836c6fd9bae29",
-      "title": "The Supreme Court’s next major case on the free exercise of religion",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
-      "publisher": "SCOTUSblog",
+      "id": "91e61f66133f83cb",
+      "title": "U.S. companies settle religious discrimination claims by Christian, Muslim workers, government says",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2N4aGg1Qnc4VjBfbFBaNVcxenF0UTdXNHg1UUlaOS1taGNsT2MzcEJjOFAzR0FCOHgtRDJaZjRmdUdPVWlLN2RXclkwUE4xNGk0RXpfNHBuMWVMS1BhdS13OGVOcWpIUS1VUXFkaTU5SGt3LW1FZWlvYllJa3VYNEtDUHdjMVdPQnBPVF9RZ29BOWk3VG1WYlpkdGczQ19JUXBRQ3M3dXNteXAxaGhsdWpxTGxiNjdoOWl4N2VLSQ?oc=5",
+      "publisher": "EWTN News",
       "publishedAt": "2026-10-20T07:00:00+00:00",
       "scopes": [
         "National"
