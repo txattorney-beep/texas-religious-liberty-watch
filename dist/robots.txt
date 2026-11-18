@@ -1,9 +1,9 @@
+# Public pages remain available to search and AI discovery crawlers.
+# Crawling preferences are not access controls or copyright protection.
 User-agent: *
-Allow: /
 Disallow: /downloads/
 
 User-agent: OAI-SearchBot
-Allow: /
 Disallow: /downloads/
 
 Sitemap: https://texasreligiouslibertywatch.org/sitemap.xml
