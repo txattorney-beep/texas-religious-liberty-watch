@@ -154,7 +154,7 @@ def build(root=ROOT):
         if path.startswith('/news/') and data['updatedAt']:
             ET.SubElement(url, 'lastmod').text = data['updatedAt']
     ET.ElementTree(sitemap).write(root / 'dist/sitemap.xml', encoding='utf-8', xml_declaration=True)
-    (root / 'dist/robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /downloads/\n\nUser-agent: OAI-SearchBot\nAllow: /\nDisallow: /downloads/\n\nSitemap: ' + SITE + '/sitemap.xml\n')
+    (root / 'dist/robots.txt').write_text('# Public pages remain available to search and AI discovery crawlers.\n# Crawling preferences are not access controls or copyright protection.\nUser-agent: *\nDisallow: /downloads/\n\nUser-agent: OAI-SearchBot\nDisallow: /downloads/\n\nSitemap: ' + SITE + '/sitemap.xml\n')
     # Idempotent: generated pages inherit the homepage head before this pass.
     for document in (root / 'dist').rglob('*.html'):
         if 'downloads' in document.parts:
