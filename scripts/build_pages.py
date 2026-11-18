@@ -164,8 +164,8 @@ def build(root=ROOT):
         content = re.sub(r'<script src="/share\.js(?:\?[^"]*)?" defer></script>', '', content)
         content = content.replace('</head>', '<link rel="stylesheet" href="/share.css?v=20261115-compact"><script src="/share.js?v=20261115-compact" defer></script></head>')
         content = re.sub(r'<script src="/refresh-status.js[^"]*" defer></script>', '', content)
-        if 'id="hide-refresh-health"' not in content:
-            content = content.replace('</head>', '<style id="hide-refresh-health">#refresh-health{display:none!important}</style></head>')
+        content = re.sub(r'<style id="hide-refresh-health">.*?</style>', '', content)
+        content = content.replace('</head>', '<style id="hide-refresh-health">#refresh-health{display:none!important}</style></head>')
         document.write_text(content)
     print(f'Built {len(pages)} crawlable pages, metadata, robots.txt, and sitemap.xml.')
 
