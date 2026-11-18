@@ -4,7 +4,7 @@ from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
 ROOT=Path(__file__).resolve().parents[1]
-out=ROOT/'dist/downloads/texas-liberty-watch-starter.zip'
+out=ROOT/'work/source-archives/texas-liberty-watch-starter.zip'
 out.parent.mkdir(parents=True,exist_ok=True)
 included=['dist/index.html','dist/styles.css','dist/app.js','dist/favicon.svg','dist/data/bills.json','editorial.json','README.md','.gitignore','.github/workflows/publish.yml','scripts/sync_tlo.py','scripts/package_starter.py','tests/test_sync.py']
 included += ['dist/hearings.js','dist/data/hearings.json','scripts/sync_hearings.py','scripts/hearing_pages.py','tests/test_hearings.py','dist/news.css','dist/news.js','dist/data/news.json','dist/robots.txt','dist/sitemap.xml','scripts/sync_news.py','scripts/build_pages.py','tests/test_news.py']
