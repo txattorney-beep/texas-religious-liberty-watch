@@ -13,6 +13,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -135,6 +136,12 @@ def run(args):
     if args.text:
         with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
             updates = list(pool.map(text_update, tracked))
+        # Retry only failed text requests sequentially after the parallel batch.
+        # This avoids repeating successful downloads or increasing upstream load.
+        for index, update in enumerate(updates):
+            if update.get("textFetchError"):
+                time.sleep(2)
+                updates[index] = text_update(tracked[index])
         for bill, update in zip(tracked, updates):
             old_hash = bill.get("textHash")
             bill.update(update)

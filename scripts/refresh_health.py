@@ -42,7 +42,7 @@ def refresh():
   if name=='bills' and any(b.get('textFetchError') for b in data.get('bills',[])):status='partial'
   if error:
    data_path.write_text(json.dumps(previous,ensure_ascii=False,indent=2)+'\n');data=previous
-  feeds[name]={'status':status,'checkedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'snapshotAt':data.get('checkedAt',data.get('updatedAt')),'lastSuccessAt':data.get('updatedAt') if status=='ok' else old.get('feeds',{}).get(name,{}).get('lastSuccessAt'),'error':error}
+  feeds[name]={'status':status,'checkedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'snapshotAt':data.get('checkedAt',data.get('updatedAt')),'lastSuccessAt':data.get('updatedAt') if status=='ok' else old.get('feeds',{}).get(name,{}).get('lastSuccessAt') or previous.get('updatedAt'),'error':error}
   if status not in ('ok','archived'):print(f'::warning::{name}: {status}; last good records retained')
  path.write_text(json.dumps({'checkedAt':now.isoformat(),'feeds':feeds},indent=2)+'\n')
 def verify():
