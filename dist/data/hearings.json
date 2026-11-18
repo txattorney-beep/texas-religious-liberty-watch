@@ -1,8 +1,8 @@
 {
   "session": "90R",
   "updatedAt": "2026-11-18T18:39:11.910591+00:00",
-  "checkedAt": "2026-11-18T18:39:11.910591+00:00",
-  "status": "partial",
+  "checkedAt": "2026-11-18T18:46:03.042888+00:00",
+  "status": "stale",
   "trackedBillCount": 36,
   "discoveredNoticeCount": 0,
   "sources": [
@@ -11,7 +11,7 @@
       "label": "House upcoming meeting feed",
       "kind": "rss",
       "url": "https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingshouse",
-      "checkedAt": "2026-11-18T18:39:11.910591+00:00",
+      "checkedAt": "2026-11-18T18:46:03.042888+00:00",
       "status": "error",
       "error": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '25', '--retry', '1', 'https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingshouse']' returned non-zero "
     },
@@ -20,25 +20,25 @@
       "label": "Senate upcoming meeting feed",
       "kind": "rss",
       "url": "https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingssenate",
-      "checkedAt": "2026-11-18T18:39:11.910591+00:00",
-      "status": "ok",
-      "noticeCount": 0
+      "checkedAt": "2026-11-18T18:46:03.042888+00:00",
+      "status": "error",
+      "error": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '25', '--retry', '1', 'https://capitol.texas.gov/MyTLO/RSS/RSS.aspx?Type=upcomingmeetingssenate']' returned non-zero"
     },
     {
       "id": "house-list",
       "label": "House upcoming meeting notices",
       "kind": "html",
       "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=H",
-      "checkedAt": "2026-11-18T18:39:11.910591+00:00",
-      "status": "ok",
-      "noticeCount": 0
+      "checkedAt": "2026-11-18T18:46:03.042888+00:00",
+      "status": "error",
+      "error": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '25', '--retry', '1', 'https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=H']' returned non-zero exi"
     },
     {
       "id": "senate-list",
       "label": "Senate upcoming meeting notices",
       "kind": "html",
       "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=S",
-      "checkedAt": "2026-11-18T18:39:11.910591+00:00",
+      "checkedAt": "2026-11-18T18:46:03.042888+00:00",
       "status": "error",
       "error": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '25', '--retry', '1', 'https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=S']' returned non-zero exi"
     },
@@ -47,9 +47,9 @@
       "label": "Joint upcoming meeting notices",
       "kind": "html",
       "url": "https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=J",
-      "checkedAt": "2026-11-18T18:39:11.910591+00:00",
-      "status": "ok",
-      "noticeCount": 0
+      "checkedAt": "2026-11-18T18:46:03.042888+00:00",
+      "status": "error",
+      "error": "Command '['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '25', '--retry', '1', 'https://capitol.texas.gov/Committees/MeetingsUpcoming.aspx?Chamber=J']' returned non-zero exi"
     }
   ],
   "noticeErrors": [],
