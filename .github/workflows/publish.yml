@@ -68,8 +68,8 @@ jobs:
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-      - name: Package portable source
-        run: python scripts/package_starter.py
+      - name: Exclude source archives from public site
+        run: rm -f dist/downloads/texas-liberty-watch-starter.zip
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
