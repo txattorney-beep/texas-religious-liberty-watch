@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-11-18T18:31:59.834105+00:00",
+  "feeds": {
+    "bills": {
+      "status": "partial",
+      "checkedAt": "2026-11-18T18:33:18.619033+00:00",
+      "snapshotAt": "2026-11-18T18:31:59+00:00",
+      "lastSuccessAt": null,
+      "error": null
+    },
+    "news": {
+      "status": "ok",
+      "checkedAt": "2026-11-18T18:33:19.485566+00:00",
+      "snapshotAt": "2026-11-18T18:33:18.668086+00:00",
+      "lastSuccessAt": "2026-11-18T18:33:18.668086+00:00",
+      "error": null
+    },
+    "hearings": {
+      "status": "ok",
+      "checkedAt": "2026-11-18T18:33:19.901370+00:00",
+      "snapshotAt": "2026-11-18T18:33:19.532623+00:00",
+      "lastSuccessAt": "2026-11-18T18:33:19.532623+00:00",
+      "error": null
+    },
+    "rulings": {
+      "status": "ok",
+      "checkedAt": "2026-11-18T18:33:20.818117+00:00",
+      "snapshotAt": "2026-11-18T18:33:19.945744+00:00",
+      "lastSuccessAt": "2026-11-18T18:33:19.945744+00:00",
+      "error": null
+    }
+  }
+}
