@@ -5,8 +5,13 @@ on:
     branches: [main, master]
   workflow_dispatch:
   schedule:
-    # 07:30 and 16:30 CST (UTC-6), every day.
-    - cron: '30 13,22 * * *'
+    # Central time, including daylight saving; gated catch-up attempts.
+    - cron: '30 7,16 * * *'
+      timezone: America/Chicago
+    - cron: '50 7,16 * * *'
+      timezone: America/Chicago
+    - cron: '10 8,17 * * *'
+      timezone: America/Chicago
 
 permissions:
   contents: write
@@ -15,7 +20,7 @@ permissions:
 
 concurrency:
   group: texas-90r-publish
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   prepare:
@@ -31,26 +36,12 @@ jobs:
         run: |
           python -m unittest discover -s tests
           node --test tests/pwa.test.cjs tests/site-search.test.cjs
-      - name: Refresh official data through sine die
-        id: bills
-        continue-on-error: true
-        shell: bash
-        run: |
-          today=$(TZ=America/Chicago date +%F)
-          if [[ "$today" > "2027-05-31" ]]; then
-            echo "The regular-session update window has ended. Publishing the stored snapshot."
-          else
-            python scripts/sync_tlo.py --text
-          fi
-      - name: Report retained bill snapshot
-        if: steps.bills.outcome == 'failure'
-        run: echo "::warning::Bill refresh failed. The prior bill snapshot is retained; news and article publishing will continue."
-      - name: Aggregate Texas and national religious liberty news
-        run: python scripts/sync_news.py
-      - name: Update hearings and committee notices
-        run: python scripts/sync_hearings.py
-      - name: Aggregate court opinion matches
-        run: python scripts/sync_rulings.py
+      - name: Check Central-time refresh window
+        id: due
+        run: python scripts/refresh_health.py gate
+      - name: Refresh all sections independently and retain last-good data
+        if: steps.due.outputs.refresh == 'true'
+        run: python scripts/refresh_health.py refresh
       - name: Build news, hearing, court, and search pages
         run: |
           python scripts/build_pages.py
@@ -71,6 +62,7 @@ jobs:
           git add dist
           if ! git diff --cached --quiet; then
             git commit -m "Refresh bills, hearings, news, court opinions, and public pages"
+            git pull --rebase origin main
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -93,6 +85,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: ${{ needs.prepare.outputs.published_sha }}
+      - name: Verify public snapshots and source health
+        run: python scripts/refresh_health.py verify
       - name: Notify search engines of published changes
         id: indexnow
         continue-on-error: true
