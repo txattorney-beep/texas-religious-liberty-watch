@@ -57,7 +57,7 @@ def verify():
     live=json.loads(get(f'/data/{name}.json'))
     if live!=data:raise ValueError(name+' live data does not match publication')
    if json.loads(get('/data/refresh-health.json'))!=health:raise ValueError('Live health status is outdated')
-   for page in ['/','/news/','/hearings/','/courts/']:
+   for page in ['/','/news/','/hearings/','/rulings/']:
     if '/refresh-status.js' not in get(page):raise ValueError(page+' missing refresh status')
    break
   except Exception as e:
