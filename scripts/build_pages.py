@@ -163,6 +163,8 @@ def build(root=ROOT):
         content = re.sub(r'<link rel="stylesheet" href="/share\.css(?:\?[^"]*)?">', '', content)
         content = re.sub(r'<script src="/share\.js(?:\?[^"]*)?" defer></script>', '', content)
         content = content.replace('</head>', '<link rel="stylesheet" href="/share.css?v=20261115-compact"><script src="/share.js?v=20261115-compact" defer></script></head>')
+        content = re.sub(r'<script src="/refresh-status.js[^"]*" defer></script>', '', content)
+        content = content.replace('</head>', '<script src="/refresh-status.js?v=20261118" defer></script></head>')
         document.write_text(content)
     print(f'Built {len(pages)} crawlable pages, metadata, robots.txt, and sitemap.xml.')
 
