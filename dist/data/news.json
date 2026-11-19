@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T04:09:14.046944+00:00",
-  "checkedAt": "2026-11-19T04:09:14.046944+00:00",
+  "updatedAt": "2026-11-19T21:17:19.530498+00:00",
+  "checkedAt": "2026-11-19T21:17:19.530498+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-19T04:09:14.046944+00:00",
+      "checkedAt": "2026-11-19T21:17:19.530498+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T04:09:14.046944+00:00",
-      "count": 19
+      "lastSuccessAt": "2026-11-19T21:17:19.530498+00:00",
+      "count": 20
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-19T04:09:14.046944+00:00",
+      "checkedAt": "2026-11-19T21:17:19.530498+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T04:09:14.046944+00:00",
-      "count": 16
+      "lastSuccessAt": "2026-11-19T21:17:19.530498+00:00",
+      "count": 15
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-19T04:09:14.046944+00:00",
+      "checkedAt": "2026-11-19T21:17:19.530498+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T04:09:14.046944+00:00",
+      "lastSuccessAt": "2026-11-19T21:17:19.530498+00:00",
       "count": 0
     },
     {
@@ -44,13 +44,27 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-19T04:09:14.046944+00:00",
+      "checkedAt": "2026-11-19T21:17:19.530498+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T04:09:14.046944+00:00",
+      "lastSuccessAt": "2026-11-19T21:17:19.530498+00:00",
       "count": 0
     }
   ],
   "items": [
+    {
+      "id": "5d50983d5c200367",
+      "title": "A 'Muslim-only' event at a waterpark in Texas was canceled in June. Now organizer Aminah Knight sues Greg",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPUzlqeGFTV0kwZzZadGZtbWRnSktPWnNyekl3eFVtZ0plNFRJQXlGbnJFRk9FN1FORG5zZldvS3hLdHdPSDhRTnhsbmxtQjVFOWpmVVh1U0Zuajc3eFZnX3VQTFEtOWxZVU1UOENKbGFITGpFTld2MUdXMlRKakltZjAybzd1d2E5TEpVMzhSZGdfZFJQMEtaQWFWNjJTWWYzdlFkUzJ1anJ4czMwYUY0MGQ3TEMxMFpWbkxpcThRcnRNVVA2V21NVHBxVjdHX05sU292ZXRJdG5YbmtXSGxZaTU2cUVnTk9mdVREWTl6dWxRa0U5UFVBcHFNLVF0dWk2bGV3UDZPcks3TTctY3JMNDBkcF9nQXJiMEszdWVUN1QtOVNvdWt0VEo2X2I2Q2U4dWxMcnJtSl82M1dJYURucC1HejhsYThSRXFRak5zUmtDNERRazVXRThNTWzSAeICQVVfeXFMTWZ5bXNRN2FGMkVaSUFwR1NNLWwwbVN2eEpVa3VFdTAtakpqdjNkdDVobi1VQURiY00zdWwtWlA2bXBxdy1YN2tPNzlDQmZoNURpbjJXTFJwamhuOFp6OGxlRmd0WXlBYXFQcnp3TlZ0dTdpb3hQR3JkalR5YnhsTWo0czJsV0d3Q0JnVllLVHN0cDdPWGlxN1ZkbC00VVBraWRiQ1ZFRHN3dVhyUHVJb3l1QTVzc2tqZWdEa0dXSGZkT3oyZXd6bEdRaEFWei1CRm1Rc1hwYndmUTV5Wm54T1ljLWFIa1ZBRUJVMkNHS0tDM29rb01DaUFHLUhWei05VXpFUTNFNHNvVEhJMzFoamg1NmNIelozTG9nM3Z3amlNaWwtdnhMM0lzbnNheXdSeVUxai1PaUNLSmFIUlRFakU1aGJOYVpiNm9IbTlQTzlTN1RhZ2dfbmtqQTdnV0xQcjdB?oc=5",
+      "publisher": "The Times of India",
+      "publishedAt": "2026-11-19T12:29:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "texas"
+      ]
+    },
     {
       "id": "b9d695480ea831c7",
       "title": "UMC’s spat with Dallas megachurch ‘a really important church/state issue’",
@@ -110,7 +124,7 @@
     {
       "id": "784c2441ceecb70d",
       "title": "State Department presses Egypt to respect religious freedom as Christian convert faces possible execution",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnE5YkNnc1JVTFIyNV9iaFVMYVFISFBkTG52UmwxMDd0am9lSkpXLXlaNTdHWmZjbHFXVWQyY0dyTDBoOEtqMTYzYzZWWHJFR2t6X0thRzhybDNkZjJ2T1NmTlRmZmZVR3hNaFkzNEJYTVl6b3dTcWtoTi1iUklYazRkaVNUTmstQ2dLd3ZzUm5jTWpSMGViNVpuZDk2a1ZQZ2RsZTZSSnZJWGlVMllvQ3A0OFVlQk52Ykp1MFktRURFcnlOdnF2UQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnE5YkNnc1JVTFIyNV9iaFVMYVFISFBkTG52UmwxMDd0am9lSkpXLXlaNTdHWmZjbHFXVWQyY0dyTDBoOEtqMTYzYzZWWHJFR2t6X0thRzhybDNkZjJ2T1NmTlRmZmZVR3hNaFkzNEJYTVl6b3dTcWtoTi1iUklYazRkaVNUTmstQ2dLd3ZzUm5jTWpSMGViNVpuZDk2a1ZQZ2RsZTZSSnZJWGlVMllvQ3A0OFVlQk52Ykp1MFktRURFcnlOdnF2UdIBzgFBVV95cUxQYnc1a2JjdHdtMTJzLWFKMDdxcFNRYmdhamhLOXdWNFVDWkpxVlpFeTNqS1BfdjRhbG9qSFJqZTY3Zi1zY2hvSy11SHBTQW95aW5hWktRM2NGTUJIQVM0WlJIS2hBU24wbTZVSHJJVzdhUGVzVzVQSHV6VUVCTDlON2ZxY0R6eGl1YkxGcldYTlJ5SzBrN3plMFpvTTE5VWVjMDNtdjd0dG11cXN0YnpLQXAzbWxlX2NpSS1SOV9aVWxsc1dnOUJDMlBJLVJvUQ?oc=5",
       "publisher": "Fox News",
       "publishedAt": "2026-11-17T11:00:46+00:00",
       "scopes": [
@@ -123,7 +137,7 @@
     },
     {
       "id": "9665c868ce0e7256",
-      "title": "U.S. Religious Freedom Rankings: Alabama Tops List, Michigan Comes in Dead Last",
+      "title": "US Religious Freedom Rankings: Alabama Tops List, Michigan Comes in Dead Last",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLXZtbWh4a1BMRU45Q0ZFZnlqMmpqc1Y3OUN6T0RIV0RkdGVSUUxGWEVPc3ptMXBIcjNZZUtEbTBwYnNFV05yWkZSNm1VSWhSUkdzSGNwc1ZTRURUZk5YbHVoQ2g2SUVNN0kwVnBSeWlQM2t0dk1KLUF3bUdreS1QdWQ5b054M0xLTXNFLUFCc1BEclFybmVVaTdibzZJVVJ2MUhETjg4Mm56b2Rzb09zZHJ5T0N3d2FMYU03Z1B5MVhUNEJOZ2c?oc=5",
       "publisher": "Billy Graham Evangelistic Association",
       "publishedAt": "2026-11-16T21:13:48+00:00",
@@ -133,6 +147,20 @@
       "scopeVersion": 1,
       "feedIds": [
         "national",
+        "texas"
+      ]
+    },
+    {
+      "id": "a08b0f86ca8b24ca",
+      "title": "The Christian nationalist movement in Texas has been cut off at the knees — for now",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2FBZkVoakZ2RDFEdDJhdzlkdG8xNkQyc3pzWG5yb0VuTDBqNEJDZzg4TjdBSU02ZThwc3RkVGRQajE2U2hjOWhpTkZRbGxGLVV6MUJGOFJzV0lrM0ktXzFuZlZjQ28zdXhmUGQ2anEwVlFHdVZOcUtHSmt5R3lVY1hKQVBfN09jNi1DdG85WQ?oc=5",
+      "publisher": "KERA News Breakthroughs",
+      "publishedAt": "2026-11-16T20:37:25+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
         "texas"
       ]
     },
@@ -156,20 +184,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjBpUzh5aDBsT1psTUptM2liUVRVWDAxODJPdnlaemdWYWxvMTBnRVpYMGlKVmJiWHB5V21XVUlScmFTRmV4Zk5OV0QxVTVjaFVUcXJ0dFB3Qi1LOFNvczAzR2dCWFNwYW1vUG5LVXRFTEdtQkxJTXBpc3JJaW9xU0ttaWd1S28yaGUwTjdBb1ZJcHc?oc=5",
       "publisher": "San Antonio Express-News",
       "publishedAt": "2026-11-16T17:14:21+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "c3a573ba00c4923e",
-      "title": "Change Is Likely Coming to Texas Public School Curriculum",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVlRkWlROTVJtUXhHUnY0anBkREs1dGVfZjcyNnRDSDdCeVUyNEh0eUxLdEhla2VJektZcVRCbWhGbFRJR2JGYW1TRjlkZjFDc182R0dWaUVpLWwzNmhoQ3lqQkFkYVNucEJXSnJzSkZCNDI4MnlEUU5wN0N3a0hoLXR1WEdTcm1XcmFrR3Q2RTBfME9YTmo4?oc=5",
-      "publisher": "Houston Press",
-      "publishedAt": "2026-11-16T10:00:00+00:00",
       "scopes": [
         "Texas"
       ],
@@ -347,6 +361,20 @@
       ]
     },
     {
+      "id": "5467bb0c60ed774a",
+      "title": "US supreme court questions arguments in Catholic preschools’ LGBTQ+ exclusion case",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWVoX05iQ3g2Tm1OUlJYSDUwelJxYm9QWEgwT2otMEYwU2NkemhiNG1MY0x0V0ZOV2t4clliZ20tOHZoOW02Znp4NV9aVE9Ca2xyYjBVZGJoU0gzbzJtVERuYXh6eXdJU04zbjkteU5tMDIyWjZxWTNCakplcWcycnRNLXJVeTdEWFBVNWpQSlR4TEY2SkpXQg?oc=5",
+      "publisher": "The Guardian",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
       "id": "77d4106f9563c11f",
       "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
@@ -471,34 +499,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "6f7836c6fd9bae29",
-      "title": "The Supreme Court’s next major case on the free exercise of religion",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzZDMFZyZlktSXpjYndHbEhWT1ExVExLV2lhaXB6QWpDVV9FRmQ5LUNNMUR1WE1TWXFiTXhiY3NDNERyWGd5N1BtclhzVDVvMW8wb1laM0JNRktLMEhPdlRCd2YzZHhGM05mRU5FbE5rRVhzeEg3RWRPMktyTlpZcGdOX2lfcUptZFZuUlY1bXRhc3d1WURoYTZ3V2RuV2wyLUkyaTBR?oc=5",
-      "publisher": "SCOTUSblog",
-      "publishedAt": "2026-10-20T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "91e61f66133f83cb",
-      "title": "U.S. companies settle religious discrimination claims by Christian, Muslim workers, government says",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT2N4aGg1Qnc4VjBfbFBaNVcxenF0UTdXNHg1UUlaOS1taGNsT2MzcEJjOFAzR0FCOHgtRDJaZjRmdUdPVWlLN2RXclkwUE4xNGk0RXpfNHBuMWVMS1BhdS13OGVOcWpIUS1VUXFkaTU5SGt3LW1FZWlvYllJa3VYNEtDUHdjMVdPQnBPVF9RZ29BOWk3VG1WYlpkdGczQ19JUXBRQ3M3dXNteXAxaGhsdWpxTGxiNjdoOWl4N2VLSQ?oc=5",
-      "publisher": "EWTN News",
-      "publishedAt": "2026-10-20T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
       ]
     }
   ]
