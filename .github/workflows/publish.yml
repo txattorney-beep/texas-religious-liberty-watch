@@ -5,13 +5,11 @@ on:
     branches: [main, master]
   workflow_dispatch:
   schedule:
-    # Central time, including daylight saving; gated catch-up attempts.
-    - cron: '30 7,16 * * *'
-      timezone: America/Chicago
-    - cron: '50 7,16 * * *'
-      timezone: America/Chicago
-    - cron: '10 8,17 * * *'
-      timezone: America/Chicago
+    # Explicit UTC triggers cover CDT and CST. The refresh gate uses America/Chicago
+    # to choose the current edition and skips collection when it is already fresh.
+    - cron: '30 12,13,21,22 * * *'
+    - cron: '50 12,13,21,22 * * *'
+    - cron: '10 13,14,22,23 * * *'
 
 permissions:
   contents: write
