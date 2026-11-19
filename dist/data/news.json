@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T21:21:13.631168+00:00",
-  "checkedAt": "2026-11-19T21:21:13.631168+00:00",
+  "updatedAt": "2026-11-19T23:14:45.678847+00:00",
+  "checkedAt": "2026-11-19T23:14:45.678847+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-19T21:21:13.631168+00:00",
+      "checkedAt": "2026-11-19T23:14:45.678847+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T21:21:13.631168+00:00",
+      "lastSuccessAt": "2026-11-19T23:14:45.678847+00:00",
       "count": 20
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-19T21:21:13.631168+00:00",
+      "checkedAt": "2026-11-19T23:14:45.678847+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T21:21:13.631168+00:00",
-      "count": 23
+      "lastSuccessAt": "2026-11-19T23:14:45.678847+00:00",
+      "count": 16
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-19T21:21:13.631168+00:00",
+      "checkedAt": "2026-11-19T23:14:45.678847+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T21:21:13.631168+00:00",
+      "lastSuccessAt": "2026-11-19T23:14:45.678847+00:00",
       "count": 0
     },
     {
@@ -44,13 +44,27 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-19T21:21:13.631168+00:00",
+      "checkedAt": "2026-11-19T23:14:45.678847+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-19T21:21:13.631168+00:00",
+      "lastSuccessAt": "2026-11-19T23:14:45.678847+00:00",
       "count": 0
     }
   ],
   "items": [
+    {
+      "id": "5ccd48253d79a643",
+      "title": "Supreme Court to hear religious liberty case over home prayer gathering",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0V4Qkc2dGc2cEdMSmVzMGMwRWQ1SmxSTFdPRTk2eF93SVl3d0lXV1c2MWFxQ3dza194MzhLUXVfZGl6b01FZjNXMWUxX1BwaTQwUlJhb2dCSklfQ0NmelhnTExBbmxteVV3RnZKdTdOUmN3ZkdvakZxcmNqZkprbWRPN0Rxd1lsRU9PYTE1VjFBRDNsVXFxZGN5a3NIRGZoM1JITk9YdWV6UUY2R0Y1X2w3SQ?oc=5",
+      "publisher": "The Christian Index",
+      "publishedAt": "2026-11-19T16:30:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
     {
       "id": "5d50983d5c200367",
       "title": "A 'Muslim-only' event at a waterpark in Texas was canceled in June. Now organizer Aminah Knight sues Greg",
@@ -207,20 +221,6 @@
       ]
     },
     {
-      "id": "8705d2ef3d47441f",
-      "title": "D.C. Dispatch: What N.J.’s members of Congress did in Washington this week",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUmtjRkhnQzg5ZkZMc0lNSDZxNk1UNXBJNkpEV1NzMTZhUDBOWTdJT3lqb0hucFRUUTd2WUxEX3V3UzNzcGUxRHE2QWh6YnFDekJvRVd5VGpER2VGNEhkaklBTXRhSkxlZGM1dFFmNmswOWxOeUc5bW90MkozSlY4M005Wll4M0NvXzhOdDRieDU3Q0RIang3dEE0Q2w5R3dham5qeW5NTjQ0TTR4TlBaUw?oc=5",
-      "publisher": "New Jersey Globe",
-      "publishedAt": "2026-11-13T22:55:48+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "85d8738edaeb7347",
       "title": "Texas’ Political Landscape Could See Huge Changes Post ‘Blue Tsunami’",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSjFXRjZ3Ukh5bkktZ1N2UHh2d0M3UDRlR3Z5QzB5Qy1tWjR2WEZGaGo0RjFkdFVGVU5LSk9tdGxzTVh0cF9OZVZMYUtoSWNFMWFMTS1xamZEYlZWRmtFY0FOc3dyV0hWMmJPVUlhLWRxNXBYMkZvbGJXTU9JZW1QM0hZLW1hSTRUTzNGa2Q0eTAyTWJGMWNzaFFkTG5PY282cVkwencxcG5haUdiVkttbDJ2NDFZY2RKRXZQbnNDcWNPTTVQSnZ5ZjM5d2FXVThzSm5UOTRaRFprRVlkNG9z?oc=5",
@@ -232,34 +232,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "ccc9e12dd4d30104",
-      "title": "Cissie Graham Lynch Vows to Defend Religious Freedom at Senate Confirmation Hearing",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGxsUllTSzF0ZWNBZkExLUVJbTRXS1FWZTdjYnNCSHU4cklFUzU0V3p3UHRZT09EbF9mSk1JNGpEYWJCOEluZV9tMi1scGd5anNfMGl3Xy1lZnh1LTM2cTBaV0xxWkxndUViemE5ZFZ4Z0V4ZGZoRGRCWUVQOVhYaENyS25tenIzZHAyZExLSlNERXhPajV2Z1BKQjlNbUtWd2gxR2tMeUlnZw?oc=5",
-      "publisher": "Christianity Daily",
-      "publishedAt": "2026-11-13T15:29:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "84413573ddad7ab3",
-      "title": "Olawepo-Hashim presents religious freedom, security plan to US Congress",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkM0cEVBQ2xxVXBZWEg4UU51dkNSZ3NiTTRYOEdMUVdJU2twQ3lYVno1MHNSLVFqZ2Z4Slliam9iaUVlSUpVb3BWSFFaSTEtUElUbVdjTkVOS1EzQ2JFSHFlazYyWlE2NEhyRGhNeExXRENXbUFRSW9Jdmp4UzdRN2hSTHhwdXAyVFBzMUtqME1oblBaM3c?oc=5",
-      "publisher": "Punch Newspapers",
-      "publishedAt": "2026-11-12T00:23:39+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
       ]
     },
     {
@@ -431,20 +403,6 @@
       ]
     },
     {
-      "id": "cab82ba9aff1920b",
-      "title": "US Supreme Court leans toward Catholic preschools' challenge to LGBT protections",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWNXTWlKX2RidWxwem9kbTNLdFhKTkVDMHNvbU5PNGVrdzJmaC1YSExYYWUwNE9Ib2dyN2VWckg2UDdfNGU0dVpzWEV2d1BQQVJzczZUMm1FbC1hRFphOXJNSHRvT2twRUdMS3VLaEh2ay1Lcl9wYnM1TS1YWlpqSWM5UE9TRTd0SXNrWU9YOUw2T05GYUtVeFhyR056WTdCTm5fMDdoUnEybjNVN2pMaGFXVW55bkFSQnZyRmVJUQ?oc=5",
-      "publisher": "Reuters",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "c412f1c24cbb8747",
       "title": "Christian nationalism and Israel weigh on Texas Jewish vote",
       "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOWnluQzZEVFRMMnNXVDBYdmFRLVRiY25JdlZpNTdLSmRFMENuakdJWFdCeTE2VHBTTks0d1VyMk9RY0N3RXY0eFhINTRQUF84NmlCVjVieEtKWnYxU2ppM0c3dzdxZEQ1WTA4UC1ZTnI1bDdkajc3MXZyQ3JlWTVWYkl6bnN6aWZMTjVtcmM5Tmk0TGFRRkpzTjAxTGhESHd3QjRaUU8yYW9jOGJkdXYwRE5GWGRVQlk4VVpPVDRNQnNpUzlaVklRU2dXcEQycG9fNkJIYkg3Q3laTjRELU9FaG5VR19QbHZTU0poYnB2MXpxTGNrUENCUU1mX3lUNVhYZ3BFczBvcWVIaC1BbGhpWEVB?oc=5",
@@ -456,20 +414,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "64347c6589ae9f1e",
-      "title": "UPDATE: Supreme Court to hear case on religious freedom and Colorado’s universal preschool program",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTEhybS1LY3JCS1BoZ2dVZWYzdWxlN2NST3ZJMVNTTzFPREJjR1NRUlJKUkx0Y2FibXhGR0N5eGZCMjBmcnBKemtMQktGd0ZSMFRoWS1jNEd1dmpfTE5RSTdRamlMVlFPamRPQjR0dVZYVFJneGY5cjBBNXVua2xJLUdQRTQ5Sy1KUHNzNjM1emNjWFZUVHU3bzd1blZKSEZpM0ZoWlVIRFlYVzI3b3pQSUNwcklPRkp4X2c?oc=5",
-      "publisher": "EdSource",
-      "publishedAt": "2026-11-02T08:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
       ]
     },
     {
@@ -529,34 +473,6 @@
       ]
     },
     {
-      "id": "9b68fc8734062385",
-      "title": "Pre-K program at center of Supreme Court battle over religious freedom and government aid",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRTczZDVEU1lIanFMUy1jbGh5dEtDVGpvcUNnRjVHNkZJeEY1cUpKQTRiV1paMlR4S2Q0NXIwLVZCT1M5WmN2MHg3U3MzaWRva1ctWmhWYlFFajR3d1ZZeHEzOHI1c3B5aXhsbnNzOGM5T1JUSmk4Y3RqdjFWQXdKc1dwS0lOUTh0QXJzZldhN295c01ucldMNGNyQktCaFo1RFo2T0pidzR6cU1aYklIUzV0ZFRkVTJIc3RIcnJ5M0FqMEZraWE4?oc=5",
-      "publisher": "ABA Journal",
-      "publishedAt": "2026-10-29T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "ca25bc690ae8ccd0",
-      "title": "Chemerinsky: Supreme Court once again examines conflicts over the free exercise of religion",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaE9KN1lVMmw2VEk1QXEtNkJBUjhGTk9UckZCay1MQUpkWlpfc0RZS2RWY0xQQjZFTTE4MjBnN2V4YzNMejZBTWVzTmNPR0hnMWVPcGloU3UyYmFiY3JQeTRVcUYtbmpVWWdFdzRVZExYZXJCZEFfZkhOMDUxZjQ4ME83RS1yYTNvT2hZckVVWVA5cFRGY1AzcWtoWTNjdUJScHcxNFZKbGpCOGw1Mmh3TWtQa3FLNW5WYXRuNS1CMnNMTGE2bVloYTV4MHlBUQ?oc=5",
-      "publisher": "ABA Journal",
-      "publishedAt": "2026-10-28T07:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "e029a74068e310da",
       "title": "Former McKinney mayor says religious freedom is “fragile”",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHo4MENVNEp6ekh4UEdla0dSVUNJTVZvaVZBUnFtR0k1RzdGQVdVc1hSNlJ1VktpSE1LYVpPRmE4MFlPYnFZTFFVbmpycWdiZWdOaHAydDJmdHU0dkFQSTRQY3N5RDlqc2hTdmNGZ3A0U0tJQ3VuMmo4dDhsSEY4eE5mX2prRVlVZXVBNTI1bWtMWjFkcGYtOWpzckhkREo5?oc=5",
@@ -596,7 +512,6 @@
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national",
         "texas"
       ]
     }
