@@ -26,6 +26,7 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     outputs:
+      pages_artifact: ${{ steps.snapshot.outputs.pages_artifact }}
       published_sha: ${{ steps.snapshot.outputs.sha }}
     steps:
       - uses: actions/checkout@v6
@@ -68,12 +69,15 @@ jobs:
             git push
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          # Use a new artifact name only when preparation itself is rerun.
+          echo "pages_artifact=github-pages-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
       - name: Exclude source archives from public site
         run: rm -f dist/downloads/texas-liberty-watch-starter.zip
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+          name: ${{ steps.snapshot.outputs.pages_artifact }}
   deploy:
     needs: prepare
     runs-on: ubuntu-latest
@@ -84,6 +88,8 @@ jobs:
       - name: Publish GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.prepare.outputs.pages_artifact }}
       - uses: actions/checkout@v6
         with:
           ref: ${{ needs.prepare.outputs.published_sha }}
