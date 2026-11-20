@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T13:59:07.078915+00:00",
-  "checkedAt": "2026-11-20T13:59:07.078915+00:00",
+  "updatedAt": "2026-11-20T22:34:32.512546+00:00",
+  "checkedAt": "2026-11-20T22:34:32.512546+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-20T13:59:07.078915+00:00",
+      "checkedAt": "2026-11-20T22:34:32.512546+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T13:59:07.078915+00:00",
+      "lastSuccessAt": "2026-11-20T22:34:32.512546+00:00",
       "count": 42
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-20T13:59:07.078915+00:00",
+      "checkedAt": "2026-11-20T22:34:32.512546+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T13:59:07.078915+00:00",
-      "count": 15
+      "lastSuccessAt": "2026-11-20T22:34:32.512546+00:00",
+      "count": 14
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-20T13:59:07.078915+00:00",
+      "checkedAt": "2026-11-20T22:34:32.512546+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T13:59:07.078915+00:00",
+      "lastSuccessAt": "2026-11-20T22:34:32.512546+00:00",
       "count": 0
     },
     {
@@ -44,13 +44,27 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-20T13:59:07.078915+00:00",
+      "checkedAt": "2026-11-20T22:34:32.512546+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T13:59:07.078915+00:00",
+      "lastSuccessAt": "2026-11-20T22:34:32.512546+00:00",
       "count": 0
     }
   ],
   "items": [
+    {
+      "id": "6bc333c759bc3dc0",
+      "title": "Congress MP links Indian cricketer Siraj’s omission from playing XI to religious discrimination",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT01ZbnkwZ0h6UktkLTlUdDhqNl9yM2hpXy1xbG5hM3dqQXhwaE1TT0RIcGJjdVFHUm15WDRSRnNzc0dKc1ZxRnJhU2syLVdNVlNRSkg1WVQ1czMtb0ZfRkMwWmFISHE1N0gtZ0tpclZ4b3pLVmQ5ZUNuWmNPMHZoWDd4NEd2MGZYRlpQZm4wR3AyYlJ6ekRnM3U5VWxRdU1MRjl1eFVReWhoakY3TGFhcFNSUHJXNlBOTVBEVDhXSUlPNnhfOG1nMEZrU1VRSmM?oc=5",
+      "publisher": "Kashmir Media Service",
+      "publishedAt": "2026-11-20T13:11:41+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
     {
       "id": "8c9730a06091f940",
       "title": "“Because His Name Is Siraj”: Congress MP Alleges Religious Discrimination Over Mohammed Siraj’s Omission From Indian Team",
@@ -77,20 +91,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
-      ]
-    },
-    {
-      "id": "5ccd48253d79a643",
-      "title": "Supreme Court to hear religious liberty case over home prayer gathering",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0V4Qkc2dGc2cEdMSmVzMGMwRWQ1SmxSTFdPRTk2eF93SVl3d0lXV1c2MWFxQ3dza194MzhLUXVfZGl6b01FZjNXMWUxX1BwaTQwUlJhb2dCSklfQ0NmelhnTExBbmxteVV3RnZKdTdOUmN3ZkdvakZxcmNqZkprbWRPN0Rxd1lsRU9PYTE1VjFBRDNsVXFxZGN5a3NIRGZoM1JITk9YdWV6UUY2R0Y1X2w3SQ?oc=5",
-      "publisher": "The Christian Index",
-      "publishedAt": "2026-11-19T16:30:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
       ]
     },
     {
@@ -192,6 +192,20 @@
       ]
     },
     {
+      "id": "de5d91edb22a6c35",
+      "title": "Which state topped the list of U.S. religious freedom rankings for nonprofits?",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY3hubi1KTlFzbWJYekZ3YUdjZTROT1JGanRjZU9zejZqZXBlcVNoQmw5Z1RQWWZSeEJvTV9XSzhfazM4M2JDMnhXZ1VZQU44TjR6ajl0OGJVQ0t5T3JqUDgxWkFEN0NrNU9ldVI2UjkzaW5sTGxDaXZRN1lTU3V1OUJfdDJ1b1c5MGhDcGtmSURYbnRSTVlTYk5nY1ZsV1lKT1RmX2ctUk0?oc=5",
+      "publisher": "The Baptist Paper",
+      "publishedAt": "2026-11-18T14:32:45+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
       "id": "02933235c2ea18e9",
       "title": "Texas Muslim group sues Republican Governor Abbott over cancelled Eid event",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmd0dU55Sm05VUVGcUlLMnZXeFpVRm5RalZhVWlnWEpVMV9WZVpPcmdRNFk3VkpsN2pOT1czUmxydWNzOHpYY3JIRFdLTzFMbXFRRzNwQVJNMnlaMUlMSjc2Nk1vVk45QTFENmZjajBqQ05RMnRoN09PRWpTdTYxNkpoOHBmdnNCZDJRMGlKcF82QTNsT3RYUEU4dmgwOUtFRnRIVnBwQVV1Qm9S?oc=5",
@@ -258,7 +272,6 @@
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national",
         "texas"
       ]
     },
@@ -287,7 +300,6 @@
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national",
         "texas"
       ]
     },
@@ -562,7 +574,7 @@
       "title": "Texas Muslims Mobilize for Elections to Counter Republican Islamophobia",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWpHNlJuNDViTEVlQWtQWVpsTzdrVXpQSHZRN0l0WWRrODN4RHR6NGVWVEFieUlVT0dxWjVaTG05d1YxWndZTTZRV055Uk84Y2xKNHhxNzdTM1dnXy1nYW5EUVIza2ZNdjFicXNZc3NId3Q1cy1zUDNzdUxGekRXQWRBZ2VpRmVFd2hGTkJ3REpvWHBxWnc5Q0xhY1BoZi1MaGhCUmh2ZzhBZw?oc=5",
       "publisher": "ABNA English",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "publishedAt": "2026-11-03T10:18:00+00:00",
       "scopes": [
         "Texas"
       ],
