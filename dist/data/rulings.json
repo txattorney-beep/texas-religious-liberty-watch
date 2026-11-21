@@ -3,8 +3,8 @@
   "windowStart": "2026-05-24",
   "windowEnd": "2026-11-20",
   "windowDays": 180,
-  "checkedAt": "2026-11-20T22:35:24.424823+00:00",
-  "updatedAt": "2026-11-20T22:35:24.424823+00:00",
+  "checkedAt": "2026-11-21T02:36:25.765175+00:00",
+  "updatedAt": "2026-11-21T02:36:25.765175+00:00",
   "status": "ok",
   "editorialCheckedAt": "2026-11-11",
   "sources": [
@@ -12,9 +12,9 @@
       "id": "scotus",
       "label": "U.S. Supreme Court",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=scotus&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 3,
       "returnedCount": 3,
       "possiblyLimited": false
@@ -23,20 +23,20 @@
       "id": "fifth",
       "label": "Fifth Circuit",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=ca5&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
-      "count": 6,
-      "returnedCount": 6,
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
+      "count": 7,
+      "returnedCount": 7,
       "possiblyLimited": false
     },
     {
       "id": "tx-federal",
       "label": "Texas federal district courts",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=txed+txnd+txsd+txwd&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 0,
       "returnedCount": 0,
       "possiblyLimited": false
@@ -45,9 +45,9 @@
       "id": "la-ms-federal",
       "label": "Louisiana & Mississippi federal district courts",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=laed+lamd+lawd+msnd+mssd&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 0,
       "returnedCount": 0,
       "possiblyLimited": false
@@ -56,9 +56,9 @@
       "id": "tx-state",
       "label": "Texas state courts",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=tex+texapp&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 4,
       "returnedCount": 4,
       "possiblyLimited": false
@@ -67,9 +67,9 @@
       "id": "la-state",
       "label": "Louisiana state courts",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=la+lactapp&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 0,
       "returnedCount": 0,
       "possiblyLimited": false
@@ -78,9 +78,9 @@
       "id": "ms-state",
       "label": "Mississippi state courts",
       "url": "https://www.courtlistener.com/feed/search/?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+RLUIPA+OR+RFRA+OR+%22church+autonomy%22+OR+%22ecclesiastical+abstention%22+OR+%22religious+accommodation%22+OR+%22religious+discrimination%22+OR+%22Establishment+Clause%22+OR+%22ministerial+exception%22%29+dateFiled%3A%5B2026-05-24+TO+2026-11-20%5D&court=miss+missctapp&order_by=dateFiled+desc&type=o",
-      "checkedAt": "2026-11-20T22:35:24.424823+00:00",
+      "checkedAt": "2026-11-21T02:36:25.765175+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-20T22:35:24.424823+00:00",
+      "lastSuccessAt": "2026-11-21T02:36:25.765175+00:00",
       "count": 1,
       "returnedCount": 1,
       "possiblyLimited": false
@@ -485,6 +485,22 @@
     }
   ],
   "matches": [
+    {
+      "id": "cl-44d1cd2ca65c2ea7",
+      "name": "State of Texas v. Blanche",
+      "court": "Court of Appeals for the Fifth Circuit",
+      "group": "Fifth Circuit",
+      "state": "Regional",
+      "date": "2026-11-20",
+      "sourceUrl": "https://www.courtlistener.com/opinion/11068111/state-of-texas-v-blanche/",
+      "sourceLabel": "CourtListener opinion",
+      "excerpt": "legislation, but to pass a “super statute” like the Religious Freedom Restoration Act of 1993, 42 U.S.C. §§ 2000bb",
+      "reviewState": "Opinion match",
+      "feedIds": [
+        "fifth"
+      ],
+      "firstSeenAt": "2026-11-21T02:36:25.765175+00:00"
+    },
     {
       "id": "cl-32bb0409bacc03bc",
       "name": "United States v. Deare",
