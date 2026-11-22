@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T19:34:05.574992+00:00",
-  "checkedAt": "2026-11-21T19:34:05.574992+00:00",
+  "updatedAt": "2026-11-22T01:27:26.993499+00:00",
+  "checkedAt": "2026-11-22T01:27:26.993499+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-21T19:34:05.574992+00:00",
+      "checkedAt": "2026-11-22T01:27:26.993499+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-21T19:34:05.574992+00:00",
-      "count": 43
+      "lastSuccessAt": "2026-11-22T01:27:26.993499+00:00",
+      "count": 44
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-21T19:34:05.574992+00:00",
+      "checkedAt": "2026-11-22T01:27:26.993499+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-21T19:34:05.574992+00:00",
-      "count": 14
+      "lastSuccessAt": "2026-11-22T01:27:26.993499+00:00",
+      "count": 16
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-21T19:34:05.574992+00:00",
+      "checkedAt": "2026-11-22T01:27:26.993499+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-21T19:34:05.574992+00:00",
+      "lastSuccessAt": "2026-11-22T01:27:26.993499+00:00",
       "count": 0
     },
     {
@@ -44,9 +44,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-21T19:34:05.574992+00:00",
+      "checkedAt": "2026-11-22T01:27:26.993499+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-21T19:34:05.574992+00:00",
+      "lastSuccessAt": "2026-11-22T01:27:26.993499+00:00",
       "count": 0
     }
   ],
@@ -56,7 +56,7 @@
       "title": "‘Selection Is Based on Merit’: Rijiju Hits Back at Congress MP’s Religious Discrimination Claim Over Siraj",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT0xjY29sdUZTdlY3NDlHOWM1ZjJ6UV8zeXJZc0RMcnhET3diSHZPWVZGMzFwS3VkMlprd1dFdDByYUw3ZmtkU2liQlhEUktiQW5HYUJMeWZyRnZKelRGTlVJVzBoSzZXN2VrcFNkWkhsQmhtbUVHNkxBNklTYlBWelM2Q0FfdDQxcTZyNWNsWFJvSWRwM2Rqbk5SMS1WMGgxN0ZabUZiazR3VlJxcHVBbnJYZHlfY0pxS1l3emZhTFhrVkxHREo2VmpRTQ?oc=5",
       "publisher": "The Observer Post",
-      "publishedAt": "2026-11-21T14:47:44+00:00",
+      "publishedAt": "2026-11-21T15:06:20+00:00",
       "scopes": [
         "National"
       ],
@@ -105,6 +105,20 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
+      ]
+    },
+    {
+      "id": "5ccd48253d79a643",
+      "title": "Supreme Court to hear religious liberty case over home prayer gathering",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0V4Qkc2dGc2cEdMSmVzMGMwRWQ1SmxSTFdPRTk2eF93SVl3d0lXV1c2MWFxQ3dza194MzhLUXVfZGl6b01FZjNXMWUxX1BwaTQwUlJhb2dCSklfQ0NmelhnTExBbmxteVV3RnZKdTdOUmN3ZkdvakZxcmNqZkprbWRPN0Rxd1lsRU9PYTE1VjFBRDNsVXFxZGN5a3NIRGZoM1JITk9YdWV6UUY2R0Y1X2w3SQ?oc=5",
+      "publisher": "The Christian Index",
+      "publishedAt": "2026-11-19T16:30:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
       ]
     },
     {
@@ -169,6 +183,20 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTE83R0R3MTZCeER5N1V0TG9vSW94OXpnMk9xYVRqeDFmRHdFV3Boa0RkNldwcUJlOEprUWh6ZGpGOFJfUFhWcUR1NVRueVpOdVNYYWtsRmZJcmRGVWJ1d0Z0MF9HbDFrakhETEoycUdsbzB4MzB1WFZwYkZyOEE5bVp3OThKem5rZWxicnExdmtpYl9wVDdsSXpQd29jbm16Zlk1dlI0WGZTTGhsejV0ZFNWaXU5emJ0MElnTFNXSQ?oc=5",
       "publisher": "Baptist Press",
       "publishedAt": "2026-11-18T18:37:32+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
+      "id": "49d55f23f1cdf990",
+      "title": "Texas Muslim group sues Abbott over 'unconstitutional' water park shutdown",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0NlRGtDM1F6VXJoUktER3g0YXpVXzFOd3JNNjZwN1RFVDNodG51bTFFaGNxX0gwUEVCZE5yVDhiQjQydWZaQnV5RTJHUzcyVXJQTUkyZFQzbGZCN0V1SU9Ba29DZ1JtejVHQW9kMHlkMEpyU2dNcEN1MmtZR3dBcUR0Wm12R0ZT?oc=5",
+      "publisher": "Chron",
+      "publishedAt": "2026-11-18T17:28:51+00:00",
       "scopes": [
         "Texas"
       ],
@@ -323,7 +351,7 @@
       "title": "Texas’ Political Landscape Could See Huge Changes Post ‘Blue Tsunami’",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSjFXRjZ3Ukh5bkktZ1N2UHh2d0M3UDRlR3Z5QzB5Qy1tWjR2WEZGaGo0RjFkdFVGVU5LSk9tdGxzTVh0cF9OZVZMYUtoSWNFMWFMTS1xamZEYlZWRmtFY0FOc3dyV0hWMmJPVUlhLWRxNXBYMkZvbGJXTU9JZW1QM0hZLW1hSTRUTzNGa2Q0eTAyTWJGMWNzaFFkTG5PY282cVkwencxcG5haUdiVkttbDJ2NDFZY2RKRXZQbnNDcWNPTTVQSnZ5ZjM5d2FXVThzSm5UOTRaRFprRVlkNG9z?oc=5",
       "publisher": "Billy Graham Evangelistic Association",
-      "publishedAt": "2026-11-13T20:35:53+00:00",
+      "publishedAt": "2026-11-13T08:00:00+00:00",
       "scopes": [
         "Texas"
       ],
@@ -585,20 +613,6 @@
       ]
     },
     {
-      "id": "dc5353a49046db33",
-      "title": "Supreme Court Hears Religious Freedom Case Over Colorado Preschool Program",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObTFLbzRMQlFKWk5mbDgxWnRWeE9ERjFQSmR0OHRfcV8ycWRIZmZGZC1lZVZUUTcwR21ENmp4UTRYLUdjMFNlSm02UHVTeV85WThXNkw3dEc2cWd1c19IWjhHc2MwMG1kWUFtcEVPOWJRYWxwRnN4bTU3TENmSHNwUEYwa0tQc000OExZSE1nalBLRVJfTnVRMVRVV3VTbzFuTElWWTNNUVFWaEtCdXFtamRWdkIxLTBVMThqY3BmUXFzZw?oc=5",
-      "publisher": "NTD News",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
       "id": "5d9a2d9a61da44a6",
       "title": "Who Is Ken Paxton? Texas Republican US Senate Candidate in the 2026 US Midterm Elections — Check His Age, Education, Political Career, Net Worth, Family, Personal Life & More",
       "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRTZnTDJtaWI5M0ppVmMtRjVrTEFEbU1mMTEwUWlFZWVOSE56RWpwMWNBdFFKQ1cxTWQxSzZ0clFEZGtpellmcWg4eEp6aF8zam9td1ZWX3BTQmxMaXQ5VVRPdXNTSi00OEJ6dkw4Njg0QzF3OWxNWWVPUEcwSFd1aEhId1F3YVN2dDFrWUlmM2R1MnFkQTB0bjZVMm0wS3hUeU91VzJ4NlgyaXRMTTdBUzRoVGVWMFFsbXhSNkoxc2hicWVMamdPajVONnlfak8wZmhtQU1ZR1RHRGNBQjJERURaQy1mOHotOGRnWXRKOXktX2JmS29Ja3dZU1pCTmdBdkM1NGRJT010WGl5eWU3UGVBSTRUQmFEY29ocndXVUltSnhGWHNzdWk5eGZjc0hqcm9V0gG4AkFVX3lxTE4zQUhOWXB2d0R4ZTVncnFMSExQZ1d3aWFxVGpfdWdOT3laUFFIZ1FYOVFzX0Fmcm5yM194WFBpZnJLcmVZN0tSYWYtSEtFd183ZVd3UWlOSEs4dE1Fc2tSd1NwRjlGUGVpN005NXRDOTM4eUJUd2k4N0VuNmlXbHVxM2JudFdSLWdYNkZ1NnFmRGxhWS1kMXhNMFBId2xVZktmNWZOV2ZRZkdhaE9BU3lnWUFyVVFMb3I0YmN2UlVIaWhSakFLRjN6RnkwVnpvWnZOLVcwX0tidVkyU1RwTEdDd2FaYVNybXdYUlMzNmZGMXh5T1RUMUNWaU9YcU4yUlVWNTN2bDhWSE0zZ0xmM096b2tXM3o4T284UllzUjh5OFp0OVFLbWQ0S2JCOTNpT3JPU0hOQkdOaQ?oc=5",
@@ -614,10 +628,10 @@
       ]
     },
     {
-      "id": "5467bb0c60ed774a",
-      "title": "US supreme court questions arguments in Catholic preschools’ LGBTQ+ exclusion case",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWVoX05iQ3g2Tm1OUlJYSDUwelJxYm9QWEgwT2otMEYwU2NkemhiNG1MY0x0V0ZOV2t4clliZ20tOHZoOW02Znp4NV9aVE9Ca2xyYjBVZGJoU0gzbzJtVERuYXh6eXdJU04zbjkteU5tMDIyWjZxWTNCakplcWcycnRNLXJVeTdEWFBVNWpQSlR4TEY2SkpXQg?oc=5",
-      "publisher": "The Guardian",
+      "id": "77d4106f9563c11f",
+      "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
+      "publisher": "National Catholic Reporter",
       "publishedAt": "2026-11-03T08:00:00+00:00",
       "scopes": [
         "National"
@@ -628,10 +642,24 @@
       ]
     },
     {
-      "id": "77d4106f9563c11f",
-      "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
-      "publisher": "National Catholic Reporter",
+      "id": "cab82ba9aff1920b",
+      "title": "US Supreme Court leans toward Catholic preschools' challenge to LGBT protections",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWNXTWlKX2RidWxwem9kbTNLdFhKTkVDMHNvbU5PNGVrdzJmaC1YSExYYWUwNE9Ib2dyN2VWckg2UDdfNGU0dVpzWEV2d1BQQVJzczZUMm1FbC1hRFphOXJNSHRvT2twRUdMS3VLaEh2ay1Lcl9wYnM1TS1YWlpqSWM5UE9TRTd0SXNrWU9YOUw2T05GYUtVeFhyR056WTdCTm5fMDdoUnEybjNVN2pMaGFXVW55bkFSQnZyRmVJUQ?oc=5",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "5467bb0c60ed774a",
+      "title": "US supreme court questions arguments in Catholic preschools’ LGBTQ+ exclusion case",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWVoX05iQ3g2Tm1OUlJYSDUwelJxYm9QWEgwT2otMEYwU2NkemhiNG1MY0x0V0ZOV2t4clliZ20tOHZoOW02Znp4NV9aVE9Ca2xyYjBVZGJoU0gzbzJtVERuYXh6eXdJU04zbjkteU5tMDIyWjZxWTNCakplcWcycnRNLXJVeTdEWFBVNWpQSlR4TEY2SkpXQg?oc=5",
+      "publisher": "The Guardian",
       "publishedAt": "2026-11-03T08:00:00+00:00",
       "scopes": [
         "National"
@@ -680,7 +708,8 @@
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national"
+        "national",
+        "texas"
       ]
     },
     {
