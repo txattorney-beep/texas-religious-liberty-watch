@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T13:32:00.513226+00:00",
-  "checkedAt": "2026-11-22T13:32:00.513226+00:00",
+  "updatedAt": "2026-11-22T22:34:28.388071+00:00",
+  "checkedAt": "2026-11-22T22:34:28.388071+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-22T13:32:00.513226+00:00",
+      "checkedAt": "2026-11-22T22:34:28.388071+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T13:32:00.513226+00:00",
+      "lastSuccessAt": "2026-11-22T22:34:28.388071+00:00",
       "count": 21
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-22T13:32:00.513226+00:00",
+      "checkedAt": "2026-11-22T22:34:28.388071+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T13:32:00.513226+00:00",
-      "count": 15
+      "lastSuccessAt": "2026-11-22T22:34:28.388071+00:00",
+      "count": 13
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-22T13:32:00.513226+00:00",
+      "checkedAt": "2026-11-22T22:34:28.388071+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T13:32:00.513226+00:00",
+      "lastSuccessAt": "2026-11-22T22:34:28.388071+00:00",
       "count": 0
     },
     {
@@ -44,9 +44,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-22T13:32:00.513226+00:00",
+      "checkedAt": "2026-11-22T22:34:28.388071+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-22T13:32:00.513226+00:00",
+      "lastSuccessAt": "2026-11-22T22:34:28.388071+00:00",
       "count": 0
     }
   ],
@@ -57,6 +57,20 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT0xjY29sdUZTdlY3NDlHOWM1ZjJ6UV8zeXJZc0RMcnhET3diSHZPWVZGMzFwS3VkMlprd1dFdDByYUw3ZmtkU2liQlhEUktiQW5HYUJMeWZyRnZKelRGTlVJVzBoSzZXN2VrcFNkWkhsQmhtbUVHNkxBNklTYlBWelM2Q0FfdDQxcTZyNWNsWFJvSWRwM2Rqbk5SMS1WMGgxN0ZabUZiazR3VlJxcHVBbnJYZHlfY0pxS1l3emZhTFhrVkxHREo2VmpRTQ?oc=5",
       "publisher": "The Observer Post",
       "publishedAt": "2026-11-21T15:06:20+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
+      "id": "8c9730a06091f940",
+      "title": "“Because His Name Is Siraj”: Congress MP Alleges Religious Discrimination Over Mohammed Siraj’s Omission From Indian Team",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaGh4WEY5SzhCY3FpMExQa0FHZzVtMzNxSGpDS28tdHV3V0VsUThSX1hza1hZNzhxa0YySmtxTW1XUnQ0M0pzT3QwYl9KTnc4Tl95ejU3TDdDWGhRYURlOElzYTVfZWMwNHJzSkM3ZnVvVU04Zk5uVDdjTzJMelUtN1lNQUtUb1R6NEFJQnN0aklqc1NTUmwxd1A1QnEtNDNqV09VeXo4QnNHaFVUTVpfalRQaTV5NDRsdHN5T3RqMHlKZWVodXU3VHlzVjh6OUlFODN1NHJ5b3E4Rmk4VExwVkhQRlg0QjhMLW5Ccm13?oc=5",
+      "publisher": "Sportscape Magazine",
+      "publishedAt": "2026-11-20T16:18:46+00:00",
       "scopes": [
         "National"
       ],
@@ -80,53 +94,11 @@
       ]
     },
     {
-      "id": "8c9730a06091f940",
-      "title": "“Because His Name Is Siraj”: Congress MP Alleges Religious Discrimination Over Mohammed Siraj’s Omission From Indian Team",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaGh4WEY5SzhCY3FpMExQa0FHZzVtMzNxSGpDS28tdHV3V0VsUThSX1hza1hZNzhxa0YySmtxTW1XUnQ0M0pzT3QwYl9KTnc4Tl95ejU3TDdDWGhRYURlOElzYTVfZWMwNHJzSkM3ZnVvVU04Zk5uVDdjTzJMelUtN1lNQUtUb1R6NEFJQnN0aklqc1NTUmwxd1A1QnEtNDNqV09VeXo4QnNHaFVUTVpfalRQaTV5NDRsdHN5T3RqMHlKZWVodXU3VHlzVjh6OUlFODN1NHJ5b3E4Rmk4VExwVkhQRlg0QjhMLW5Ccm13?oc=5",
-      "publisher": "Sportscape Magazine",
-      "publishedAt": "2026-11-20T10:32:59+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "3589535b74aedbdd",
       "title": "Democrats to take control of Texas education board, setting stage for curriculum debates",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdG5rWmY3S3I3Q2k5R1EwTUUtUXY5WXFqeG5oZEt1UlJ3bnNfelREa2ZmZ1AyZlpvZmc2MGdxaUdtR21aQjdLaWo0em41cDBVOXJORXFDNDV0MGRTWUNpUWZ1b2I3Ukxfd2Y3eXgzOXdiS2IyZmN2X2kwOXJBTGZBTHdybERaUlhFR08tZzliSXpPRWZyWVVkVGVfRzFKeWQ4X0Z6Sm9sTXF1dVhGOEczbzFONTJUVGFGRlR5QndsQnJfZFoxZE1McHVkQVdPemRINGM5UWdIa3dEUFcxeHlvbnctLVNKNmPSAe8BQVVfeXFMUHlUNTBGaEYyUmRESmU3dndDQldLa0lzMGlIX09fNl9iUXdZYmZncThubUZLV0lOTHdGNDdzeEZxeHZXeHJRR3BuVDlZajFMVFdELTlJNGZxVmx4dktfSDhYRm1WaFFMLTRqVW9mcHZYOVJOREQ1UVBqYjFyZDJsbG5wWi1tMlZCdXdHOFpLU2xBR3RaaDl4Z1RQQlBtY3hCeEdBNTRlSzI3ZzRaTXlGXzM2WDJxM0VSbUhpOXlfTnVVUjRxNUVKczNkbDFRNXJKb180X0xrUkZHOFAwQXZSNjJlR3E1X21ZQVZ5ZTZqa28?oc=5",
       "publisher": "NBC 5 Dallas-Fort Worth",
       "publishedAt": "2026-11-19T23:32:51+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "5ccd48253d79a643",
-      "title": "Supreme Court to hear religious liberty case over home prayer gathering",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0V4Qkc2dGc2cEdMSmVzMGMwRWQ1SmxSTFdPRTk2eF93SVl3d0lXV1c2MWFxQ3dza194MzhLUXVfZGl6b01FZjNXMWUxX1BwaTQwUlJhb2dCSklfQ0NmelhnTExBbmxteVV3RnZKdTdOUmN3ZkdvakZxcmNqZkprbWRPN0Rxd1lsRU9PYTE1VjFBRDNsVXFxZGN5a3NIRGZoM1JITk9YdWV6UUY2R0Y1X2w3SQ?oc=5",
-      "publisher": "The Christian Index",
-      "publishedAt": "2026-11-19T16:30:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "9d95df7e4d6a5147",
-      "title": "Texas Muslims welcome pledge to reverse CAIR terror label",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN2Z6NEFxcFhXeUNoSHJWSlJ6T0szUGMtQVhNNE5KYVBxQ29NRVFybzZoQ3AxbEpyMnBpdnd3LUF2ZHBLdlJSMmwtei1oN0ZaX2F2aGgyeXpHUDBTZ3NvWHBLcGlzYnNIWUQtNUJFV25rRkt1UnFpZlI3QTRpMUFPaUVvLW8tRjFoU3RKSlIwZ1M?oc=5",
-      "publisher": "Muslim Network TV",
-      "publishedAt": "2026-11-19T14:36:13+00:00",
       "scopes": [
         "Texas"
       ],
@@ -178,17 +150,17 @@
       ]
     },
     {
-      "id": "784c2441ceecb70d",
-      "title": "State Department presses Egypt to respect religious freedom as Christian convert faces possible execution",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVnE5YkNnc1JVTFIyNV9iaFVMYVFISFBkTG52UmwxMDd0am9lSkpXLXlaNTdHWmZjbHFXVWQyY0dyTDBoOEtqMTYzYzZWWHJFR2t6X0thRzhybDNkZjJ2T1NmTlRmZmZVR3hNaFkzNEJYTVl6b3dTcWtoTi1iUklYazRkaVNUTmstQ2dLd3ZzUm5jTWpSMGViNVpuZDk2a1ZQZ2RsZTZSSnZJWGlVMllvQ3A0OFVlQk52Ykp1MFktRURFcnlOdnF2UdIBzgFBVV95cUxQYnc1a2JjdHdtMTJzLWFKMDdxcFNRYmdhamhLOXdWNFVDWkpxVlpFeTNqS1BfdjRhbG9qSFJqZTY3Zi1zY2hvSy11SHBTQW95aW5hWktRM2NGTUJIQVM0WlJIS2hBU24wbTZVSHJJVzdhUGVzVzVQSHV6VUVCTDlON2ZxY0R6eGl1YkxGcldYTlJ5SzBrN3plMFpvTTE5VWVjMDNtdjd0dG11cXN0YnpLQXAzbWxlX2NpSS1SOV9aVWxsc1dnOUJDMlBJLVJvUQ?oc=5",
-      "publisher": "Fox News",
-      "publishedAt": "2026-11-17T11:00:46+00:00",
+      "id": "02933235c2ea18e9",
+      "title": "Texas Muslim group sues Republican Governor Abbott over cancelled Eid event",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmd0dU55Sm05VUVGcUlLMnZXeFpVRm5RalZhVWlnWEpVMV9WZVpPcmdRNFk3VkpsN2pOT1czUmxydWNzOHpYY3JIRFdLTzFMbXFRRzNwQVJNMnlaMUlMSjc2Nk1vVk45QTFENmZjajBqQ05RMnRoN09PRWpTdTYxNkpoOHBmdnNCZDJRMGlKcF82QTNsT3RYUEU4dmgwOUtFRnRIVnBwQVV1Qm9S?oc=5",
+      "publisher": "Geo News",
+      "publishedAt": "2026-11-18T05:55:00+00:00",
       "scopes": [
-        "National"
+        "Texas"
       ],
       "scopeVersion": 1,
       "feedIds": [
-        "national"
+        "texas"
       ]
     },
     {
@@ -347,10 +319,10 @@
       ]
     },
     {
-      "id": "62ff36a95418e6c1",
-      "title": "Newly elected Texas Supreme Court Chief Justice plans to test religious exception order won in court victory by McLennan County judge",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdGlyUDQyUXY3T092cHp3UGhZTDVGM2tFMzVmNEJxZVFhWERSQUEzVW5UeFNpVVN6ZS1wS2dNcmNSOWYwY0VmR0t0eWMxcWg5MWxBTmNjSWhvRmM4VFp3R3BqeDU1YVRNZjZncEFTNHNubmg2YTVhTzRLdVJGSVgtZ0s0cGJ5NFctMXR4cm11akpMNThPZnRnMy1Nc1VGcDBoQi1MbjFWZ28zTDYwbWNIZXdaSHpnS2lTQWZ0aVl5SXFLR0hmM1NzeEZ6T3FsMF8yYkNENVlzMGx3bmxiNXBhaWhDeENaVG93ZTktWVdxMG12d9IBhgJBVV95cUxOdzJGZ0NjZkw0dWN4M3A3TGVkbUlRaXE4Mmlta1NfSVRpUzg0Ty1aVU5FQnRxMjVSSFMtRzlBcFBXbThyMTk2NUJsTWZsNGs1S1pvN0JrU2ptSTN1NDdsdEI2SVhORnhFZ1l3cllmU25HQmFtU1B2RVhwSGEtYnZnS2xMWXY4UlhwY25MSkwtY21zdFpLVm9QVUlQN1l3NWxaRWIyUzVZaDc0S1RneV9KZ0lYMk1xYnVXX3pGQ0dMaFhNcW5hSFUwdjZjaUtMUnZvVjJ0UmdHS3h2RmZiY1NDa0VOTkVySUZ0RXlsU3NDNEVPVDJ5eTlkRkxSYk1hRkplb2oxNXhB?oc=5",
-      "publisher": "KWTX",
+      "id": "befe55f1d949ab18",
+      "title": "Texas chief justice-elect seeks to end religious exemptions for judges officiating weddings",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnJxQzFtSzdrNGtOMldmZThsMXZxRV95U0ZzM0VJTTVSUFE4ZG1YQ2EzQS1IQU1kM2g4R2lGQ25sNFBIelZ6QW1Ud1F3T3B4b1RPeFZ5UEl6X1ZlWEJMS0NlTjhYZ05Sa3MtQkNWLWR3a3A5WG05U3p2SEYzeVV1RTBfV3EzVno4YTA5UEFiRnBMTWFOX0RFUXIyX3U5aC1UeE91M0xKcFZfRzQ1ZlF2QlR0bmdYRGpaenkySUxacGRxT2pvb2RZT3ZLTGdVMWZFM3lWUm82Y3ZUa0Ex?oc=5",
+      "publisher": "Click2Houston",
       "publishedAt": "2026-11-06T08:00:00+00:00",
       "scopes": [
         "Texas"
@@ -361,10 +333,10 @@
       ]
     },
     {
-      "id": "befe55f1d949ab18",
-      "title": "Texas chief justice-elect seeks to end religious exemptions for judges officiating weddings",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZnJxQzFtSzdrNGtOMldmZThsMXZxRV95U0ZzM0VJTTVSUFE4ZG1YQ2EzQS1IQU1kM2g4R2lGQ25sNFBIelZ6QW1Ud1F3T3B4b1RPeFZ5UEl6X1ZlWEJMS0NlTjhYZ05Sa3MtQkNWLWR3a3A5WG05U3p2SEYzeVV1RTBfV3EzVno4YTA5UEFiRnBMTWFOX0RFUXIyX3U5aC1UeE91M0xKcFZfRzQ1ZlF2QlR0bmdYRGpaenkySUxacGRxT2pvb2RZT3ZLTGdVMWZFM3lWUm82Y3ZUa0Ex?oc=5",
-      "publisher": "Click2Houston",
+      "id": "62ff36a95418e6c1",
+      "title": "Newly elected Texas Supreme Court Chief Justice plans to test religious exception order won in court victory by McLennan County judge",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdGlyUDQyUXY3T092cHp3UGhZTDVGM2tFMzVmNEJxZVFhWERSQUEzVW5UeFNpVVN6ZS1wS2dNcmNSOWYwY0VmR0t0eWMxcWg5MWxBTmNjSWhvRmM4VFp3R3BqeDU1YVRNZjZncEFTNHNubmg2YTVhTzRLdVJGSVgtZ0s0cGJ5NFctMXR4cm11akpMNThPZnRnMy1Nc1VGcDBoQi1MbjFWZ28zTDYwbWNIZXdaSHpnS2lTQWZ0aVl5SXFLR0hmM1NzeEZ6T3FsMF8yYkNENVlzMGx3bmxiNXBhaWhDeENaVG93ZTktWVdxMG12d9IBhgJBVV95cUxOdzJGZ0NjZkw0dWN4M3A3TGVkbUlRaXE4Mmlta1NfSVRpUzg0Ty1aVU5FQnRxMjVSSFMtRzlBcFBXbThyMTk2NUJsTWZsNGs1S1pvN0JrU2ptSTN1NDdsdEI2SVhORnhFZ1l3cllmU25HQmFtU1B2RVhwSGEtYnZnS2xMWXY4UlhwY25MSkwtY21zdFpLVm9QVUlQN1l3NWxaRWIyUzVZaDc0S1RneV9KZ0lYMk1xYnVXX3pGQ0dMaFhNcW5hSFUwdjZjaUtMUnZvVjJ0UmdHS3h2RmZiY1NDa0VOTkVySUZ0RXlsU3NDNEVPVDJ5eTlkRkxSYk1hRkplb2oxNXhB?oc=5",
+      "publisher": "KWTX",
       "publishedAt": "2026-11-06T08:00:00+00:00",
       "scopes": [
         "Texas"
