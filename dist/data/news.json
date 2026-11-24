@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T13:42:39.933529+00:00",
-  "checkedAt": "2026-11-24T13:42:39.933529+00:00",
+  "updatedAt": "2026-11-24T22:32:11.890627+00:00",
+  "checkedAt": "2026-11-24T22:32:11.890627+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,9 +9,9 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-24T13:42:39.933529+00:00",
+      "checkedAt": "2026-11-24T22:32:11.890627+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T13:42:39.933529+00:00",
+      "lastSuccessAt": "2026-11-24T22:32:11.890627+00:00",
       "count": 40
     },
     {
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-24T13:42:39.933529+00:00",
+      "checkedAt": "2026-11-24T22:32:11.890627+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T13:42:39.933529+00:00",
-      "count": 23
+      "lastSuccessAt": "2026-11-24T22:32:11.890627+00:00",
+      "count": 24
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-24T13:42:39.933529+00:00",
+      "checkedAt": "2026-11-24T22:32:11.890627+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T13:42:39.933529+00:00",
+      "lastSuccessAt": "2026-11-24T22:32:11.890627+00:00",
       "count": 0
     },
     {
@@ -44,13 +44,27 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-24T13:42:39.933529+00:00",
+      "checkedAt": "2026-11-24T22:32:11.890627+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-24T13:42:39.933529+00:00",
+      "lastSuccessAt": "2026-11-24T22:32:11.890627+00:00",
       "count": 0
     }
   ],
   "items": [
+    {
+      "id": "f519325f5bc91485",
+      "title": "The U.S. Supreme Court could decide two religious liberty cases in Maine next year",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3dQa2J6SUdqUjlXdGdFSlZCaDBUTktIZmNwMFdXY3p1YkFMRENWNVlCeGJYU3hDN3F2dW9CaHhVaGJsUWJZbk10Tzc5MExzQ0dnQTdlRkw4TXJQM0pjQWxPY0pSaFJFekVmWE5kdEZGUGlEX0oxT29DYkZVYUN0ak9GMmgteS13V0swU0x1TW5QYXZrR2JpbzA3c0VZMnRhUXZVb1Zia0s4OHBjX1pR?oc=5",
+      "publisher": "The Maine Monitor",
+      "publishedAt": "2026-11-24T19:49:39+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
     {
       "id": "561b7f1b7bc9e530",
       "title": "A clear and present threat to religious liberty in Texas",
@@ -333,31 +347,31 @@
       ]
     },
     {
+      "id": "705b9d33eb733d1c",
+      "title": "Texas Muslims want to take back 'religious freedom' after GOP midterm losses",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjBpUzh5aDBsT1psTUptM2liUVRVWDAxODJPdnlaemdWYWxvMTBnRVpYMGlKVmJiWHB5V21XVUlScmFTRmV4Zk5OV0QxVTVjaFVUcXJ0dFB3Qi1LOFNvczAzR2dCWFNwYW1vUG5LVXRFTEdtQkxJTXBpc3JJaW9xU0ttaWd1S28yaGUwTjdBb1ZJcHc?oc=5",
+      "publisher": "San Antonio Express-News",
+      "publishedAt": "2026-11-16T08:00:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
       "id": "38c22bac1e1d58fb",
       "title": "New Religious Freedom Rankings Reveal Surprising Divide Between States Across America",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLS04RmM3bGY5N3Ztc1FtWEdNRlVGeG5CMDJKc2JEOUtJcWRqZjZ1blJXVU5abUpFOVNINW5HcWVoZHdTU2JuZjZpZHM0NVE4bjBzU25LMXRSX0FIQkxJV2VyemhCRk95OU5IRERjcmhiTlVNVVV0eTRDdWY1ajBTbWJ1ay1pNE92Zk8ydW1tbXBZdEdQN3gyX013UU5PSXp1MC1vSnE2VndGQjBJWXJTbTZRNDBOdw?oc=5",
       "publisher": "nationalenquirer.com",
-      "publishedAt": "2026-11-16T19:30:11+00:00",
+      "publishedAt": "2026-11-16T08:00:00+00:00",
       "scopes": [
         "National"
       ],
       "scopeVersion": 1,
       "feedIds": [
         "national",
-        "texas"
-      ]
-    },
-    {
-      "id": "705b9d33eb733d1c",
-      "title": "Texas Muslims want to take back 'religious freedom' after GOP midterm losses",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTjBpUzh5aDBsT1psTUptM2liUVRVWDAxODJPdnlaemdWYWxvMTBnRVpYMGlKVmJiWHB5V21XVUlScmFTRmV4Zk5OV0QxVTVjaFVUcXJ0dFB3Qi1LOFNvczAzR2dCWFNwYW1vUG5LVXRFTEdtQkxJTXBpc3JJaW9xU0ttaWd1S28yaGUwTjdBb1ZJcHc?oc=5",
-      "publisher": "San Antonio Express-News",
-      "publishedAt": "2026-11-16T17:14:21+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
         "texas"
       ]
     },
