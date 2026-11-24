@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-23T22:32:06.443236+00:00",
-  "checkedAt": "2026-11-23T22:32:06.443236+00:00",
+  "updatedAt": "2026-11-24T13:39:32.360835+00:00",
+  "checkedAt": "2026-11-24T13:39:32.360835+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-23T22:32:06.443236+00:00",
+      "checkedAt": "2026-11-24T13:39:32.360835+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T22:32:06.443236+00:00",
-      "count": 41
+      "lastSuccessAt": "2026-11-24T13:39:32.360835+00:00",
+      "count": 40
     },
     {
       "id": "national",
@@ -20,10 +20,10 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-23T22:32:06.443236+00:00",
+      "checkedAt": "2026-11-24T13:39:32.360835+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T22:32:06.443236+00:00",
-      "count": 14
+      "lastSuccessAt": "2026-11-24T13:39:32.360835+00:00",
+      "count": 13
     },
     {
       "id": "cns-texas-rss",
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-23T22:32:06.443236+00:00",
+      "checkedAt": "2026-11-24T13:39:32.360835+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T22:32:06.443236+00:00",
+      "lastSuccessAt": "2026-11-24T13:39:32.360835+00:00",
       "count": 0
     },
     {
@@ -44,19 +44,33 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-23T22:32:06.443236+00:00",
+      "checkedAt": "2026-11-24T13:39:32.360835+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-23T22:32:06.443236+00:00",
+      "lastSuccessAt": "2026-11-24T13:39:32.360835+00:00",
       "count": 0
     }
   ],
   "items": [
     {
+      "id": "561b7f1b7bc9e530",
+      "title": "A clear and present threat to religious liberty in Texas",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmNfOWpHMWtLd2JxT004Z2V1X21xOUpabXdJdVptYXBiUlVXTFR4NzBNU0M5ZkMxbFMycHlvcEpSRDVlaFZyaDFXRnZHVU1jcGRZWmZFMEU4ZWtickJrTER3ZTgxN0lyM3JzUlR5Z24wQkJ2WE9ZT19PVmg1RHdhNmwyM3dxMGhGczYzZTFzT0dUY1VLUTlz?oc=5",
+      "publisher": "WORLD News Group",
+      "publishedAt": "2026-11-24T09:46:27+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "texas"
+      ]
+    },
+    {
       "id": "6a357cb6df284345",
       "title": "After blue wave, Texas Democrats plan to ‘keep the church’ out of the classroom",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVm8tbWE0Z0Y1aldsM0pFUVVXZndSbS1taDhjcVNVU3RVT1ZnYnZHN1NfQldaZHIwSjNaRFhDb3Y0c1hPTFR1dEhqUVNVblVfTG5iSHp5RGRBZHc5RUFUTXFfZUVWaVBxMUYwSzhKVDZDZG43R1hqMUl6ek84R3BxdHVLbWpqZw?oc=5",
       "publisher": "The Forward",
-      "publishedAt": "2026-11-23T21:46:27+00:00",
+      "publishedAt": "2026-11-23T21:46:37+00:00",
       "scopes": [
         "Texas"
       ],
@@ -85,20 +99,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaGh4WEY5SzhCY3FpMExQa0FHZzVtMzNxSGpDS28tdHV3V0VsUThSX1hza1hZNzhxa0YySmtxTW1XUnQ0M0pzT3QwYl9KTnc4Tl95ejU3TDdDWGhRYURlOElzYTVfZWMwNHJzSkM3ZnVvVU04Zk5uVDdjTzJMelUtN1lNQUtUb1R6NEFJQnN0aklqc1NTUmwxd1A1QnEtNDNqV09VeXo4QnNHaFVUTVpfalRQaTV5NDRsdHN5T3RqMHlKZWVodXU3VHlzVjh6OUlFODN1NHJ5b3E4Rmk4VExwVkhQRlg0QjhMLW5Ccm13?oc=5",
       "publisher": "Sportscape Magazine",
       "publishedAt": "2026-11-20T16:18:46+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "6bc333c759bc3dc0",
-      "title": "Congress MP links Indian cricketer Siraj’s omission from playing XI to religious discrimination",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT01ZbnkwZ0h6UktkLTlUdDhqNl9yM2hpXy1xbG5hM3dqQXhwaE1TT0RIcGJjdVFHUm15WDRSRnNzc0dKc1ZxRnJhU2syLVdNVlNRSkg1WVQ1czMtb0ZfRkMwWmFISHE1N0gtZ0tpclZ4b3pLVmQ5ZUNuWmNPMHZoWDd4NEd2MGZYRlpQZm4wR3AyYlJ6ekRnM3U5VWxRdU1MRjl1eFVReWhoakY3TGFhcFNSUHJXNlBOTVBEVDhXSUlPNnhfOG1nMEZrU1VRSmM?oc=5",
-      "publisher": "Kashmir Media Service",
-      "publishedAt": "2026-11-20T13:11:41+00:00",
       "scopes": [
         "National"
       ],
@@ -571,20 +571,6 @@
       ]
     },
     {
-      "id": "bf687b06527fc2c1",
-      "title": "Bishops urge religious liberty language in IRS school discrimination rule",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3pQVmtnSnpra3J2V3ZlaWZfdUNBa1dsMHBkNkRyMU9DSUdlY041STdpZ0J0NWtBbF9LZ2o0MjlTQ3k0RzJyc3dXdGgzNUtSSEpLNHBueURNQUl1TlZ2bDVTbmVnbjVwbkU2TTBKU250bEM1ZkhZNWRwNHcxR0lvc0prZURhLWhpaXI3U19ENHFNNGlJWl9LYWljcUVIVGZDRDFCWHFINW54YjQ?oc=5",
-      "publisher": "EWTN News",
-      "publishedAt": "2026-11-03T22:15:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
       "id": "2f15621116487f58",
       "title": "Texas Muslims Mobilize for Elections to Counter Republican Islamophobia",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWpHNlJuNDViTEVlQWtQWVpsTzdrVXpQSHZRN0l0WWRrODN4RHR6NGVWVEFieUlVT0dxWjVaTG05d1YxWndZTTZRV055Uk84Y2xKNHhxNzdTM1dnXy1nYW5EUVIza2ZNdjFicXNZc3NId3Q1cy1zUDNzdUxGekRXQWRBZ2VpRmVFd2hGTkJ3REpvWHBxWnc5Q0xhY1BoZi1MaGhCUmh2ZzhBZw?oc=5",
@@ -596,6 +582,20 @@
       "scopeVersion": 1,
       "feedIds": [
         "texas"
+      ]
+    },
+    {
+      "id": "bf687b06527fc2c1",
+      "title": "Bishops urge religious liberty language in IRS school discrimination rule",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS3pQVmtnSnpra3J2V3ZlaWZfdUNBa1dsMHBkNkRyMU9DSUdlY041STdpZ0J0NWtBbF9LZ2o0MjlTQ3k0RzJyc3dXdGgzNUtSSEpLNHBueURNQUl1TlZ2bDVTbmVnbjVwbkU2TTBKU250bEM1ZkhZNWRwNHcxR0lvc0prZURhLWhpaXI3U19ENHFNNGlJWl9LYWljcUVIVGZDRDFCWHFINW54YjQ?oc=5",
+      "publisher": "EWTN News",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
       ]
     },
     {
@@ -760,34 +760,6 @@
       "publishedAt": "2026-10-27T07:00:00+00:00",
       "scopes": [
         "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "12a5edd88c3e147b",
-      "title": "Before You Vote, Ask Yourself One Question: Is Texas Better Off Today?",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLVRySkFydHF1dm94el9pMUgtRlR4aW42OHlpSEx2dmtJaDJRZDdNaXd5RFlWWF9vazk0bUl6U3ZBakVHVC1LT0VJMWdIazZQZ0VReldDQ21sZjlfMXlpRjk1QUxYd01zZkE3aXFEN1VqUl9jQkw5dlhUUllINVdaeG1maw?oc=5",
-      "publisher": "The Katy News",
-      "publishedAt": "2026-10-25T07:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
-      ]
-    },
-    {
-      "id": "927d7b9f2b02e70e",
-      "title": "Supreme Court to Hear Colorado Catholic Preschool Religious Liberty Case",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkI2Ny1iUGl3UXEtVFpscXJqYU8xQzc3V05xdHJfOG5ISmE2LVVtNm1IZDhDOXpFbXlvLWZUbkFQeWs3a2J6Y2ZpQU13eHBIOWpmcUdaTEZBNGJCd1o3N3AyNXVpV2VndlFBYUNpSzM5RkNKVTFmRkFnRmg1Ukk5NDFXSk9YYXYwcDZVVlg2djh6RTluWDB0eDhJRWhoMG9FVEt2LQ?oc=5",
-      "publisher": "National Review",
-      "publishedAt": "2026-10-25T07:00:00+00:00",
-      "scopes": [
-        "National"
       ],
       "scopeVersion": 1,
       "feedIds": [
