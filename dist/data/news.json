@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T13:48:12.117187+00:00",
-  "checkedAt": "2026-11-26T13:48:12.117187+00:00",
+  "updatedAt": "2026-11-26T22:50:37.209456+00:00",
+  "checkedAt": "2026-11-26T22:50:37.209456+00:00",
   "status": "ok",
   "sources": [
     {
@@ -9,10 +9,10 @@
       "label": "Texas religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (Texas OR \"Fifth Circuit\" OR \"5th Circuit\") when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28Texas+OR+%22Fifth+Circuit%22+OR+%225th+Circuit%22%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-26T13:48:12.117187+00:00",
+      "checkedAt": "2026-11-26T22:50:37.209456+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-26T13:48:12.117187+00:00",
-      "count": 23
+      "lastSuccessAt": "2026-11-26T22:50:37.209456+00:00",
+      "count": 22
     },
     {
       "id": "national",
@@ -20,9 +20,9 @@
       "label": "United States religious liberty news",
       "query": "(\"religious liberty\" OR \"religious freedom\" OR \"free exercise\" OR \"religious discrimination\" OR \"church-state\") (\"United States\" OR U.S. OR \"U.S. Supreme Court\" OR Congress OR federal) when:30d",
       "url": "https://news.google.com/rss/search?q=%28%22religious+liberty%22+OR+%22religious+freedom%22+OR+%22free+exercise%22+OR+%22religious+discrimination%22+OR+%22church-state%22%29+%28%22United+States%22+OR+U.S.+OR+%22U.S.+Supreme+Court%22+OR+Congress+OR+federal%29+when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
-      "checkedAt": "2026-11-26T13:48:12.117187+00:00",
+      "checkedAt": "2026-11-26T22:50:37.209456+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-26T13:48:12.117187+00:00",
+      "lastSuccessAt": "2026-11-26T22:50:37.209456+00:00",
       "count": 24
     },
     {
@@ -32,9 +32,9 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-26T13:48:12.117187+00:00",
+      "checkedAt": "2026-11-26T22:50:37.209456+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-26T13:48:12.117187+00:00",
+      "lastSuccessAt": "2026-11-26T22:50:37.209456+00:00",
       "count": 0
     },
     {
@@ -44,13 +44,27 @@
       "url": "https://www.courthousenews.com/feed/",
       "publisher": "Courthouse News Service",
       "screen": "Texas/Fifth Circuit or national evidence required",
-      "checkedAt": "2026-11-26T13:48:12.117187+00:00",
+      "checkedAt": "2026-11-26T22:50:37.209456+00:00",
       "status": "ok",
-      "lastSuccessAt": "2026-11-26T13:48:12.117187+00:00",
+      "lastSuccessAt": "2026-11-26T22:50:37.209456+00:00",
       "count": 0
     }
   ],
   "items": [
+    {
+      "id": "90dbf403243d33c7",
+      "title": "Are Texas Republicans Trying to Criminalize Same-Sex Weddings?",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeXVPbFV0YmtxREJHUV9OdWtya3MwZTNOdXU0dEVrWTlkaFh1b0Z6dEx3WEZ5c2I1Y3lmSXVrNWpCQXAyZzMybzNLNFQxcFN3VGduM2JnRUhEdzVPWXYzS0I5TXByVU5pbjVXRkQ0aE5uWUhjd2RET2oySXBQMXpUelFPWWtHVXVCTWU4VmhVVWthYkxaQ1p6VXJqUQ?oc=5",
+      "publisher": "Newsweek",
+      "publishedAt": "2026-11-26T20:37:00+00:00",
+      "scopes": [
+        "Texas"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "texas"
+      ]
+    },
     {
       "id": "6c75aec1edea0ac8",
       "title": "The Supreme Court’s Next Big Battles: Executive Power, Gun Rights & Religious Freedom",
@@ -77,20 +91,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "561b7f1b7bc9e530",
-      "title": "A clear and present threat to religious liberty in Texas",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmNfOWpHMWtLd2JxT004Z2V1X21xOUpabXdJdVptYXBiUlVXTFR4NzBNU0M5ZkMxbFMycHlvcEpSRDVlaFZyaDFXRnZHVU1jcGRZWmZFMEU4ZWtickJrTER3ZTgxN0lyM3JzUlR5Z24wQkJ2WE9ZT19PVmg1RHdhNmwyM3dxMGhGczYzZTFzT0dUY1VLUTlz?oc=5",
-      "publisher": "WORLD News Group",
-      "publishedAt": "2026-11-24T09:46:27+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
       ]
     },
     {
@@ -351,7 +351,7 @@
       "title": "Olawepo-Hashim presents religious freedom, security plan to US Congress",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkM0cEVBQ2xxVXBZWEg4UU51dkNSZ3NiTTRYOEdMUVdJU2twQ3lYVno1MHNSLVFqZ2Z4Slliam9iaUVlSUpVb3BWSFFaSTEtUElUbVdjTkVOS1EzQ2JFSHFlazYyWlE2NEhyRGhNeExXRENXbUFRSW9Jdmp4UzdRN2hSTHhwdXAyVFBzMUtqME1oblBaM3c?oc=5",
       "publisher": "Punch Newspapers",
-      "publishedAt": "2026-11-12T00:23:39+00:00",
+      "publishedAt": "2026-11-12T08:00:00+00:00",
       "scopes": [
         "National"
       ],
@@ -414,20 +414,6 @@
       "scopeVersion": 1,
       "feedIds": [
         "national"
-      ]
-    },
-    {
-      "id": "105a74c949d0d0ad",
-      "title": "Texas’ Flip to Blue Is Major Blow to Red States’ Legal Fights",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmwxQ3lPVnFNMXR0U3VDMVpaWDB1MnF4R0huQThHSTJtSnVHYUZFOXg5UlpocTJYeHpkdDcxcUcyRTBudEFVeDlHbDBfUTEyZnZaRFliZTAtdkVpVjNQWVhRZGtPR1JrUjhPM3lwMUwzYm1CbmxmblB2R0lVR1hUUml5QTJHSjdCSjN1V3NGMEJQTm80WkVYaUxzdE9SQzJGME5F?oc=5",
-      "publisher": "Bloomberg Law News",
-      "publishedAt": "2026-11-09T08:00:00+00:00",
-      "scopes": [
-        "Texas"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "texas"
       ]
     },
     {
@@ -501,6 +487,20 @@
       ]
     },
     {
+      "id": "cab82ba9aff1920b",
+      "title": "US Supreme Court leans toward Catholic preschools' challenge to LGBT protections",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWNXTWlKX2RidWxwem9kbTNLdFhKTkVDMHNvbU5PNGVrdzJmaC1YSExYYWUwNE9Ib2dyN2VWckg2UDdfNGU0dVpzWEV2d1BQQVJzczZUMm1FbC1hRFphOXJNSHRvT2twRUdMS3VLaEh2ay1Lcl9wYnM1TS1YWlpqSWM5UE9TRTd0SXNrWU9YOUw2T05GYUtVeFhyR056WTdCTm5fMDdoUnEybjNVN2pMaGFXVW55bkFSQnZyRmVJUQ?oc=5",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "scopes": [
+        "National"
+      ],
+      "scopeVersion": 1,
+      "feedIds": [
+        "national"
+      ]
+    },
+    {
       "id": "5467bb0c60ed774a",
       "title": "US supreme court questions arguments in Catholic preschools’ LGBTQ+ exclusion case",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbWVoX05iQ3g2Tm1OUlJYSDUwelJxYm9QWEgwT2otMEYwU2NkemhiNG1MY0x0V0ZOV2t4clliZ20tOHZoOW02Znp4NV9aVE9Ca2xyYjBVZGJoU0gzbzJtVERuYXh6eXdJU04zbjkteU5tMDIyWjZxWTNCakplcWcycnRNLXJVeTdEWFBVNWpQSlR4TEY2SkpXQg?oc=5",
@@ -519,20 +519,6 @@
       "title": "Supreme Court takes up religious liberty, LGBTQ rights in Catholic preschool case",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT0U0b19ySGk4eUJIbHREaVA1X2paaVc4ZjdFd21sUmhZV09fUVpJZ2hVWE5uX0ItOWRoMHpyTFFWNUdMekVSVEZTcVlmR3U5bjR0T0hJalR6eldTUkh0Vm13N2ZlcVpxVU5PS2FJLUc3WGdjcFhvSGp3WktoY1pOOXI0Q3J5SUNwM2phdkc0TnI0UjR6UVF2ZE1PUi1iZWN2ZFhxRml6NGs?oc=5",
       "publisher": "National Catholic Reporter",
-      "publishedAt": "2026-11-03T08:00:00+00:00",
-      "scopes": [
-        "National"
-      ],
-      "scopeVersion": 1,
-      "feedIds": [
-        "national"
-      ]
-    },
-    {
-      "id": "cab82ba9aff1920b",
-      "title": "US Supreme Court leans toward Catholic preschools' challenge to LGBT protections",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWNXTWlKX2RidWxwem9kbTNLdFhKTkVDMHNvbU5PNGVrdzJmaC1YSExYYWUwNE9Ib2dyN2VWckg2UDdfNGU0dVpzWEV2d1BQQVJzczZUMm1FbC1hRFphOXJNSHRvT2twRUdMS3VLaEh2ay1Lcl9wYnM1TS1YWlpqSWM5UE9TRTd0SXNrWU9YOUw2T05GYUtVeFhyR056WTdCTm5fMDdoUnEybjNVN2pMaGFXVW55bkFSQnZyRmVJUQ?oc=5",
-      "publisher": "Reuters",
       "publishedAt": "2026-11-03T08:00:00+00:00",
       "scopes": [
         "National"
